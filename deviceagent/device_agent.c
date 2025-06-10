@@ -194,16 +194,12 @@ void log_metric(const char *metric) {
         return;
     }
     time_t now = time(NULL);
-    char *time_str = ctime(&now);
-    if (!time_str) {
-        fprintf(stderr, "Failed to get timestamp\n");
-        return;
-    }
-    time_str[strcspn(time_str, "\n")] = '\0';
+    char time_buf[26];
+    strftime(time_buf, sizeof(time_buf), "%Y-%m-%d %H:%M:%S", localtime(&now));
 
     FILE *log = fopen(LOG_FILE, "a");
     if (log) {
-        fprintf(log, "%s,%s\n", time_str, metric);
+        fprintf(log, "%s,%s\n", time_buf, metric);
         fclose(log);
         fprintf(stderr, "Logged metric: %s\n", metric);
     } else {
@@ -255,11 +251,32 @@ void cleanup() {
     fprintf(stderr, "Removed UNIX socket file: %s\n", UNIX_SOCK_PATH);
 }
 
+// Validate metric format (basic check)
+int validate_metric(const char *metric) {
+    if (!metric || strlen(metric) == 0) {
+        fprintf(stderr, "Error: Empty or NULL metric\n");
+        return 0;
+    }
+    // Check for expected fields (basic validation)
+    const char *fields[] = {"memory=", "cpu=", "uptime=", "disk=", "net=", "proc="};
+    int found = 0;
+    for (int i = 0; i < 6; i++) {
+        if (strstr(metric, fields[i])) {
+            found++;
+        }
+    }
+    if (found != 6) {
+        fprintf(stderr, "Error: Invalid metric format, missing fields (%d/6 found): %s\n", found, metric);
+        return 0;
+    }
+    return 1;
+}
+
 int main() {
     // Install signal handler
     signal(SIGSEGV, signal_handler);
     signal(SIGTERM, signal_handler);
-    signal(SIGPIPE, SIG_IGN); // Ignore SIGPIPE to prevent crashes on broken connections
+    signal(SIGPIPE, SIG_IGN);
 
     init_buffer(&buffer);
 
@@ -274,7 +291,7 @@ int main() {
     memset(&addr, 0, sizeof(addr));
     addr.sun_family = AF_UNIX;
     strncpy(addr.sun_path, UNIX_SOCK_PATH, sizeof(addr.sun_path) - 1);
-    unlink(UNIX_SOCK_PATH); // Remove stale socket
+    unlink(UNIX_SOCK_PATH);
 
     if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
         perror("Failed to bind UNIX socket");
@@ -300,7 +317,6 @@ int main() {
     printf("Device Agent running, listening on %s\n", UNIX_SOCK_PATH);
 
     while (1) {
-        // Check socket state
         if (check_socket_state() < 0) {
             fprintf(stderr, "Socket error, restarting UNIX socket\n");
             cleanup();
@@ -330,14 +346,49 @@ int main() {
         fprintf(stderr, "Accepted new System Manager connection\n");
 
         char metric[MAX_METRIC_SIZE];
-        ssize_t len = recv(client_fd, metric, MAX_METRIC_SIZE - 1, 0);
+        ssize_t len = 0;
+        // Read until we have the full metric or error
+        while (len < MAX_METRIC_SIZE - 1) {
+            ssize_t received = recv(client_fd, metric + len, MAX_METRIC_SIZE - 1 - len, 0);
+            if (received < 0) {
+                perror("Failed to receive metric");
+                close(client_fd);
+                continue;
+            }
+            if (received == 0) {
+                fprintf(stderr, "System Manager closed connection prematurely\n");
+                close(client_fd);
+                continue;
+            }
+            len += received;
+            metric[len] = '\0';
+            // Check if we have a complete metric (assume newline or full message)
+            if (strchr(metric, '\n') || len >= MAX_METRIC_SIZE - 1) {
+                break;
+            }
+        }
+
         if (len <= 0) {
-            perror("Failed to receive metric");
+            fprintf(stderr, "No data received from System Manager\n");
             close(client_fd);
             continue;
         }
-        metric[len] = '\0';
-        fprintf(stderr, "Received metric: %s\n", metric);
+
+        // Remove trailing newline if present
+        if (metric[len - 1] == '\n') {
+            metric[len - 1] = '\0';
+            len--;
+        }
+
+        // Validate metric format
+        if (!validate_metric(metric)) {
+            fprintf(stderr, "Dropping invalid metric: %s\n", metric);
+            send_ack(client_fd); // Send ACK to avoid blocking System Manager
+            close(client_fd);
+            continue;
+        }
+
+        fprintf(stderr, "Received valid metric: %s\n", metric);
 
         log_metric(metric);
         if (send_ack(client_fd) < 0) {
