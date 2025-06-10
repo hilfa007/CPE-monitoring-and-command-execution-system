@@ -20,6 +20,7 @@
 #define ACK_RETRIES 3
 #define RETRY_DELAY 5
 #define CONNECT_TIMEOUT 2
+#define ACCEPT_TIMEOUT 5 // New: Timeout for accepting System Manager connections
 
 // Circular Buffer Structure
 typedef struct {
@@ -67,15 +68,15 @@ int buffer_metric(CircularBuffer *buffer, const char *metric) {
         fprintf(stderr, "Error: NULL metric in buffer_metric\n");
         return -1;
     }
-    if (buffer->count < BUFFER_SIZE) {
-        buffer->count++;
-    } else {
+    if (buffer->count >= BUFFER_SIZE) { // Changed: More explicit check
         fprintf(stderr, "Buffer full, dropping oldest metric\n");
         buffer->head = (buffer->head + 1) % BUFFER_SIZE;
+        buffer->count--;
     }
     strncpy(buffer->metrics[buffer->tail], metric, MAX_METRIC_SIZE - 1);
     buffer->metrics[buffer->tail][MAX_METRIC_SIZE - 1] = '\0';
     buffer->tail = (buffer->tail + 1) % BUFFER_SIZE;
+    buffer->count++;
     fprintf(stderr, "Buffered metric: %s, count: %d\n", metric, buffer->count);
     return 0;
 }
@@ -152,6 +153,15 @@ int connect_to_cloud_manager() {
     tv.tv_sec = 0;
     if (setsockopt(cloud_fd, SOL_SOCKET, SO_SNDTIMEO, &tv, sizeof(tv)) < 0) {
         perror("Failed to disable connect timeout");
+        close(cloud_fd);
+        cloud_fd = -1;
+        return -1;
+    }
+
+    // New: Set receive buffer size for Cloud Manager socket
+    int bufsize = 65536;
+    if (setsockopt(cloud_fd, SOL_SOCKET, SO_RCVBUF, &bufsize, sizeof(bufsize)) < 0) {
+        perror("Failed to set Cloud Manager socket receive buffer size");
         close(cloud_fd);
         cloud_fd = -1;
         return -1;
@@ -282,13 +292,28 @@ int main() {
         exit(1);
     }
 
+    // New: Set socket permissions to allow System Manager access
+    if (chmod(UNIX_SOCK_PATH, 0666) < 0) {
+        perror("Failed to set socket permissions");
+        cleanup();
+        exit(1);
+    }
+
     if (listen(server_fd, 10) < 0) {
         perror("Failed to listen on UNIX socket");
         cleanup();
         exit(1);
     }
 
-    // Increase socket buffer size
+    // New: Set accept timeout
+    struct timeval tv = { .tv_sec = ACCEPT_TIMEOUT, .tv_usec = 0 };
+    if (setsockopt(server_fd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv)) < 0) {
+        perror("Failed to set accept timeout");
+        cleanup();
+        exit(1);
+    }
+
+    // Increase socket buffer size for receiving
     int bufsize = 65536;
     if (setsockopt(server_fd, SOL_SOCKET, SO_RCVBUF, &bufsize, sizeof(bufsize)) < 0) {
         perror("Failed to set socket buffer size");
@@ -309,8 +334,16 @@ int main() {
                 perror("Failed to recreate UNIX socket");
                 exit(1);
             }
+            memset(&addr, 0, sizeof(addr));
+            addr.sun_family = AF_UNIX;
+            strncpy(addr.sun_path, UNIX_SOCK_PATH, sizeof(addr.sun_path) - 1);
             if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
                 perror("Failed to bind UNIX socket");
+                cleanup();
+                exit(1);
+            }
+            if (chmod(UNIX_SOCK_PATH, 0666) < 0) { // New: Reapply permissions
+                perror("Failed to set socket permissions");
                 cleanup();
                 exit(1);
             }
@@ -319,24 +352,49 @@ int main() {
                 cleanup();
                 exit(1);
             }
+            if (setsockopt(server_fd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv)) < 0) {
+                perror("Failed to set accept timeout");
+                cleanup();
+                exit(1);
+            }
+            if (setsockopt(server_fd, SOL_SOCKET, SO_RCVBUF, &bufsize, sizeof(bufsize)) < 0) {
+                perror("Failed to set socket buffer size");
+                cleanup();
+                exit(1);
+            }
             fprintf(stderr, "UNIX socket recreated\n");
         }
 
         int client_fd = accept(server_fd, NULL, NULL);
         if (client_fd < 0) {
+            if (errno == EAGAIN || errno == EWOULDBLOCK) {
+                fprintf(stderr, "Accept timeout, continuing\n");
+                continue;
+            }
             perror("Failed to accept connection");
             continue;
         }
         fprintf(stderr, "Accepted new System Manager connection\n");
 
+        // New: Handle potential partial reads
         char metric[MAX_METRIC_SIZE];
         ssize_t len = recv(client_fd, metric, MAX_METRIC_SIZE - 1, 0);
         if (len <= 0) {
-            perror("Failed to receive metric");
+            if (len == 0) {
+                fprintf(stderr, "System Manager closed connection\n");
+            } else {
+                perror("Failed to receive metric");
+            }
             close(client_fd);
             continue;
         }
         metric[len] = '\0';
+        // New: Validate metric format (basic check)
+        if (strnlen(metric, MAX_METRIC_SIZE) == 0 || strchr(metric, '=') == NULL) {
+            fprintf(stderr, "Invalid metric received, discarding\n");
+            close(client_fd);
+            continue;
+        }
         fprintf(stderr, "Received metric: %s\n", metric);
 
         log_metric(metric);
