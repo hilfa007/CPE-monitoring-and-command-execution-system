@@ -29,6 +29,11 @@ const char *long_timeout_cmds[] = {"vim", "nano", "vi", "cat", "less", "more", "
 int cloud_server_fd = -1;
 struct MHD_Daemon *alarm_daemon = NULL;
 
+// Synchronization primitives
+pthread_mutex_t alert_mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t alert_cond = PTHREAD_COND_INITIALIZER;
+int alert_active = 0; // Flag to indicate if an alert is being processed
+
 void signal_handler(int sig) {
     fprintf(stderr, "Caught signal %d, cleaning up\n", sig);
     if (cloud_server_fd >= 0) {
@@ -76,9 +81,8 @@ void log_metric(const char *metric) {
 }
 
 enum MHD_Result alarm_handler(void *cls, struct MHD_Connection *connection,
-                              const char *url, const char *method, const char *version,
-                              const char *upload_data, size_t *upload_data_size, void **con_cls) {
-
+                             const char *url, const char *method, const char *version,
+                             const char *upload_data, size_t *upload_data_size, void **con_cls) {
     if (strcmp(method, "POST") != 0 || strcmp(url, "/alarm") != 0) {
         struct MHD_Response *response = MHD_create_response_from_buffer(0, "", MHD_RESPMEM_PERSISTENT);
         int ret = MHD_queue_response(connection, MHD_HTTP_METHOD_NOT_ALLOWED, response);
@@ -87,6 +91,10 @@ enum MHD_Result alarm_handler(void *cls, struct MHD_Connection *connection,
     }
 
     if (*upload_data_size) {
+        // Lock mutex to signal alert is active
+        pthread_mutex_lock(&alert_mutex);
+        alert_active = 1;
+
         char *data = strndup(upload_data, *upload_data_size);
         char *message_start = strstr(data, "\"message\":\"");
         if (message_start) {
@@ -94,8 +102,9 @@ enum MHD_Result alarm_handler(void *cls, struct MHD_Connection *connection,
             char *message_end = strchr(message_start, '"');
             if (message_end) {
                 *message_end = '\0';
+                // Print alert with exclusive access to stdout
                 printf("\n[ALARM RECEIVED] %s\n", message_start);
-                printf("Enter a Linux command to run interactively (e.g., ls, pwd, vim): ");
+                //printf("Enter a Linux command to run interactively (e.g., ls, pwd, vim): ");
                 fflush(stdout);
             }
         }
@@ -111,6 +120,11 @@ enum MHD_Result alarm_handler(void *cls, struct MHD_Connection *connection,
         *upload_data_size = 0;
         int ret = MHD_queue_response(connection, MHD_HTTP_OK, response);
         MHD_destroy_response(response);
+
+        // Signal command client to resume and release mutex
+        alert_active = 0;
+        pthread_cond_broadcast(&alert_cond);
+        pthread_mutex_unlock(&alert_mutex);
         return ret;
     }
 
@@ -255,6 +269,13 @@ void run_command_client() {
     time_t last_activity = time(NULL);
 
     while (1) {
+        // Check if an alert is active before proceeding
+        pthread_mutex_lock(&alert_mutex);
+        while (alert_active) {
+            pthread_cond_wait(&alert_cond, &alert_mutex);
+        }
+        pthread_mutex_unlock(&alert_mutex);
+
         FD_ZERO(&fds);
         FD_SET(STDIN_FILENO, &fds);
         FD_SET(sock, &fds);
@@ -299,7 +320,10 @@ void run_command_client() {
                 }
                 break;
             }
+            // Ensure output is thread-safe
+            pthread_mutex_lock(&alert_mutex);
             write(STDOUT_FILENO, buffer, n);
+            pthread_mutex_unlock(&alert_mutex);
             last_activity = now;
         }
     }
@@ -347,5 +371,9 @@ int main() {
     pthread_cancel(alarm_thread);
     pthread_join(metric_thread, NULL);
     pthread_join(alarm_thread, NULL);
+
+    // Cleanup synchronization primitives
+    pthread_mutex_destroy(&alert_mutex);
+    pthread_cond_destroy(&alert_cond);
     return 0;
 }

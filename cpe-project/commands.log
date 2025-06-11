@@ -58,3 +58,204 @@ combinedcloud.c    device		    servercommand
 [Tue Jun 10 17:10:00 2025] Command: cd ..
 Output:
 
+
+[Wed Jun 11 14:43:01 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:44:38 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:53:22 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:53:36 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 14:54:04 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:54:17 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 14:56:33 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:56:40 2025] Command: hI
+Output:
+bash: line 1: hI: command not found
+
+
+[Wed Jun 11 14:56:54 2025] Command: FDF
+Output:
+bash: line 1: FDF: command not found
+
+
+[Wed Jun 11 14:57:02 2025] Command: df
+Output:
+Filesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs             400976     1624    399352   1% /run
+/dev/sda3      102106072 31025736  65847492  33% /
+tmpfs            2004872    30588   1974284   2% /dev/shm
+tmpfs               5120        4      5116   1% /run/lock
+tmpfs            2004872        0   2004872   0% /run/qemu
+/dev/sda2         524252     6228    518024   2% /boot/efi
+tmpfs             400972      120    400852   1% /run/user/1000
+/dev/sr0           58814    58814         0 100% /media/hilfa/VBox_GAs_7.1.6
+
+
+[Wed Jun 11 14:57:29 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:57:55 2025] Command: ghgd
+Output:
+bash: line 1: ghgd: command not found
+
+
+[Wed Jun 11 15:54:31 2025] Command: lsls
+Output:
+bash: line 1: lsls: command not found
+
+
+[Wed Jun 11 15:55:13 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 15:55:51 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 15:55:59 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 16:00:01 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 16:00:12 2025] Command: pwsd
+Output:
+bash: line 1: pwsd: command not found
+
+
+[Wed Jun 11 16:05:31 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 16:05:35 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 16:23:14 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:25:08 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:27:56 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:28:13 2025] Command: lsls
+Output:
+bash: line 1: lsls: command not found
+
+
+[Wed Jun 11 16:31:37 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:33:11 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:34:00 2025] Command: s
+Output:
+bash: line 1: s: command not found
+
+
+[Wed Jun 11 16:34:45 2025] Command: l
+Output:
+bash: line 1: l: command not found
+
+
+[Wed Jun 11 16:35:23 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
