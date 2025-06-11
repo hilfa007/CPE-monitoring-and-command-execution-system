@@ -6,5 +6,5 @@
 #include "logger.h"
 
 int check_alarms(Metrics m, Thresholds t);
-
 #endif
+

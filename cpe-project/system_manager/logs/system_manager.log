@@ -4454,3 +4454,2281 @@
 ] ALARM: Threshold breached!
 [Tue Jun 10 17:13:53 2025
 ] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:06:26 2025
+] System Manager started.
+[Wed Jun 11 09:06:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:06:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:06:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:06:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:46 2025
+] ALARM: %s
+[Wed Jun 11 09:07:48 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:07:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:07:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:07:58 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 09:07:58 2025
+] ALARM: %s
+[Wed Jun 11 09:08:00 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:00 2025
+] ALARM: %s
+[Wed Jun 11 09:08:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:02 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:08:02 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:08:12 2025
+] ALARM: %s
+[Wed Jun 11 09:08:14 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:14 2025
+] ALARM: %s
+[Wed Jun 11 09:08:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:08:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:08:26 2025
+] ALARM: %s
+[Wed Jun 11 09:08:29 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:29 2025
+] ALARM: %s
+[Wed Jun 11 09:08:31 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:31 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:08:31 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:08:41 2025
+] ALARM: %s
+[Wed Jun 11 09:08:43 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:43 2025
+] ALARM: %s
+[Wed Jun 11 09:08:45 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:45 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:08:45 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 09:08:55 2025
+] ALARM: %s
+[Wed Jun 11 09:08:57 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:57 2025
+] ALARM: %s
+[Wed Jun 11 09:08:59 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 09:08:59 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 09:08:59 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:36:38 2025
+] System Manager started.
+[Wed Jun 11 14:36:38 2025
+] ALARM: %s
+[Wed Jun 11 14:36:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:36:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:36:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:36:48 2025
+] ALARM: %s
+[Wed Jun 11 14:36:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:36:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:36:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:36:58 2025
+] ALARM: %s
+[Wed Jun 11 14:36:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:36:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:36:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:08 2025
+] ALARM: %s
+[Wed Jun 11 14:37:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:37:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:37:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:18 2025
+] ALARM: %s
+[Wed Jun 11 14:37:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:37:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:37:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:28 2025
+] ALARM: %s
+[Wed Jun 11 14:37:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:37:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:37:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:38 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:37:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:37:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:48 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:38:48 2025
+] ALARM: %s
+[Wed Jun 11 14:38:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:38:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:38:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:38:58 2025
+] ALARM: %s
+[Wed Jun 11 14:38:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:38:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:38:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:08 2025
+] ALARM: %s
+[Wed Jun 11 14:39:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:18 2025
+] ALARM: %s
+[Wed Jun 11 14:39:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:28 2025
+] ALARM: %s
+[Wed Jun 11 14:39:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:38 2025
+] ALARM: %s
+[Wed Jun 11 14:39:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:48 2025
+] ALARM: %s
+[Wed Jun 11 14:39:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:39:58 2025
+] ALARM: %s
+[Wed Jun 11 14:39:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:39:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:39:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:08 2025
+] ALARM: %s
+[Wed Jun 11 14:40:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:18 2025
+] ALARM: %s
+[Wed Jun 11 14:40:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:28 2025
+] ALARM: %s
+[Wed Jun 11 14:40:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:38 2025
+] ALARM: %s
+[Wed Jun 11 14:40:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:48 2025
+] ALARM: %s
+[Wed Jun 11 14:40:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:40:58 2025
+] ALARM: %s
+[Wed Jun 11 14:40:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:40:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:40:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:08 2025
+] ALARM: %s
+[Wed Jun 11 14:41:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:18 2025
+] ALARM: %s
+[Wed Jun 11 14:41:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:28 2025
+] ALARM: %s
+[Wed Jun 11 14:41:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:38 2025
+] ALARM: %s
+[Wed Jun 11 14:41:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:48 2025
+] ALARM: %s
+[Wed Jun 11 14:41:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:41:58 2025
+] ALARM: %s
+[Wed Jun 11 14:41:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:41:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:41:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:08 2025
+] ALARM: %s
+[Wed Jun 11 14:42:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:18 2025
+] ALARM: %s
+[Wed Jun 11 14:42:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:28 2025
+] ALARM: %s
+[Wed Jun 11 14:42:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:38 2025
+] ALARM: %s
+[Wed Jun 11 14:42:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:48 2025
+] ALARM: %s
+[Wed Jun 11 14:42:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:42:58 2025
+] ALARM: %s
+[Wed Jun 11 14:42:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:42:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:42:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:08 2025
+] ALARM: %s
+[Wed Jun 11 14:43:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:18 2025
+] ALARM: %s
+[Wed Jun 11 14:43:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:28 2025
+] ALARM: %s
+[Wed Jun 11 14:43:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:38 2025
+] ALARM: %s
+[Wed Jun 11 14:43:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:48 2025
+] ALARM: %s
+[Wed Jun 11 14:43:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:43:58 2025
+] ALARM: %s
+[Wed Jun 11 14:43:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:43:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:43:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:08 2025
+] ALARM: %s
+[Wed Jun 11 14:44:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:18 2025
+] ALARM: %s
+[Wed Jun 11 14:44:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:28 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:44:28 2025
+] ALARM: %s
+[Wed Jun 11 14:44:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:28 2025
+] ALARM: %s
+[Wed Jun 11 14:44:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:38 2025
+] ALARM: %s
+[Wed Jun 11 14:44:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:38 2025
+] ALARM: %s
+[Wed Jun 11 14:44:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:48 2025
+] ALARM: %s
+[Wed Jun 11 14:44:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:48 2025
+] ALARM: %s
+[Wed Jun 11 14:44:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:44:58 2025
+] ALARM: %s
+[Wed Jun 11 14:44:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:58 2025
+] ALARM: %s
+[Wed Jun 11 14:44:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:44:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:44:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:08 2025
+] ALARM: %s
+[Wed Jun 11 14:45:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:45:08 2025
+] ALARM: %s
+[Wed Jun 11 14:45:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:45:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:45:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:18 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:45:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:45:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:46:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:47:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:48:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:49:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:50:58 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:50:58 2025
+] ALARM: %s
+[Wed Jun 11 14:50:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:50:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:50:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:08 2025
+] ALARM: %s
+[Wed Jun 11 14:51:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:18 2025
+] ALARM: %s
+[Wed Jun 11 14:51:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:28 2025
+] ALARM: %s
+[Wed Jun 11 14:51:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:38 2025
+] ALARM: %s
+[Wed Jun 11 14:51:38 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:48 2025
+] ALARM: %s
+[Wed Jun 11 14:51:48 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:51:58 2025
+] ALARM: %s
+[Wed Jun 11 14:51:58 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:51:58 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:51:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:52:08 2025
+] ALARM: %s
+[Wed Jun 11 14:52:08 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:08 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:52:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:52:18 2025
+] ALARM: %s
+[Wed Jun 11 14:52:18 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:52:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:52:28 2025
+] ALARM: %s
+[Wed Jun 11 14:52:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:28 2025
+] ALARM: %s
+[Wed Jun 11 14:52:28 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:52:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:52:43 2025
+] System Manager started.
+[Wed Jun 11 14:52:43 2025
+] ALARM: %s
+[Wed Jun 11 14:52:43 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:43 2025
+] ALARM: %s
+[Wed Jun 11 14:52:43 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:43 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:52:43 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:52:53 2025
+] ALARM: %s
+[Wed Jun 11 14:52:53 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:53 2025
+] ALARM: %s
+[Wed Jun 11 14:52:53 2025
+] INFO: Alarm sent to Cloud Manager: %s
+[Wed Jun 11 14:52:53 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:52:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:53:03 2025
+] ALARM: %s
+[Wed Jun 11 14:53:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:53:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:53:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:53:13 2025
+] ALARM: %s
+[Wed Jun 11 14:53:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:53:15 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:53:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:53:25 2025
+] ALARM: %s
+[Wed Jun 11 14:53:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:53:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:53:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:53:37 2025
+] ALARM: %s
+[Wed Jun 11 14:53:39 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:53:39 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:53:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:53:49 2025
+] ALARM: %s
+[Wed Jun 11 14:53:51 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:53:51 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:53:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:54:01 2025
+] ALARM: %s
+[Wed Jun 11 14:54:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:54:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:54:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:54:13 2025
+] ALARM: %s
+[Wed Jun 11 14:54:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:54:15 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:54:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:54:25 2025
+] ALARM: %s
+[Wed Jun 11 14:54:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:54:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:54:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:54:37 2025
+] ALARM: %s
+[Wed Jun 11 14:54:39 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:54:39 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:54:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:54:49 2025
+] ALARM: %s
+[Wed Jun 11 14:54:51 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:54:51 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:54:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:01 2025
+] ALARM: %s
+[Wed Jun 11 14:55:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:55:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:55:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:13 2025
+] ALARM: %s
+[Wed Jun 11 14:55:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:55:15 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:55:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:25 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:55:25 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:35 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:45 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:55:55 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:25 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:35 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:45 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:56:55 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:57:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:57:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:57:25 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 14:57:25 2025
+] ALARM: %s
+[Wed Jun 11 14:57:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:57:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:57:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:57:37 2025
+] ALARM: %s
+[Wed Jun 11 14:57:39 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:57:39 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:57:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:57:49 2025
+] ALARM: %s
+[Wed Jun 11 14:57:51 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:57:51 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:57:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:01 2025
+] ALARM: %s
+[Wed Jun 11 14:58:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:13 2025
+] ALARM: %s
+[Wed Jun 11 14:58:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:15 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:25 2025
+] ALARM: %s
+[Wed Jun 11 14:58:25 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:25 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:25 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:35 2025
+] ALARM: %s
+[Wed Jun 11 14:58:35 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:35 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:35 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:45 2025
+] ALARM: %s
+[Wed Jun 11 14:58:45 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:45 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:45 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:58:55 2025
+] ALARM: %s
+[Wed Jun 11 14:58:55 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:58:55 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:58:55 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:05 2025
+] ALARM: %s
+[Wed Jun 11 14:59:05 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:05 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:15 2025
+] ALARM: %s
+[Wed Jun 11 14:59:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:15 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:15 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:25 2025
+] ALARM: %s
+[Wed Jun 11 14:59:25 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:25 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:25 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:35 2025
+] ALARM: %s
+[Wed Jun 11 14:59:35 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:35 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:35 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:45 2025
+] ALARM: %s
+[Wed Jun 11 14:59:45 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:45 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:45 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 14:59:56 2025
+] ALARM: %s
+[Wed Jun 11 14:59:56 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 14:59:56 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 14:59:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:06 2025
+] ALARM: %s
+[Wed Jun 11 15:00:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:16 2025
+] ALARM: %s
+[Wed Jun 11 15:00:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:16 2025
+] ALARM: %s
+[Wed Jun 11 15:00:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:26 2025
+] ALARM: %s
+[Wed Jun 11 15:00:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:36 2025
+] ALARM: %s
+[Wed Jun 11 15:00:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:46 2025
+] ALARM: %s
+[Wed Jun 11 15:00:46 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:46 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:00:56 2025
+] ALARM: %s
+[Wed Jun 11 15:00:56 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:00:56 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:00:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:06 2025
+] ALARM: %s
+[Wed Jun 11 15:01:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:16 2025
+] ALARM: %s
+[Wed Jun 11 15:01:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:26 2025
+] ALARM: %s
+[Wed Jun 11 15:01:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:36 2025
+] ALARM: %s
+[Wed Jun 11 15:01:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:46 2025
+] ALARM: %s
+[Wed Jun 11 15:01:46 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:46 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:01:56 2025
+] ALARM: %s
+[Wed Jun 11 15:01:56 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:01:56 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:01:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:06 2025
+] ALARM: %s
+[Wed Jun 11 15:02:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:16 2025
+] ALARM: %s
+[Wed Jun 11 15:02:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:26 2025
+] ALARM: %s
+[Wed Jun 11 15:02:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:36 2025
+] ALARM: %s
+[Wed Jun 11 15:02:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:46 2025
+] ALARM: %s
+[Wed Jun 11 15:02:46 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:46 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:02:56 2025
+] ALARM: %s
+[Wed Jun 11 15:02:56 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:02:56 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:02:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:03:06 2025
+] ALARM: %s
+[Wed Jun 11 15:03:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:03:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:03:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:03:16 2025
+] ALARM: %s
+[Wed Jun 11 15:03:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:03:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:03:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:03:26 2025
+] ALARM: %s
+[Wed Jun 11 15:03:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:03:26 2025
+] ALARM: %s
+[Wed Jun 11 15:03:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:03:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:03:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:03:36 2025
+] ALARM: %s
+[Wed Jun 11 15:03:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:03:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:03:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:07 2025
+] System Manager started.
+[Wed Jun 11 15:51:07 2025
+] ALARM: %s
+[Wed Jun 11 15:51:07 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:07 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:17 2025
+] ALARM: %s
+[Wed Jun 11 15:51:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:27 2025
+] ALARM: %s
+[Wed Jun 11 15:51:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:37 2025
+] ALARM: %s
+[Wed Jun 11 15:51:37 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:37 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:47 2025
+] ALARM: %s
+[Wed Jun 11 15:51:47 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:47 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:51:57 2025
+] ALARM: %s
+[Wed Jun 11 15:51:57 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:57 2025
+] ALARM: %s
+[Wed Jun 11 15:51:57 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:51:57 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:51:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:07 2025
+] ALARM: %s
+[Wed Jun 11 15:52:07 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:07 2025
+] ALARM: %s
+[Wed Jun 11 15:52:07 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:07 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:17 2025
+] ALARM: %s
+[Wed Jun 11 15:52:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:17 2025
+] ALARM: %s
+[Wed Jun 11 15:52:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:27 2025
+] ALARM: %s
+[Wed Jun 11 15:52:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:27 2025
+] ALARM: %s
+[Wed Jun 11 15:52:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:37 2025
+] ALARM: %s
+[Wed Jun 11 15:52:37 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:37 2025
+] ALARM: %s
+[Wed Jun 11 15:52:37 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:37 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:47 2025
+] ALARM: %s
+[Wed Jun 11 15:52:47 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:47 2025
+] ALARM: %s
+[Wed Jun 11 15:52:47 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:47 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:52:57 2025
+] ALARM: %s
+[Wed Jun 11 15:52:57 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:57 2025
+] ALARM: %s
+[Wed Jun 11 15:52:57 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:52:57 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:52:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:53:07 2025
+] ALARM: %s
+[Wed Jun 11 15:53:07 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:07 2025
+] ALARM: %s
+[Wed Jun 11 15:53:07 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:07 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:53:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:53:17 2025
+] ALARM: %s
+[Wed Jun 11 15:53:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:17 2025
+] ALARM: %s
+[Wed Jun 11 15:53:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:53:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:53:27 2025
+] ALARM: %s
+[Wed Jun 11 15:53:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:27 2025
+] ALARM: %s
+[Wed Jun 11 15:53:27 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:27 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:53:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:53:42 2025
+] System Manager started.
+[Wed Jun 11 15:53:42 2025
+] ALARM: %s
+[Wed Jun 11 15:53:42 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:42 2025
+] ALARM: %s
+[Wed Jun 11 15:53:42 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:42 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:53:42 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:53:52 2025
+] ALARM: %s
+[Wed Jun 11 15:53:52 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:52 2025
+] ALARM: %s
+[Wed Jun 11 15:53:52 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:53:52 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:53:52 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:54:02 2025
+] ALARM: %s
+[Wed Jun 11 15:54:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:02 2025
+] ALARM: %s
+[Wed Jun 11 15:54:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:02 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:54:02 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:54:12 2025
+] ALARM: %s
+[Wed Jun 11 15:54:12 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:12 2025
+] ALARM: %s
+[Wed Jun 11 15:54:12 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:12 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:54:12 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:54:22 2025
+] ALARM: %s
+[Wed Jun 11 15:54:24 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:24 2025
+] ALARM: %s
+[Wed Jun 11 15:54:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:54:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:54:36 2025
+] ALARM: %s
+[Wed Jun 11 15:54:38 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:38 2025
+] ALARM: %s
+[Wed Jun 11 15:54:40 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:40 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:54:40 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:54:50 2025
+] ALARM: %s
+[Wed Jun 11 15:54:50 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:50 2025
+] ALARM: %s
+[Wed Jun 11 15:54:50 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:54:50 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:54:50 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:00 2025
+] ALARM: %s
+[Wed Jun 11 15:55:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:55:02 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:55:02 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:12 2025
+] ALARM: %s
+[Wed Jun 11 15:55:14 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:55:14 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:55:14 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:24 2025
+] ALARM: %s
+[Wed Jun 11 15:55:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:55:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:55:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:36 2025
+] ALARM: %s
+[Wed Jun 11 15:55:38 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:55:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:55:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:48 2025
+] ALARM: %s
+[Wed Jun 11 15:55:48 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:55:48 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:55:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:55:58 2025
+] ALARM: %s
+[Wed Jun 11 15:56:00 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:00 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:56:00 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:56:10 2025
+] ALARM: %s
+[Wed Jun 11 15:56:12 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:12 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:56:12 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:56:22 2025
+] ALARM: %s
+[Wed Jun 11 15:56:24 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:24 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:56:24 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:56:34 2025
+] ALARM: %s
+[Wed Jun 11 15:56:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:36 2025
+] ALARM: %s
+[Wed Jun 11 15:56:38 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:56:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:56:48 2025
+] ALARM: %s
+[Wed Jun 11 15:56:50 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:56:50 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:56:50 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:00 2025
+] ALARM: %s
+[Wed Jun 11 15:57:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:02 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:02 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:12 2025
+] ALARM: %s
+[Wed Jun 11 15:57:14 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:14 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:14 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:24 2025
+] ALARM: %s
+[Wed Jun 11 15:57:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:36 2025
+] ALARM: %s
+[Wed Jun 11 15:57:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:46 2025
+] ALARM: %s
+[Wed Jun 11 15:57:46 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:46 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:57:56 2025
+] ALARM: %s
+[Wed Jun 11 15:57:56 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:57:56 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:57:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:58:06 2025
+] ALARM: %s
+[Wed Jun 11 15:58:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:58:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:58:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:58:16 2025
+] ALARM: %s
+[Wed Jun 11 15:58:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:58:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:58:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:58:26 2025
+] ALARM: %s
+[Wed Jun 11 15:58:26 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:58:26 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:58:26 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:58:36 2025
+] ALARM: %s
+[Wed Jun 11 15:58:38 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:58:38 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:58:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:58:48 2025
+] ALARM: %s
+[Wed Jun 11 15:58:50 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:58:50 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:58:50 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:59:00 2025
+] ALARM: %s
+[Wed Jun 11 15:59:02 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:02 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:59:02 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:59:12 2025
+] ALARM: %s
+[Wed Jun 11 15:59:14 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:14 2025
+] ALARM: %s
+[Wed Jun 11 15:59:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:59:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:59:26 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 15:59:26 2025
+] ALARM: %s
+[Wed Jun 11 15:59:28 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:59:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:59:38 2025
+] ALARM: %s
+[Wed Jun 11 15:59:40 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:40 2025
+] ALARM: %s
+[Wed Jun 11 15:59:42 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:42 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:59:42 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 15:59:52 2025
+] ALARM: %s
+[Wed Jun 11 15:59:54 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 15:59:54 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 15:59:54 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:00:04 2025
+] ALARM: %s
+[Wed Jun 11 16:00:06 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:00:06 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:00:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:00:16 2025
+] ALARM: %s
+[Wed Jun 11 16:00:18 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:00:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:00:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:00:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:00:38 2025
+] ALARM: %s
+[Wed Jun 11 16:00:40 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:00:40 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:00:40 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:00:50 2025
+] ALARM: %s
+[Wed Jun 11 16:00:52 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:00:52 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:00:52 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:01:02 2025
+] ALARM: %s
+[Wed Jun 11 16:01:04 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:01:04 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:01:04 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:01:14 2025
+] ALARM: %s
+[Wed Jun 11 16:01:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:01:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:01:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:01:26 2025
+] ALARM: %s
+[Wed Jun 11 16:01:28 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:01:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:01:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:01:38 2025
+] ALARM: %s
+[Wed Jun 11 16:01:40 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:01:40 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:01:40 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:01:50 2025
+] ALARM: %s
+[Wed Jun 11 16:01:52 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:01:52 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:01:52 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:02:02 2025
+] ALARM: %s
+[Wed Jun 11 16:02:04 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:02:04 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:02:04 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:02:14 2025
+] ALARM: %s
+[Wed Jun 11 16:02:16 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:02:16 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:02:16 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:02:26 2025
+] ALARM: %s
+[Wed Jun 11 16:02:28 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:02:28 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:02:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:02:38 2025
+] ALARM: %s
+[Wed Jun 11 16:02:40 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:02:40 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:02:40 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:02:50 2025
+] ALARM: %s
+[Wed Jun 11 16:02:52 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:02:52 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:02:52 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:03:02 2025
+] ALARM: %s
+[Wed Jun 11 16:03:04 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:03:04 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:03:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:03:15 2025
+] ALARM: %s
+[Wed Jun 11 16:03:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:03:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:03:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:03:27 2025
+] ALARM: %s
+[Wed Jun 11 16:03:29 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:03:29 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:03:29 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:03:39 2025
+] ALARM: %s
+[Wed Jun 11 16:03:41 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:03:41 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:03:41 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:03:51 2025
+] ALARM: %s
+[Wed Jun 11 16:03:53 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:03:53 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:03:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:04:03 2025
+] ALARM: %s
+[Wed Jun 11 16:04:05 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:04:05 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:04:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:04:15 2025
+] ALARM: %s
+[Wed Jun 11 16:04:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:04:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:04:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:04:27 2025
+] ALARM: %s
+[Wed Jun 11 16:04:29 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:04:29 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:04:29 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:04:39 2025
+] ALARM: %s
+[Wed Jun 11 16:04:41 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:04:41 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:04:41 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:04:51 2025
+] ALARM: %s
+[Wed Jun 11 16:04:53 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:04:53 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:04:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:03 2025
+] ALARM: %s
+[Wed Jun 11 16:05:05 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:05:05 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:05:05 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:15 2025
+] ALARM: %s
+[Wed Jun 11 16:05:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:05:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:05:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:27 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:05:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:05:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:06:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:07:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:08:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:09:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:10:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:11:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:12:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:13:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:14:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:15:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:27 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:37 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:47 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:16:57 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:07 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:17:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:18:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:18:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:22:59 2025
+] System Manager started.
+[Wed Jun 11 16:22:59 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:23:09 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:23:19 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:23:29 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:23:29 2025
+] ALARM: %s
+[Wed Jun 11 16:23:31 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:23:31 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:23:31 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:23:41 2025
+] ALARM: %s
+[Wed Jun 11 16:23:43 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:23:43 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:23:43 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:23:53 2025
+] ALARM: %s
+[Wed Jun 11 16:23:53 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:23:53 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:23:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:03 2025
+] ALARM: %s
+[Wed Jun 11 16:24:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:03 2025
+] ALARM: %s
+[Wed Jun 11 16:24:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:13 2025
+] ALARM: %s
+[Wed Jun 11 16:24:13 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:13 2025
+] ALARM: %s
+[Wed Jun 11 16:24:13 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:13 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:13 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:23 2025
+] ALARM: %s
+[Wed Jun 11 16:24:23 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:23 2025
+] ALARM: %s
+[Wed Jun 11 16:24:23 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:23 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:23 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:33 2025
+] ALARM: %s
+[Wed Jun 11 16:24:33 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:33 2025
+] ALARM: %s
+[Wed Jun 11 16:24:33 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:33 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:33 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:43 2025
+] ALARM: %s
+[Wed Jun 11 16:24:43 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:43 2025
+] ALARM: %s
+[Wed Jun 11 16:24:43 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:43 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:43 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:24:53 2025
+] ALARM: %s
+[Wed Jun 11 16:24:53 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:53 2025
+] ALARM: %s
+[Wed Jun 11 16:24:53 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:24:53 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:24:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:03 2025
+] ALARM: %s
+[Wed Jun 11 16:25:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:25:03 2025
+] ALARM: %s
+[Wed Jun 11 16:25:03 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:25:03 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:25:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:13 2025
+] ALARM: %s
+[Wed Jun 11 16:25:15 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:25:15 2025
+] ALARM: %s
+[Wed Jun 11 16:25:17 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:25:17 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:25:17 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:27 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:25:27 2025
+] ALARM: %s
+[Wed Jun 11 16:25:29 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:25:29 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:25:29 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:49 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:25:59 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:09 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:19 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:29 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:49 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:26:59 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:09 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:19 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:29 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:39 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:49 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:27:59 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:27:59 2025
+] ALARM: %s
+[Wed Jun 11 16:28:01 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:28:01 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:28:01 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:28:11 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:28:11 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:28:21 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:28:31 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:28:41 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:28:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:01 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:11 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:21 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:31 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:41 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:29:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:01 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:11 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:21 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:31 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:41 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:30:51 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:01 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:11 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:31:11 2025
+] ALARM: %s
+[Wed Jun 11 16:31:13 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:31:13 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:31:13 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:23 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:31:23 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:33 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:43 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:31:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:13 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:23 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:33 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:43 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:32:53 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:03 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:13 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:23 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:33 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:33:33 2025
+] ALARM: %s
+[Wed Jun 11 16:33:36 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:33:36 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:33:36 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:46 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:33:46 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:33:56 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:06 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:16 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:34:16 2025
+] ALARM: %s
+[Wed Jun 11 16:34:18 2025
+] ERROR: Failed to send alarm to Cloud Manager: %s
+[Wed Jun 11 16:34:18 2025
+] ALARM: Threshold breached!
+[Wed Jun 11 16:34:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:28 2025
+] Detected config file change. Reloading...
+[Wed Jun 11 16:34:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:34:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:35:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:36:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:37:58 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:08 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:18 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:28 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:38 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:48 2025
+] INFO: Metrics sent and ACK received.
+[Wed Jun 11 16:38:58 2025
+] INFO: Metrics sent and ACK received.
