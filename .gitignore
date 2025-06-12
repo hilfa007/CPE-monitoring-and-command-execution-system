@@ -1,0 +1,6 @@
+touch .gitignore
+echo "cpe-project/device_agent/metrics.log" >> .gitignore
+echo "cpe-project/system_manager/logs/system_manager.log" >> .gitignore
+echo "*.log" >> .gitignore
+git add .gitignore
+git commit -m "Ignore log files to prevent conflicts"
