@@ -8535,3 +8535,243 @@
 [Thu Jun 12 11:50:54 2025] INFO: Collected metrics - memory: 52.5%, cpu: 16.0%, disk: 35.5%, uptime: 37296.4 seconds, net_interfaces: 10, processes: 259
 [Thu Jun 12 11:50:54 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 16.0%, disk: 35.5%, uptime: 37296.4 seconds, net_interfaces: 10, processes: 259
 [Thu Jun 12 11:50:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:04 2025] INFO: Collected metrics - memory: 52.5%, cpu: 13.0%, disk: 35.5%, uptime: 37306.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:51:04 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 13.0%, disk: 35.5%, uptime: 37306.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:51:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:14 2025] INFO: Collected metrics - memory: 52.5%, cpu: 11.0%, disk: 35.5%, uptime: 37316.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:51:14 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 11.0%, disk: 35.5%, uptime: 37316.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:51:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:24 2025] INFO: Collected metrics - memory: 52.5%, cpu: 9.0%, disk: 35.5%, uptime: 37326.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:24 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 9.0%, disk: 35.5%, uptime: 37326.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:34 2025] INFO: Collected metrics - memory: 52.5%, cpu: 8.0%, disk: 35.5%, uptime: 37336.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:34 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 8.0%, disk: 35.5%, uptime: 37336.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:44 2025] INFO: Collected metrics - memory: 52.5%, cpu: 7.0%, disk: 35.5%, uptime: 37346.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:44 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 7.0%, disk: 35.5%, uptime: 37346.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:51:54 2025] INFO: Collected metrics - memory: 52.5%, cpu: 6.0%, disk: 35.5%, uptime: 37356.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:54 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 6.0%, disk: 35.5%, uptime: 37356.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:51:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:04 2025] INFO: Collected metrics - memory: 52.5%, cpu: 5.0%, disk: 35.5%, uptime: 37366.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:04 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 5.0%, disk: 35.5%, uptime: 37366.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:14 2025] INFO: Collected metrics - memory: 52.5%, cpu: 4.0%, disk: 35.5%, uptime: 37376.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:14 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 4.0%, disk: 35.5%, uptime: 37376.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:24 2025] INFO: Collected metrics - memory: 52.5%, cpu: 3.0%, disk: 35.5%, uptime: 37386.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:24 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 3.0%, disk: 35.5%, uptime: 37386.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:34 2025] INFO: Collected metrics - memory: 52.5%, cpu: 3.0%, disk: 35.5%, uptime: 37396.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:34 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 3.0%, disk: 35.5%, uptime: 37396.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:44 2025] INFO: Collected metrics - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37406.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:44 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37406.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:52:54 2025] INFO: Collected metrics - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37416.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:54 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37416.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:52:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:04 2025] INFO: Collected metrics - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37426.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:04 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 2.0%, disk: 35.5%, uptime: 37426.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:14 2025] INFO: Collected metrics - memory: 52.5%, cpu: 33.0%, disk: 35.5%, uptime: 37436.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:14 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 33.0%, disk: 35.5%, uptime: 37436.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:24 2025] INFO: Collected metrics - memory: 52.5%, cpu: 28.0%, disk: 35.5%, uptime: 37446.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:24 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 28.0%, disk: 35.5%, uptime: 37446.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:34 2025] INFO: Collected metrics - memory: 52.5%, cpu: 24.0%, disk: 35.5%, uptime: 37456.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:34 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 24.0%, disk: 35.5%, uptime: 37456.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:44 2025] INFO: Collected metrics - memory: 52.5%, cpu: 20.0%, disk: 35.5%, uptime: 37466.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:44 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 20.0%, disk: 35.5%, uptime: 37466.4 seconds, net_interfaces: 10, processes: 259
+[Thu Jun 12 11:53:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:53:54 2025] INFO: Collected metrics - memory: 52.5%, cpu: 17.0%, disk: 35.5%, uptime: 37476.4 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 11:53:54 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 17.0%, disk: 35.5%, uptime: 37476.4 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 11:53:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:04 2025] INFO: Collected metrics - memory: 52.5%, cpu: 14.0%, disk: 35.5%, uptime: 37486.4 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 11:54:04 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 14.0%, disk: 35.5%, uptime: 37486.4 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 11:54:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:14 2025] INFO: Collected metrics - memory: 52.5%, cpu: 12.0%, disk: 35.5%, uptime: 37496.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:14 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 12.0%, disk: 35.5%, uptime: 37496.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:24 2025] INFO: Collected metrics - memory: 52.6%, cpu: 10.0%, disk: 35.5%, uptime: 37506.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:24 2025] INFO: Metrics within thresholds - memory: 52.6%, cpu: 10.0%, disk: 35.5%, uptime: 37506.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:34 2025] INFO: Collected metrics - memory: 52.6%, cpu: 17.0%, disk: 35.5%, uptime: 37516.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:34 2025] INFO: Metrics within thresholds - memory: 52.6%, cpu: 17.0%, disk: 35.5%, uptime: 37516.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:44 2025] INFO: Collected metrics - memory: 52.6%, cpu: 14.0%, disk: 35.5%, uptime: 37526.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:44 2025] INFO: Metrics within thresholds - memory: 52.6%, cpu: 14.0%, disk: 35.5%, uptime: 37526.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:54:54 2025] INFO: Collected metrics - memory: 52.6%, cpu: 12.0%, disk: 35.5%, uptime: 37536.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:54 2025] INFO: Metrics within thresholds - memory: 52.6%, cpu: 12.0%, disk: 35.5%, uptime: 37536.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:54:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:04 2025] INFO: Collected metrics - memory: 52.5%, cpu: 10.0%, disk: 35.5%, uptime: 37546.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:04 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 10.0%, disk: 35.5%, uptime: 37546.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:14 2025] INFO: Collected metrics - memory: 52.5%, cpu: 8.0%, disk: 35.5%, uptime: 37556.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:14 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 8.0%, disk: 35.5%, uptime: 37556.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:24 2025] INFO: Collected metrics - memory: 52.5%, cpu: 7.0%, disk: 35.5%, uptime: 37566.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:24 2025] INFO: Metrics within thresholds - memory: 52.5%, cpu: 7.0%, disk: 35.5%, uptime: 37566.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:34 2025] INFO: Collected metrics - memory: 52.3%, cpu: 6.0%, disk: 35.5%, uptime: 37576.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:34 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 6.0%, disk: 35.5%, uptime: 37576.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:44 2025] INFO: Collected metrics - memory: 52.3%, cpu: 5.0%, disk: 35.5%, uptime: 37586.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:44 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 5.0%, disk: 35.5%, uptime: 37586.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:55:54 2025] INFO: Collected metrics - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37596.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:54 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37596.4 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:55:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:04 2025] INFO: Collected metrics - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37606.5 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:56:04 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37606.5 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:56:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:14 2025] INFO: Collected metrics - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37616.5 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:56:14 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37616.5 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 11:56:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:24 2025] INFO: Collected metrics - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37626.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:24 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37626.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:34 2025] INFO: Collected metrics - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37636.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:34 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37636.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:44 2025] INFO: Collected metrics - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37646.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:44 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 2.0%, disk: 35.5%, uptime: 37646.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:56:54 2025] INFO: Collected metrics - memory: 52.3%, cpu: 1.0%, disk: 35.5%, uptime: 37656.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:54 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 1.0%, disk: 35.5%, uptime: 37656.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:56:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:04 2025] INFO: Collected metrics - memory: 52.3%, cpu: 1.0%, disk: 35.5%, uptime: 37666.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:04 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 1.0%, disk: 35.5%, uptime: 37666.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:14 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37676.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:14 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37676.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:24 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37686.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:24 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37686.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:34 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37696.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:34 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 37696.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:44 2025] INFO: Collected metrics - memory: 52.1%, cpu: 0.0%, disk: 35.5%, uptime: 37706.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:44 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 0.0%, disk: 35.5%, uptime: 37706.5 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:57:54 2025] INFO: Collected metrics - memory: 52.1%, cpu: 0.0%, disk: 35.5%, uptime: 37716.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:54 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 0.0%, disk: 35.5%, uptime: 37716.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:57:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:04 2025] INFO: Collected metrics - memory: 52.2%, cpu: 0.0%, disk: 35.5%, uptime: 37726.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:04 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 0.0%, disk: 35.5%, uptime: 37726.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:14 2025] INFO: Collected metrics - memory: 52.1%, cpu: 16.0%, disk: 35.5%, uptime: 37736.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:14 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 16.0%, disk: 35.5%, uptime: 37736.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:24 2025] INFO: Collected metrics - memory: 52.1%, cpu: 14.0%, disk: 35.5%, uptime: 37746.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:24 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 14.0%, disk: 35.5%, uptime: 37746.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:34 2025] INFO: Collected metrics - memory: 52.1%, cpu: 12.0%, disk: 35.5%, uptime: 37756.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:34 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 12.0%, disk: 35.5%, uptime: 37756.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:44 2025] INFO: Collected metrics - memory: 52.1%, cpu: 10.0%, disk: 35.5%, uptime: 37766.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:44 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 10.0%, disk: 35.5%, uptime: 37766.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:58:54 2025] INFO: Collected metrics - memory: 52.1%, cpu: 8.0%, disk: 35.5%, uptime: 37776.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:54 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 8.0%, disk: 35.5%, uptime: 37776.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 11:58:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:04 2025] INFO: Collected metrics - memory: 52.1%, cpu: 7.0%, disk: 35.5%, uptime: 37786.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:04 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 7.0%, disk: 35.5%, uptime: 37786.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:14 2025] INFO: Collected metrics - memory: 52.1%, cpu: 13.0%, disk: 35.5%, uptime: 37796.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:14 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 13.0%, disk: 35.5%, uptime: 37796.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:24 2025] INFO: Collected metrics - memory: 52.2%, cpu: 11.0%, disk: 35.5%, uptime: 37806.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:24 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 11.0%, disk: 35.5%, uptime: 37806.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:34 2025] INFO: Collected metrics - memory: 52.3%, cpu: 9.0%, disk: 35.5%, uptime: 37816.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:34 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 9.0%, disk: 35.5%, uptime: 37816.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:44 2025] INFO: Collected metrics - memory: 52.3%, cpu: 8.0%, disk: 35.5%, uptime: 37826.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:44 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 8.0%, disk: 35.5%, uptime: 37826.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 11:59:54 2025] INFO: Collected metrics - memory: 52.3%, cpu: 7.0%, disk: 35.5%, uptime: 37836.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:54 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 7.0%, disk: 35.5%, uptime: 37836.6 seconds, net_interfaces: 10, processes: 256
+[Thu Jun 12 11:59:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:04 2025] INFO: Collected metrics - memory: 52.3%, cpu: 6.0%, disk: 35.5%, uptime: 37846.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:04 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 6.0%, disk: 35.5%, uptime: 37846.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:14 2025] INFO: Collected metrics - memory: 52.3%, cpu: 5.0%, disk: 35.5%, uptime: 37856.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:14 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 5.0%, disk: 35.5%, uptime: 37856.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:24 2025] INFO: Collected metrics - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37866.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:24 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 4.0%, disk: 35.5%, uptime: 37866.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:34 2025] INFO: Collected metrics - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37876.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:34 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37876.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:44 2025] INFO: Collected metrics - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37886.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:44 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 3.0%, disk: 35.5%, uptime: 37886.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:00:54 2025] INFO: Collected metrics - memory: 52.3%, cpu: 10.0%, disk: 35.5%, uptime: 37896.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:54 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 10.0%, disk: 35.5%, uptime: 37896.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:00:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:04 2025] INFO: Collected metrics - memory: 52.2%, cpu: 9.0%, disk: 35.5%, uptime: 37906.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:04 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 9.0%, disk: 35.5%, uptime: 37906.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:14 2025] INFO: Collected metrics - memory: 52.2%, cpu: 7.0%, disk: 35.5%, uptime: 37916.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:14 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 7.0%, disk: 35.5%, uptime: 37916.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:24 2025] INFO: Collected metrics - memory: 52.2%, cpu: 6.0%, disk: 35.5%, uptime: 37926.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:24 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 6.0%, disk: 35.5%, uptime: 37926.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:34 2025] INFO: Collected metrics - memory: 52.2%, cpu: 13.0%, disk: 35.5%, uptime: 37936.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:34 2025] INFO: Metrics within thresholds - memory: 52.2%, cpu: 13.0%, disk: 35.5%, uptime: 37936.6 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:44 2025] INFO: Collected metrics - memory: 52.0%, cpu: 11.0%, disk: 35.5%, uptime: 37946.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:44 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 11.0%, disk: 35.5%, uptime: 37946.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:01:54 2025] INFO: Collected metrics - memory: 52.0%, cpu: 9.0%, disk: 35.5%, uptime: 37956.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:54 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 9.0%, disk: 35.5%, uptime: 37956.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:01:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:04 2025] INFO: Collected metrics - memory: 52.0%, cpu: 8.0%, disk: 35.5%, uptime: 37966.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:04 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 8.0%, disk: 35.5%, uptime: 37966.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:14 2025] INFO: Collected metrics - memory: 52.0%, cpu: 6.0%, disk: 35.5%, uptime: 37976.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:14 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 6.0%, disk: 35.5%, uptime: 37976.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:24 2025] INFO: Collected metrics - memory: 52.0%, cpu: 5.0%, disk: 35.5%, uptime: 37986.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:24 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 5.0%, disk: 35.5%, uptime: 37986.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:34 2025] INFO: Collected metrics - memory: 52.0%, cpu: 4.0%, disk: 35.5%, uptime: 37996.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:34 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 4.0%, disk: 35.5%, uptime: 37996.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:44 2025] INFO: Collected metrics - memory: 52.0%, cpu: 4.0%, disk: 35.5%, uptime: 38006.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:44 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 4.0%, disk: 35.5%, uptime: 38006.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:02:54 2025] INFO: Collected metrics - memory: 52.0%, cpu: 3.0%, disk: 35.5%, uptime: 38016.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:54 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 3.0%, disk: 35.5%, uptime: 38016.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:02:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:04 2025] INFO: Collected metrics - memory: 52.0%, cpu: 3.0%, disk: 35.5%, uptime: 38026.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:03:04 2025] INFO: Metrics within thresholds - memory: 52.0%, cpu: 3.0%, disk: 35.5%, uptime: 38026.7 seconds, net_interfaces: 10, processes: 257
+[Thu Jun 12 12:03:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:14 2025] INFO: Collected metrics - memory: 52.1%, cpu: 2.0%, disk: 35.5%, uptime: 38036.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:14 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 2.0%, disk: 35.5%, uptime: 38036.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:14 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:24 2025] INFO: Collected metrics - memory: 52.1%, cpu: 2.0%, disk: 35.5%, uptime: 38046.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:24 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 2.0%, disk: 35.5%, uptime: 38046.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:34 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38056.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:34 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38056.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:44 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38066.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:44 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38066.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:03:54 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38076.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:54 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38076.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:03:54 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:04:04 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38086.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:04:04 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38086.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:04:04 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 12:04:14 2025] INFO: Collected metrics - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38096.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:04:14 2025] INFO: Metrics within thresholds - memory: 52.1%, cpu: 1.0%, disk: 35.5%, uptime: 38096.7 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 12:04:14 2025] ERROR: Failed to send metrics or no ACK received.
