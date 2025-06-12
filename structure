@@ -1,0 +1,21 @@
+cpe_monitoring/
+│
+├── system_manager/
+│   ├── main.c                  // Main loop
+│   ├── metrics.c               // Collect system metrics
+│   ├── metrics.h
+│   ├── config.c                // Load and update thresholds
+│   ├── config.h
+│   ├── alarm.c                 // Alarm logic
+│   ├── alarm.h
+│   ├── socket_client.c         // UNIX domain socket communication
+│   ├── socket_client.h
+│   ├── logger.c                // Logging
+│   ├── logger.h
+│   ├── Makefile
+│
+├── config/
+│   └── thresholds.conf         // Thresholds in key=value format
+│
+├── logs/
+│   └── system_manager.log
