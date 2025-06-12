@@ -280,3 +280,30 @@ Output:
 c   cmdm		commandmanager_server.c  servercommand
 cm  command_manager2.c	commands.log
 
+
+[Thu Jun 12 14:34:08 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:34:17 2025] Command: clear
+Output:
+[H[2J[3J
+
+[Thu Jun 12 14:34:29 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:36:17 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:36:20 2025] Command: pwd
+Output:
+/home/hilfa/main project/cpe-monitoring-and-command-execution/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
