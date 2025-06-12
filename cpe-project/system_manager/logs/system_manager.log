@@ -9044,3 +9044,621 @@
 [Thu Jun 12 14:37:03 2025] INFO: Collected metrics - memory: 55.9%, cpu: 115.0%, disk: 35.5%, uptime: 47265.2 seconds, net_interfaces: 10, processes: 260
 [Thu Jun 12 14:37:03 2025] INFO: Metrics within thresholds - memory: 55.9%, cpu: 115.0%, disk: 35.5%, uptime: 47265.2 seconds, net_interfaces: 10, processes: 260
 [Thu Jun 12 14:37:03 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:02:17 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 90.0, uptime: 86400.0, net_interfaces: 20, processes: 500
+[Thu Jun 12 15:02:17 2025] System Manager started.
+[Thu Jun 12 15:02:17 2025] INFO: Collected metrics - memory: 68.1%, cpu: 70.0%, disk: 29.1%, uptime: 13705.8 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 15:02:17 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 70.0%, disk: 29.1%, uptime: 13705.8 seconds, net_interfaces: 10, processes: 258
+[Thu Jun 12 15:02:17 2025] ERROR: Failed to send metrics or no ACK received.
+[Thu Jun 12 15:02:27 2025] INFO: Collected metrics - memory: 68.1%, cpu: 96.0%, disk: 29.1%, uptime: 13715.8 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:02:27 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 96.0%, disk: 29.1%, uptime: 13715.8 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:02:27 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:02:37 2025] INFO: Collected metrics - memory: 68.1%, cpu: 89.0%, disk: 29.1%, uptime: 13725.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:02:37 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 89.0%, disk: 29.1%, uptime: 13725.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:02:37 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:02:47 2025] INFO: Collected metrics - memory: 68.1%, cpu: 76.0%, disk: 29.1%, uptime: 13735.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:02:47 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 76.0%, disk: 29.1%, uptime: 13735.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:02:47 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:02:57 2025] INFO: Collected metrics - memory: 68.1%, cpu: 93.0%, disk: 29.1%, uptime: 13745.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:02:57 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 93.0%, disk: 29.1%, uptime: 13745.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:02:57 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:07 2025] INFO: Collected metrics - memory: 68.0%, cpu: 79.0%, disk: 29.1%, uptime: 13755.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:07 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 79.0%, disk: 29.1%, uptime: 13755.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:07 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:17 2025] INFO: Collected metrics - memory: 68.0%, cpu: 67.0%, disk: 29.1%, uptime: 13765.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:17 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 67.0%, disk: 29.1%, uptime: 13765.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:17 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:27 2025] INFO: Collected metrics - memory: 68.1%, cpu: 57.0%, disk: 29.1%, uptime: 13775.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:27 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 57.0%, disk: 29.1%, uptime: 13775.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:27 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:37 2025] INFO: Collected metrics - memory: 68.1%, cpu: 63.0%, disk: 29.1%, uptime: 13785.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:37 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 63.0%, disk: 29.1%, uptime: 13785.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:48 2025] INFO: Collected metrics - memory: 68.0%, cpu: 60.0%, disk: 29.1%, uptime: 13795.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:48 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 60.0%, disk: 29.1%, uptime: 13795.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:03:58 2025] INFO: Collected metrics - memory: 67.8%, cpu: 51.0%, disk: 29.1%, uptime: 13805.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:58 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 51.0%, disk: 29.1%, uptime: 13805.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:03:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:08 2025] INFO: Collected metrics - memory: 67.8%, cpu: 43.0%, disk: 29.1%, uptime: 13815.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:04:08 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 43.0%, disk: 29.1%, uptime: 13815.8 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:04:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:18 2025] INFO: Collected metrics - memory: 67.8%, cpu: 36.0%, disk: 29.1%, uptime: 13825.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:18 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 36.0%, disk: 29.1%, uptime: 13825.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:28 2025] INFO: Collected metrics - memory: 67.8%, cpu: 31.0%, disk: 29.1%, uptime: 13835.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:28 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 31.0%, disk: 29.1%, uptime: 13835.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:38 2025] INFO: Collected metrics - memory: 67.8%, cpu: 48.0%, disk: 29.1%, uptime: 13845.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:38 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 48.0%, disk: 29.1%, uptime: 13845.9 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:04:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:48 2025] INFO: Collected metrics - memory: 67.8%, cpu: 41.0%, disk: 29.1%, uptime: 13855.9 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:04:48 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 41.0%, disk: 29.1%, uptime: 13855.9 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:04:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:04:58 2025] INFO: Collected metrics - memory: 67.8%, cpu: 57.0%, disk: 29.1%, uptime: 13865.9 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:04:58 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 57.0%, disk: 29.1%, uptime: 13865.9 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:04:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:08 2025] INFO: Collected metrics - memory: 67.9%, cpu: 77.0%, disk: 29.1%, uptime: 13875.9 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:05:08 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 77.0%, disk: 29.1%, uptime: 13875.9 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:05:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:18 2025] INFO: Collected metrics - memory: 67.9%, cpu: 65.0%, disk: 29.1%, uptime: 13886.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:18 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 65.0%, disk: 29.1%, uptime: 13886.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:28 2025] INFO: Collected metrics - memory: 67.9%, cpu: 95.0%, disk: 29.1%, uptime: 13896.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:28 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 95.0%, disk: 29.1%, uptime: 13896.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:38 2025] INFO: Collected metrics - memory: 67.9%, cpu: 113.0%, disk: 29.1%, uptime: 13906.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:38 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 113.0%, disk: 29.1%, uptime: 13906.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:48 2025] INFO: Collected metrics - memory: 67.9%, cpu: 95.0%, disk: 29.1%, uptime: 13916.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:48 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 95.0%, disk: 29.1%, uptime: 13916.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:05:58 2025] INFO: Collected metrics - memory: 67.9%, cpu: 81.0%, disk: 29.1%, uptime: 13926.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:58 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 81.0%, disk: 29.1%, uptime: 13926.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:05:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:08 2025] INFO: Collected metrics - memory: 67.9%, cpu: 68.0%, disk: 29.1%, uptime: 13936.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:08 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 68.0%, disk: 29.1%, uptime: 13936.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:18 2025] INFO: Collected metrics - memory: 67.9%, cpu: 58.0%, disk: 29.1%, uptime: 13946.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:18 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 58.0%, disk: 29.1%, uptime: 13946.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:28 2025] INFO: Collected metrics - memory: 67.9%, cpu: 86.0%, disk: 29.1%, uptime: 13956.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:28 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 86.0%, disk: 29.1%, uptime: 13956.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:38 2025] INFO: Collected metrics - memory: 67.9%, cpu: 80.0%, disk: 29.1%, uptime: 13966.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:38 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 80.0%, disk: 29.1%, uptime: 13966.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:48 2025] INFO: Collected metrics - memory: 67.9%, cpu: 68.0%, disk: 29.1%, uptime: 13976.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:48 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 68.0%, disk: 29.1%, uptime: 13976.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:06:58 2025] INFO: Collected metrics - memory: 68.0%, cpu: 65.0%, disk: 29.1%, uptime: 13986.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:58 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 65.0%, disk: 29.1%, uptime: 13986.0 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:06:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:08 2025] INFO: Collected metrics - memory: 68.0%, cpu: 70.0%, disk: 29.1%, uptime: 13996.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:08 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 70.0%, disk: 29.1%, uptime: 13996.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:18 2025] INFO: Collected metrics - memory: 67.9%, cpu: 67.0%, disk: 29.1%, uptime: 14006.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:18 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 67.0%, disk: 29.1%, uptime: 14006.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:28 2025] INFO: Collected metrics - memory: 67.9%, cpu: 56.0%, disk: 29.1%, uptime: 14016.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:28 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 56.0%, disk: 29.1%, uptime: 14016.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:38 2025] INFO: Collected metrics - memory: 67.8%, cpu: 48.0%, disk: 29.1%, uptime: 14026.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:38 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 48.0%, disk: 29.1%, uptime: 14026.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:48 2025] INFO: Collected metrics - memory: 67.8%, cpu: 40.0%, disk: 29.1%, uptime: 14036.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:48 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 40.0%, disk: 29.1%, uptime: 14036.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:07:58 2025] INFO: Collected metrics - memory: 67.8%, cpu: 34.0%, disk: 29.1%, uptime: 14046.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:58 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 34.0%, disk: 29.1%, uptime: 14046.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:07:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:08 2025] INFO: Collected metrics - memory: 67.8%, cpu: 45.0%, disk: 29.1%, uptime: 14056.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:08:08 2025] INFO: Metrics within thresholds - memory: 67.8%, cpu: 45.0%, disk: 29.1%, uptime: 14056.1 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:08:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:18 2025] INFO: Collected metrics - memory: 68.2%, cpu: 78.0%, disk: 29.1%, uptime: 14066.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:18 2025] INFO: Metrics within thresholds - memory: 68.2%, cpu: 78.0%, disk: 29.1%, uptime: 14066.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:28 2025] INFO: Collected metrics - memory: 68.0%, cpu: 66.0%, disk: 29.1%, uptime: 14076.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:28 2025] INFO: Metrics within thresholds - memory: 68.0%, cpu: 66.0%, disk: 29.1%, uptime: 14076.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:38 2025] INFO: Collected metrics - memory: 67.9%, cpu: 56.0%, disk: 29.1%, uptime: 14086.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:38 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 56.0%, disk: 29.1%, uptime: 14086.1 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:08:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:48 2025] INFO: Collected metrics - memory: 67.9%, cpu: 47.0%, disk: 29.1%, uptime: 14096.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:08:48 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 47.0%, disk: 29.1%, uptime: 14096.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:08:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:08:58 2025] INFO: Collected metrics - memory: 67.9%, cpu: 40.0%, disk: 29.1%, uptime: 14106.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:08:58 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 40.0%, disk: 29.1%, uptime: 14106.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:08:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:08 2025] INFO: Collected metrics - memory: 67.9%, cpu: 34.0%, disk: 29.1%, uptime: 14116.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:09:08 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 34.0%, disk: 29.1%, uptime: 14116.2 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:09:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:18 2025] INFO: Collected metrics - memory: 67.9%, cpu: 28.0%, disk: 29.1%, uptime: 14126.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:09:18 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 28.0%, disk: 29.1%, uptime: 14126.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:09:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:28 2025] INFO: Collected metrics - memory: 67.9%, cpu: 24.0%, disk: 29.1%, uptime: 14136.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:28 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 24.0%, disk: 29.1%, uptime: 14136.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:38 2025] INFO: Collected metrics - memory: 67.9%, cpu: 20.0%, disk: 29.1%, uptime: 14146.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:38 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 20.0%, disk: 29.1%, uptime: 14146.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:48 2025] INFO: Collected metrics - memory: 67.9%, cpu: 17.0%, disk: 29.1%, uptime: 14156.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:48 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 17.0%, disk: 29.1%, uptime: 14156.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:09:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:09:58 2025] INFO: Collected metrics - memory: 67.9%, cpu: 14.0%, disk: 29.1%, uptime: 14166.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:09:58 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 14.0%, disk: 29.1%, uptime: 14166.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:09:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:08 2025] INFO: Collected metrics - memory: 67.9%, cpu: 12.0%, disk: 29.1%, uptime: 14176.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:10:08 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 12.0%, disk: 29.1%, uptime: 14176.2 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:10:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:18 2025] INFO: Collected metrics - memory: 67.9%, cpu: 10.0%, disk: 29.1%, uptime: 14186.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:18 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 10.0%, disk: 29.1%, uptime: 14186.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:28 2025] INFO: Collected metrics - memory: 67.9%, cpu: 9.0%, disk: 29.1%, uptime: 14196.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:28 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 9.0%, disk: 29.1%, uptime: 14196.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:38 2025] INFO: Collected metrics - memory: 67.9%, cpu: 7.0%, disk: 29.1%, uptime: 14206.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:38 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 7.0%, disk: 29.1%, uptime: 14206.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:48 2025] INFO: Collected metrics - memory: 67.9%, cpu: 22.0%, disk: 29.1%, uptime: 14216.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:48 2025] INFO: Metrics within thresholds - memory: 67.9%, cpu: 22.0%, disk: 29.1%, uptime: 14216.2 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:10:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:10:58 2025] INFO: Collected metrics - memory: 69.2%, cpu: 19.0%, disk: 29.1%, uptime: 14226.2 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:10:58 2025] INFO: Metrics within thresholds - memory: 69.2%, cpu: 19.0%, disk: 29.1%, uptime: 14226.2 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:10:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:08 2025] INFO: Collected metrics - memory: 69.0%, cpu: 16.0%, disk: 29.1%, uptime: 14236.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:08 2025] INFO: Metrics within thresholds - memory: 69.0%, cpu: 16.0%, disk: 29.1%, uptime: 14236.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:18 2025] INFO: Collected metrics - memory: 69.0%, cpu: 13.0%, disk: 29.1%, uptime: 14246.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:18 2025] INFO: Metrics within thresholds - memory: 69.0%, cpu: 13.0%, disk: 29.1%, uptime: 14246.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:28 2025] INFO: Collected metrics - memory: 68.8%, cpu: 48.0%, disk: 29.1%, uptime: 14256.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:28 2025] INFO: Metrics within thresholds - memory: 68.8%, cpu: 48.0%, disk: 29.1%, uptime: 14256.2 seconds, net_interfaces: 10, processes: 265
+[Thu Jun 12 15:11:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:38 2025] INFO: Collected metrics - memory: 68.5%, cpu: 41.0%, disk: 29.1%, uptime: 14266.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:38 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 41.0%, disk: 29.1%, uptime: 14266.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:48 2025] INFO: Collected metrics - memory: 68.3%, cpu: 34.0%, disk: 29.1%, uptime: 14276.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:48 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 34.0%, disk: 29.1%, uptime: 14276.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:11:58 2025] INFO: Collected metrics - memory: 68.3%, cpu: 37.0%, disk: 29.1%, uptime: 14286.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:58 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 37.0%, disk: 29.1%, uptime: 14286.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:11:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:08 2025] INFO: Collected metrics - memory: 68.3%, cpu: 31.0%, disk: 29.1%, uptime: 14296.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:12:08 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 31.0%, disk: 29.1%, uptime: 14296.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:12:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:18 2025] INFO: Collected metrics - memory: 68.3%, cpu: 27.0%, disk: 29.1%, uptime: 14306.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:12:18 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 27.0%, disk: 29.1%, uptime: 14306.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:12:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:28 2025] INFO: Collected metrics - memory: 68.3%, cpu: 22.0%, disk: 29.1%, uptime: 14316.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:28 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 22.0%, disk: 29.1%, uptime: 14316.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:38 2025] INFO: Collected metrics - memory: 68.3%, cpu: 19.0%, disk: 29.1%, uptime: 14326.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:38 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 19.0%, disk: 29.1%, uptime: 14326.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:48 2025] INFO: Collected metrics - memory: 68.3%, cpu: 16.0%, disk: 29.1%, uptime: 14336.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:48 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 16.0%, disk: 29.1%, uptime: 14336.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:12:58 2025] INFO: Collected metrics - memory: 68.3%, cpu: 13.0%, disk: 29.1%, uptime: 14346.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:58 2025] INFO: Metrics within thresholds - memory: 68.3%, cpu: 13.0%, disk: 29.1%, uptime: 14346.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:12:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:08 2025] INFO: Collected metrics - memory: 68.8%, cpu: 27.0%, disk: 29.1%, uptime: 14356.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:08 2025] INFO: Metrics within thresholds - memory: 68.8%, cpu: 27.0%, disk: 29.1%, uptime: 14356.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:18 2025] INFO: Collected metrics - memory: 68.6%, cpu: 23.0%, disk: 29.1%, uptime: 14366.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:18 2025] INFO: Metrics within thresholds - memory: 68.6%, cpu: 23.0%, disk: 29.1%, uptime: 14366.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:28 2025] INFO: Collected metrics - memory: 68.5%, cpu: 19.0%, disk: 29.1%, uptime: 14376.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:28 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 19.0%, disk: 29.1%, uptime: 14376.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:38 2025] INFO: Collected metrics - memory: 68.5%, cpu: 24.0%, disk: 29.1%, uptime: 14386.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:38 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 24.0%, disk: 29.1%, uptime: 14386.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:13:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:48 2025] INFO: Collected metrics - memory: 68.9%, cpu: 28.0%, disk: 29.1%, uptime: 14396.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:13:48 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 28.0%, disk: 29.1%, uptime: 14396.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:13:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:13:58 2025] INFO: Collected metrics - memory: 68.9%, cpu: 24.0%, disk: 29.1%, uptime: 14406.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:13:58 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 24.0%, disk: 29.1%, uptime: 14406.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:13:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:08 2025] INFO: Collected metrics - memory: 68.9%, cpu: 20.0%, disk: 29.1%, uptime: 14416.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:14:08 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 20.0%, disk: 29.1%, uptime: 14416.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:14:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:18 2025] INFO: Collected metrics - memory: 68.9%, cpu: 17.0%, disk: 29.1%, uptime: 14426.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:14:18 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 17.0%, disk: 29.1%, uptime: 14426.3 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:14:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:28 2025] INFO: Collected metrics - memory: 68.9%, cpu: 14.0%, disk: 29.1%, uptime: 14436.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:28 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 14.0%, disk: 29.1%, uptime: 14436.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:38 2025] INFO: Collected metrics - memory: 68.9%, cpu: 12.0%, disk: 29.1%, uptime: 14446.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:38 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 12.0%, disk: 29.1%, uptime: 14446.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:48 2025] INFO: Collected metrics - memory: 68.9%, cpu: 10.0%, disk: 29.1%, uptime: 14456.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:48 2025] INFO: Metrics within thresholds - memory: 68.9%, cpu: 10.0%, disk: 29.1%, uptime: 14456.3 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:14:58 2025] INFO: Collected metrics - memory: 69.3%, cpu: 80.0%, disk: 29.1%, uptime: 14466.4 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:58 2025] INFO: Metrics within thresholds - memory: 69.3%, cpu: 80.0%, disk: 29.1%, uptime: 14466.4 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:14:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:08 2025] INFO: Collected metrics - memory: 69.4%, cpu: 91.0%, disk: 29.1%, uptime: 14476.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:08 2025] INFO: Metrics within thresholds - memory: 69.4%, cpu: 91.0%, disk: 29.1%, uptime: 14476.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:18 2025] INFO: Collected metrics - memory: 69.3%, cpu: 114.0%, disk: 29.1%, uptime: 14486.4 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:15:18 2025] INFO: Metrics within thresholds - memory: 69.3%, cpu: 114.0%, disk: 29.1%, uptime: 14486.4 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:15:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:28 2025] INFO: Collected metrics - memory: 69.3%, cpu: 121.0%, disk: 29.1%, uptime: 14496.4 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:15:28 2025] INFO: Metrics within thresholds - memory: 69.3%, cpu: 121.0%, disk: 29.1%, uptime: 14496.4 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:15:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:38 2025] INFO: Collected metrics - memory: 68.5%, cpu: 102.0%, disk: 29.1%, uptime: 14506.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:38 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 102.0%, disk: 29.1%, uptime: 14506.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:48 2025] INFO: Collected metrics - memory: 68.6%, cpu: 110.0%, disk: 29.1%, uptime: 14516.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:48 2025] INFO: Metrics within thresholds - memory: 68.6%, cpu: 110.0%, disk: 29.1%, uptime: 14516.4 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:15:58 2025] INFO: Collected metrics - memory: 68.6%, cpu: 93.0%, disk: 29.1%, uptime: 14526.5 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:58 2025] INFO: Metrics within thresholds - memory: 68.6%, cpu: 93.0%, disk: 29.1%, uptime: 14526.5 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:15:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:08 2025] INFO: Collected metrics - memory: 68.5%, cpu: 79.0%, disk: 29.1%, uptime: 14536.5 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:16:08 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 79.0%, disk: 29.1%, uptime: 14536.5 seconds, net_interfaces: 10, processes: 269
+[Thu Jun 12 15:16:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:18 2025] INFO: Collected metrics - memory: 68.5%, cpu: 67.0%, disk: 29.1%, uptime: 14546.5 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:16:18 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 67.0%, disk: 29.1%, uptime: 14546.5 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:16:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:28 2025] INFO: Collected metrics - memory: 68.5%, cpu: 89.0%, disk: 29.1%, uptime: 14556.5 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:28 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 89.0%, disk: 29.1%, uptime: 14556.5 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:38 2025] INFO: Collected metrics - memory: 68.6%, cpu: 99.0%, disk: 29.1%, uptime: 14566.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:38 2025] INFO: Metrics within thresholds - memory: 68.6%, cpu: 99.0%, disk: 29.1%, uptime: 14566.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:48 2025] INFO: Collected metrics - memory: 68.5%, cpu: 84.0%, disk: 29.1%, uptime: 14576.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:48 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 84.0%, disk: 29.1%, uptime: 14576.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:16:58 2025] INFO: Collected metrics - memory: 68.8%, cpu: 71.0%, disk: 29.1%, uptime: 14586.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:58 2025] INFO: Metrics within thresholds - memory: 68.8%, cpu: 71.0%, disk: 29.1%, uptime: 14586.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:16:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:08 2025] INFO: Collected metrics - memory: 68.5%, cpu: 60.0%, disk: 29.1%, uptime: 14596.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:08 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 60.0%, disk: 29.1%, uptime: 14596.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:18 2025] INFO: Collected metrics - memory: 68.5%, cpu: 51.0%, disk: 29.1%, uptime: 14606.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:18 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 51.0%, disk: 29.1%, uptime: 14606.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:28 2025] INFO: Collected metrics - memory: 68.5%, cpu: 51.0%, disk: 29.1%, uptime: 14616.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:28 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 51.0%, disk: 29.1%, uptime: 14616.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:38 2025] INFO: Collected metrics - memory: 68.6%, cpu: 43.0%, disk: 29.1%, uptime: 14626.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:38 2025] INFO: Metrics within thresholds - memory: 68.6%, cpu: 43.0%, disk: 29.1%, uptime: 14626.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:48 2025] INFO: Collected metrics - memory: 68.5%, cpu: 60.0%, disk: 29.1%, uptime: 14636.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:48 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 60.0%, disk: 29.1%, uptime: 14636.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:17:58 2025] INFO: Collected metrics - memory: 68.5%, cpu: 58.0%, disk: 29.1%, uptime: 14646.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:58 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 58.0%, disk: 29.1%, uptime: 14646.6 seconds, net_interfaces: 10, processes: 267
+[Thu Jun 12 15:17:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:08 2025] INFO: Collected metrics - memory: 68.5%, cpu: 57.0%, disk: 29.1%, uptime: 14656.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:08 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 57.0%, disk: 29.1%, uptime: 14656.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:18 2025] INFO: Collected metrics - memory: 68.5%, cpu: 48.0%, disk: 29.1%, uptime: 14666.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:18 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 48.0%, disk: 29.1%, uptime: 14666.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:28 2025] INFO: Collected metrics - memory: 68.5%, cpu: 41.0%, disk: 29.1%, uptime: 14676.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:28 2025] INFO: Metrics within thresholds - memory: 68.5%, cpu: 41.0%, disk: 29.1%, uptime: 14676.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:38 2025] INFO: Collected metrics - memory: 68.1%, cpu: 34.0%, disk: 29.1%, uptime: 14686.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:38 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 34.0%, disk: 29.1%, uptime: 14686.6 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:48 2025] INFO: Collected metrics - memory: 68.1%, cpu: 29.0%, disk: 29.1%, uptime: 14696.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:48 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 29.0%, disk: 29.1%, uptime: 14696.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:18:58 2025] INFO: Collected metrics - memory: 68.1%, cpu: 33.0%, disk: 29.1%, uptime: 14706.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:58 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 33.0%, disk: 29.1%, uptime: 14706.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:18:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:08 2025] INFO: Collected metrics - memory: 68.1%, cpu: 27.0%, disk: 29.1%, uptime: 14716.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:08 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 27.0%, disk: 29.1%, uptime: 14716.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:18 2025] INFO: Collected metrics - memory: 68.1%, cpu: 23.0%, disk: 29.1%, uptime: 14726.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:18 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 23.0%, disk: 29.1%, uptime: 14726.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:28 2025] INFO: Collected metrics - memory: 68.1%, cpu: 20.0%, disk: 29.1%, uptime: 14736.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:28 2025] INFO: Metrics within thresholds - memory: 68.1%, cpu: 20.0%, disk: 29.1%, uptime: 14736.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:38 2025] INFO: Collected metrics - memory: 69.2%, cpu: 16.0%, disk: 29.1%, uptime: 14746.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:38 2025] INFO: Metrics within thresholds - memory: 69.2%, cpu: 16.0%, disk: 29.1%, uptime: 14746.7 seconds, net_interfaces: 10, processes: 268
+[Thu Jun 12 15:19:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:48 2025] INFO: Collected metrics - memory: 36.8%, cpu: 21.0%, disk: 29.1%, uptime: 14756.7 seconds, net_interfaces: 10, processes: 250
+[Thu Jun 12 15:19:48 2025] INFO: Metrics within thresholds - memory: 36.8%, cpu: 21.0%, disk: 29.1%, uptime: 14756.7 seconds, net_interfaces: 10, processes: 250
+[Thu Jun 12 15:19:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:19:58 2025] INFO: Collected metrics - memory: 34.4%, cpu: 26.0%, disk: 29.1%, uptime: 14766.7 seconds, net_interfaces: 10, processes: 245
+[Thu Jun 12 15:19:58 2025] INFO: Metrics within thresholds - memory: 34.4%, cpu: 26.0%, disk: 29.1%, uptime: 14766.7 seconds, net_interfaces: 10, processes: 245
+[Thu Jun 12 15:19:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:08 2025] INFO: Collected metrics - memory: 34.5%, cpu: 22.0%, disk: 29.1%, uptime: 14776.7 seconds, net_interfaces: 10, processes: 246
+[Thu Jun 12 15:20:08 2025] INFO: Metrics within thresholds - memory: 34.5%, cpu: 22.0%, disk: 29.1%, uptime: 14776.7 seconds, net_interfaces: 10, processes: 246
+[Thu Jun 12 15:20:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:18 2025] INFO: Collected metrics - memory: 47.5%, cpu: 35.0%, disk: 29.1%, uptime: 14786.7 seconds, net_interfaces: 10, processes: 255
+[Thu Jun 12 15:20:18 2025] INFO: Metrics within thresholds - memory: 47.5%, cpu: 35.0%, disk: 29.1%, uptime: 14786.7 seconds, net_interfaces: 10, processes: 255
+[Thu Jun 12 15:20:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:28 2025] INFO: Collected metrics - memory: 47.9%, cpu: 73.0%, disk: 29.1%, uptime: 14796.7 seconds, net_interfaces: 10, processes: 255
+[Thu Jun 12 15:20:28 2025] INFO: Metrics within thresholds - memory: 47.9%, cpu: 73.0%, disk: 29.1%, uptime: 14796.7 seconds, net_interfaces: 10, processes: 255
+[Thu Jun 12 15:20:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:38 2025] INFO: Collected metrics - memory: 48.2%, cpu: 102.0%, disk: 29.1%, uptime: 14806.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:38 2025] INFO: Metrics within thresholds - memory: 48.2%, cpu: 102.0%, disk: 29.1%, uptime: 14806.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:48 2025] INFO: Collected metrics - memory: 46.2%, cpu: 149.0%, disk: 29.1%, uptime: 14816.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:48 2025] INFO: Metrics within thresholds - memory: 46.2%, cpu: 149.0%, disk: 29.1%, uptime: 14816.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:20:58 2025] INFO: Collected metrics - memory: 45.9%, cpu: 163.0%, disk: 29.1%, uptime: 14826.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:58 2025] INFO: Metrics within thresholds - memory: 45.9%, cpu: 163.0%, disk: 29.1%, uptime: 14826.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:20:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:08 2025] INFO: Collected metrics - memory: 45.8%, cpu: 154.0%, disk: 29.1%, uptime: 14836.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:21:08 2025] INFO: Metrics within thresholds - memory: 45.8%, cpu: 154.0%, disk: 29.1%, uptime: 14836.7 seconds, net_interfaces: 10, processes: 254
+[Thu Jun 12 15:21:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:18 2025] INFO: Collected metrics - memory: 53.3%, cpu: 178.0%, disk: 29.1%, uptime: 14846.7 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:18 2025] INFO: Metrics within thresholds - memory: 53.3%, cpu: 178.0%, disk: 29.1%, uptime: 14846.7 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:28 2025] INFO: Collected metrics - memory: 52.3%, cpu: 151.0%, disk: 29.1%, uptime: 14856.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:28 2025] INFO: Metrics within thresholds - memory: 52.3%, cpu: 151.0%, disk: 29.1%, uptime: 14856.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:28 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:38 2025] INFO: Collected metrics - memory: 54.4%, cpu: 157.0%, disk: 29.1%, uptime: 14866.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:38 2025] INFO: Metrics within thresholds - memory: 54.4%, cpu: 157.0%, disk: 29.1%, uptime: 14866.8 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:21:38 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:48 2025] INFO: Collected metrics - memory: 58.5%, cpu: 141.0%, disk: 29.1%, uptime: 14876.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:21:48 2025] INFO: Metrics within thresholds - memory: 58.5%, cpu: 141.0%, disk: 29.1%, uptime: 14876.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:21:48 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:21:58 2025] INFO: Collected metrics - memory: 56.9%, cpu: 119.0%, disk: 29.1%, uptime: 14886.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:21:58 2025] INFO: Metrics within thresholds - memory: 56.9%, cpu: 119.0%, disk: 29.1%, uptime: 14886.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:21:58 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:08 2025] INFO: Collected metrics - memory: 55.8%, cpu: 101.0%, disk: 29.1%, uptime: 14896.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:08 2025] INFO: Metrics within thresholds - memory: 55.8%, cpu: 101.0%, disk: 29.1%, uptime: 14896.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:08 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:18 2025] INFO: Collected metrics - memory: 55.6%, cpu: 85.0%, disk: 29.1%, uptime: 14906.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:18 2025] INFO: Metrics within thresholds - memory: 55.6%, cpu: 85.0%, disk: 29.1%, uptime: 14906.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:18 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:28 2025] INFO: Collected metrics - memory: 55.6%, cpu: 72.0%, disk: 29.1%, uptime: 14916.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:22:28 2025] INFO: Metrics within thresholds - memory: 55.6%, cpu: 72.0%, disk: 29.1%, uptime: 14916.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:22:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:39 2025] INFO: Collected metrics - memory: 55.1%, cpu: 68.0%, disk: 29.1%, uptime: 14926.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:22:39 2025] INFO: Metrics within thresholds - memory: 55.1%, cpu: 68.0%, disk: 29.1%, uptime: 14926.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:22:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:49 2025] INFO: Collected metrics - memory: 55.2%, cpu: 58.0%, disk: 29.1%, uptime: 14936.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:49 2025] INFO: Metrics within thresholds - memory: 55.2%, cpu: 58.0%, disk: 29.1%, uptime: 14936.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:22:59 2025] INFO: Collected metrics - memory: 54.9%, cpu: 49.0%, disk: 29.1%, uptime: 14946.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:59 2025] INFO: Metrics within thresholds - memory: 54.9%, cpu: 49.0%, disk: 29.1%, uptime: 14946.8 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:22:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:09 2025] INFO: Collected metrics - memory: 55.0%, cpu: 41.0%, disk: 29.1%, uptime: 14956.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:09 2025] INFO: Metrics within thresholds - memory: 55.0%, cpu: 41.0%, disk: 29.1%, uptime: 14956.8 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:19 2025] INFO: Collected metrics - memory: 55.1%, cpu: 35.0%, disk: 29.1%, uptime: 14966.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:19 2025] INFO: Metrics within thresholds - memory: 55.1%, cpu: 35.0%, disk: 29.1%, uptime: 14966.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:29 2025] INFO: Collected metrics - memory: 55.1%, cpu: 29.0%, disk: 29.1%, uptime: 14976.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:29 2025] INFO: Metrics within thresholds - memory: 55.1%, cpu: 29.0%, disk: 29.1%, uptime: 14976.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:39 2025] INFO: Collected metrics - memory: 54.7%, cpu: 25.0%, disk: 29.1%, uptime: 14986.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:39 2025] INFO: Metrics within thresholds - memory: 54.7%, cpu: 25.0%, disk: 29.1%, uptime: 14986.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:49 2025] INFO: Collected metrics - memory: 54.7%, cpu: 21.0%, disk: 29.1%, uptime: 14996.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:49 2025] INFO: Metrics within thresholds - memory: 54.7%, cpu: 21.0%, disk: 29.1%, uptime: 14996.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:23:59 2025] INFO: Collected metrics - memory: 54.7%, cpu: 18.0%, disk: 29.1%, uptime: 15006.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:59 2025] INFO: Metrics within thresholds - memory: 54.7%, cpu: 18.0%, disk: 29.1%, uptime: 15006.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:23:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:09 2025] INFO: Collected metrics - memory: 54.8%, cpu: 15.0%, disk: 29.1%, uptime: 15016.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:09 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 15.0%, disk: 29.1%, uptime: 15016.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:19 2025] INFO: Collected metrics - memory: 54.8%, cpu: 13.0%, disk: 29.1%, uptime: 15026.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:19 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 13.0%, disk: 29.1%, uptime: 15026.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:29 2025] INFO: Collected metrics - memory: 54.8%, cpu: 11.0%, disk: 29.1%, uptime: 15036.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:29 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 11.0%, disk: 29.1%, uptime: 15036.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:39 2025] INFO: Collected metrics - memory: 54.8%, cpu: 9.0%, disk: 29.1%, uptime: 15046.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:39 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 9.0%, disk: 29.1%, uptime: 15046.9 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:49 2025] INFO: Collected metrics - memory: 54.8%, cpu: 8.0%, disk: 29.1%, uptime: 15057.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:49 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 8.0%, disk: 29.1%, uptime: 15057.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:24:59 2025] INFO: Collected metrics - memory: 54.8%, cpu: 6.0%, disk: 29.1%, uptime: 15067.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:59 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 6.0%, disk: 29.1%, uptime: 15067.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:24:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:09 2025] INFO: Collected metrics - memory: 54.2%, cpu: 5.0%, disk: 29.1%, uptime: 15077.0 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:25:09 2025] INFO: Metrics within thresholds - memory: 54.2%, cpu: 5.0%, disk: 29.1%, uptime: 15077.0 seconds, net_interfaces: 10, processes: 266
+[Thu Jun 12 15:25:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:19 2025] INFO: Collected metrics - memory: 54.2%, cpu: 4.0%, disk: 29.1%, uptime: 15087.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:19 2025] INFO: Metrics within thresholds - memory: 54.2%, cpu: 4.0%, disk: 29.1%, uptime: 15087.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:29 2025] INFO: Collected metrics - memory: 54.5%, cpu: 4.0%, disk: 29.1%, uptime: 15097.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:29 2025] INFO: Metrics within thresholds - memory: 54.5%, cpu: 4.0%, disk: 29.1%, uptime: 15097.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:39 2025] INFO: Collected metrics - memory: 54.5%, cpu: 3.0%, disk: 29.1%, uptime: 15107.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:39 2025] INFO: Metrics within thresholds - memory: 54.5%, cpu: 3.0%, disk: 29.1%, uptime: 15107.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:49 2025] INFO: Collected metrics - memory: 54.5%, cpu: 3.0%, disk: 29.1%, uptime: 15117.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:49 2025] INFO: Metrics within thresholds - memory: 54.5%, cpu: 3.0%, disk: 29.1%, uptime: 15117.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:25:59 2025] INFO: Collected metrics - memory: 54.5%, cpu: 10.0%, disk: 29.1%, uptime: 15127.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:59 2025] INFO: Metrics within thresholds - memory: 54.5%, cpu: 10.0%, disk: 29.1%, uptime: 15127.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:25:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:09 2025] INFO: Collected metrics - memory: 54.5%, cpu: 16.0%, disk: 29.1%, uptime: 15137.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:26:09 2025] INFO: Metrics within thresholds - memory: 54.5%, cpu: 16.0%, disk: 29.1%, uptime: 15137.0 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:26:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:19 2025] INFO: Collected metrics - memory: 54.3%, cpu: 28.0%, disk: 29.1%, uptime: 15147.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:19 2025] INFO: Metrics within thresholds - memory: 54.3%, cpu: 28.0%, disk: 29.1%, uptime: 15147.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:29 2025] INFO: Collected metrics - memory: 54.3%, cpu: 32.0%, disk: 29.1%, uptime: 15157.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:29 2025] INFO: Metrics within thresholds - memory: 54.3%, cpu: 32.0%, disk: 29.1%, uptime: 15157.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:39 2025] INFO: Collected metrics - memory: 54.7%, cpu: 27.0%, disk: 29.1%, uptime: 15167.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:39 2025] INFO: Metrics within thresholds - memory: 54.7%, cpu: 27.0%, disk: 29.1%, uptime: 15167.0 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:26:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:49 2025] INFO: Collected metrics - memory: 54.8%, cpu: 23.0%, disk: 29.1%, uptime: 15177.1 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:26:49 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 23.0%, disk: 29.1%, uptime: 15177.1 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:26:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:26:59 2025] INFO: Collected metrics - memory: 54.8%, cpu: 27.0%, disk: 29.1%, uptime: 15187.1 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:26:59 2025] INFO: Metrics within thresholds - memory: 54.8%, cpu: 27.0%, disk: 29.1%, uptime: 15187.1 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:26:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:09 2025] INFO: Collected metrics - memory: 55.5%, cpu: 23.0%, disk: 29.1%, uptime: 15197.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:09 2025] INFO: Metrics within thresholds - memory: 55.5%, cpu: 23.0%, disk: 29.1%, uptime: 15197.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:19 2025] INFO: Collected metrics - memory: 55.1%, cpu: 28.0%, disk: 29.1%, uptime: 15207.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:19 2025] INFO: Metrics within thresholds - memory: 55.1%, cpu: 28.0%, disk: 29.1%, uptime: 15207.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:29 2025] INFO: Collected metrics - memory: 55.3%, cpu: 31.0%, disk: 29.1%, uptime: 15217.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:29 2025] INFO: Metrics within thresholds - memory: 55.3%, cpu: 31.0%, disk: 29.1%, uptime: 15217.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:39 2025] INFO: Collected metrics - memory: 56.2%, cpu: 34.0%, disk: 29.1%, uptime: 15227.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:39 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 34.0%, disk: 29.1%, uptime: 15227.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:49 2025] INFO: Collected metrics - memory: 56.1%, cpu: 37.0%, disk: 29.1%, uptime: 15237.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:49 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 37.0%, disk: 29.1%, uptime: 15237.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:27:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:27:59 2025] INFO: Collected metrics - memory: 55.8%, cpu: 31.0%, disk: 29.1%, uptime: 15247.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:59 2025] INFO: Metrics within thresholds - memory: 55.8%, cpu: 31.0%, disk: 29.1%, uptime: 15247.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:27:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:09 2025] INFO: Collected metrics - memory: 55.8%, cpu: 26.0%, disk: 29.1%, uptime: 15257.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:28:09 2025] INFO: Metrics within thresholds - memory: 55.8%, cpu: 26.0%, disk: 29.1%, uptime: 15257.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:28:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:19 2025] INFO: Collected metrics - memory: 55.8%, cpu: 22.0%, disk: 29.1%, uptime: 15267.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:28:19 2025] INFO: Metrics within thresholds - memory: 55.8%, cpu: 22.0%, disk: 29.1%, uptime: 15267.1 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:28:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:29 2025] INFO: Collected metrics - memory: 56.0%, cpu: 19.0%, disk: 29.1%, uptime: 15277.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:29 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 19.0%, disk: 29.1%, uptime: 15277.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:39 2025] INFO: Collected metrics - memory: 56.3%, cpu: 23.0%, disk: 29.1%, uptime: 15287.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:39 2025] INFO: Metrics within thresholds - memory: 56.3%, cpu: 23.0%, disk: 29.1%, uptime: 15287.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:49 2025] INFO: Collected metrics - memory: 56.1%, cpu: 19.0%, disk: 29.1%, uptime: 15297.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:49 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 19.0%, disk: 29.1%, uptime: 15297.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:28:59 2025] INFO: Collected metrics - memory: 56.0%, cpu: 16.0%, disk: 29.1%, uptime: 15307.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:59 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 16.0%, disk: 29.1%, uptime: 15307.1 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:28:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:09 2025] INFO: Collected metrics - memory: 56.1%, cpu: 14.0%, disk: 29.1%, uptime: 15317.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:09 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 14.0%, disk: 29.1%, uptime: 15317.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:19 2025] INFO: Collected metrics - memory: 56.0%, cpu: 12.0%, disk: 29.1%, uptime: 15327.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:19 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 12.0%, disk: 29.1%, uptime: 15327.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:29 2025] INFO: Collected metrics - memory: 56.0%, cpu: 10.0%, disk: 29.1%, uptime: 15337.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:29 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 10.0%, disk: 29.1%, uptime: 15337.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:39 2025] INFO: Collected metrics - memory: 56.2%, cpu: 8.0%, disk: 29.1%, uptime: 15347.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:39 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 8.0%, disk: 29.1%, uptime: 15347.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:49 2025] INFO: Collected metrics - memory: 56.2%, cpu: 7.0%, disk: 29.1%, uptime: 15357.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:49 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 7.0%, disk: 29.1%, uptime: 15357.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:29:59 2025] INFO: Collected metrics - memory: 55.9%, cpu: 6.0%, disk: 29.1%, uptime: 15367.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:59 2025] INFO: Metrics within thresholds - memory: 55.9%, cpu: 6.0%, disk: 29.1%, uptime: 15367.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:29:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:09 2025] INFO: Collected metrics - memory: 56.0%, cpu: 5.0%, disk: 29.1%, uptime: 15377.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:09 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 5.0%, disk: 29.1%, uptime: 15377.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:19 2025] INFO: Collected metrics - memory: 56.0%, cpu: 4.0%, disk: 29.1%, uptime: 15387.2 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:30:19 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 4.0%, disk: 29.1%, uptime: 15387.2 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:30:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:29 2025] INFO: Collected metrics - memory: 56.0%, cpu: 3.0%, disk: 29.1%, uptime: 15397.2 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:30:29 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 3.0%, disk: 29.1%, uptime: 15397.2 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:30:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:39 2025] INFO: Collected metrics - memory: 56.0%, cpu: 3.0%, disk: 29.1%, uptime: 15407.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:39 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 3.0%, disk: 29.1%, uptime: 15407.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:49 2025] INFO: Collected metrics - memory: 56.0%, cpu: 2.0%, disk: 29.1%, uptime: 15417.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:49 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 2.0%, disk: 29.1%, uptime: 15417.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:30:59 2025] INFO: Collected metrics - memory: 56.0%, cpu: 2.0%, disk: 29.1%, uptime: 15427.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:59 2025] INFO: Metrics within thresholds - memory: 56.0%, cpu: 2.0%, disk: 29.1%, uptime: 15427.2 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:30:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:09 2025] INFO: Collected metrics - memory: 56.5%, cpu: 26.0%, disk: 29.1%, uptime: 15437.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:09 2025] INFO: Metrics within thresholds - memory: 56.5%, cpu: 26.0%, disk: 29.1%, uptime: 15437.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:19 2025] INFO: Collected metrics - memory: 56.6%, cpu: 30.0%, disk: 29.1%, uptime: 15447.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:19 2025] INFO: Metrics within thresholds - memory: 56.6%, cpu: 30.0%, disk: 29.1%, uptime: 15447.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:29 2025] INFO: Collected metrics - memory: 56.3%, cpu: 25.0%, disk: 29.1%, uptime: 15457.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:29 2025] INFO: Metrics within thresholds - memory: 56.3%, cpu: 25.0%, disk: 29.1%, uptime: 15457.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:31:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:39 2025] INFO: Collected metrics - memory: 56.2%, cpu: 21.0%, disk: 29.1%, uptime: 15467.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:39 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 21.0%, disk: 29.1%, uptime: 15467.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:49 2025] INFO: Collected metrics - memory: 56.2%, cpu: 18.0%, disk: 29.1%, uptime: 15477.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:49 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 18.0%, disk: 29.1%, uptime: 15477.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:31:59 2025] INFO: Collected metrics - memory: 56.1%, cpu: 15.0%, disk: 29.1%, uptime: 15487.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:59 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 15.0%, disk: 29.1%, uptime: 15487.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:31:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:09 2025] INFO: Collected metrics - memory: 56.1%, cpu: 21.0%, disk: 29.1%, uptime: 15497.3 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:32:09 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 21.0%, disk: 29.1%, uptime: 15497.3 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:32:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:19 2025] INFO: Collected metrics - memory: 56.6%, cpu: 18.0%, disk: 29.1%, uptime: 15507.3 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:32:19 2025] INFO: Metrics within thresholds - memory: 56.6%, cpu: 18.0%, disk: 29.1%, uptime: 15507.3 seconds, net_interfaces: 10, processes: 260
+[Thu Jun 12 15:32:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:29 2025] INFO: Collected metrics - memory: 56.4%, cpu: 22.0%, disk: 29.1%, uptime: 15517.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:29 2025] INFO: Metrics within thresholds - memory: 56.4%, cpu: 22.0%, disk: 29.1%, uptime: 15517.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:39 2025] INFO: Collected metrics - memory: 56.4%, cpu: 34.0%, disk: 29.1%, uptime: 15527.3 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:32:39 2025] INFO: Metrics within thresholds - memory: 56.4%, cpu: 34.0%, disk: 29.1%, uptime: 15527.3 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:32:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:49 2025] INFO: Collected metrics - memory: 56.6%, cpu: 28.0%, disk: 29.1%, uptime: 15537.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:49 2025] INFO: Metrics within thresholds - memory: 56.6%, cpu: 28.0%, disk: 29.1%, uptime: 15537.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:32:59 2025] INFO: Collected metrics - memory: 56.7%, cpu: 53.0%, disk: 29.1%, uptime: 15547.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:59 2025] INFO: Metrics within thresholds - memory: 56.7%, cpu: 53.0%, disk: 29.1%, uptime: 15547.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:32:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:09 2025] INFO: Collected metrics - memory: 56.6%, cpu: 61.0%, disk: 29.1%, uptime: 15557.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:33:09 2025] INFO: Metrics within thresholds - memory: 56.6%, cpu: 61.0%, disk: 29.1%, uptime: 15557.3 seconds, net_interfaces: 10, processes: 261
+[Thu Jun 12 15:33:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:19 2025] INFO: Collected metrics - memory: 56.1%, cpu: 68.0%, disk: 29.1%, uptime: 15567.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:33:19 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 68.0%, disk: 29.1%, uptime: 15567.3 seconds, net_interfaces: 10, processes: 262
+[Thu Jun 12 15:33:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:29 2025] INFO: Collected metrics - memory: 56.5%, cpu: 57.0%, disk: 29.1%, uptime: 15577.3 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:29 2025] INFO: Metrics within thresholds - memory: 56.5%, cpu: 57.0%, disk: 29.1%, uptime: 15577.3 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:39 2025] INFO: Collected metrics - memory: 56.4%, cpu: 48.0%, disk: 29.1%, uptime: 15587.3 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:39 2025] INFO: Metrics within thresholds - memory: 56.4%, cpu: 48.0%, disk: 29.1%, uptime: 15587.3 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:49 2025] Detected config file change. Reloading...
+[Thu Jun 12 15:33:49 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 90.0, uptime: 86400.0, net_interfaces: 20, processes: 500
+[Thu Jun 12 15:33:49 2025] INFO: Collected metrics - memory: 56.7%, cpu: 41.0%, disk: 29.1%, uptime: 15597.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:49 2025] ALARM: Memory usage (56.7%) exceeds threshold (8.5%)
+[Thu Jun 12 15:33:49 2025] INFO: HTTP request succeeded
+[Thu Jun 12 15:33:49 2025] INFO: Alarm sent to Cloud Manager: Memory usage (56.7%) exceeds threshold (8.5%)
+[Thu Jun 12 15:33:49 2025] ALARM: Threshold breached! Metrics - memory: 56.7%, cpu: 41.0%, disk: 29.1%, uptime: 15597.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:33:59 2025] INFO: Collected metrics - memory: 55.5%, cpu: 43.0%, disk: 29.1%, uptime: 15607.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:59 2025] ALARM: Memory usage (55.5%) exceeds threshold (8.5%)
+[Thu Jun 12 15:33:59 2025] INFO: HTTP request succeeded
+[Thu Jun 12 15:33:59 2025] INFO: Alarm sent to Cloud Manager: Memory usage (55.5%) exceeds threshold (8.5%)
+[Thu Jun 12 15:33:59 2025] ALARM: Threshold breached! Metrics - memory: 55.5%, cpu: 43.0%, disk: 29.1%, uptime: 15607.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:33:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:09 2025] Detected config file change. Reloading...
+[Thu Jun 12 15:34:09 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 90.0, uptime: 86400.0, net_interfaces: 20, processes: 500
+[Thu Jun 12 15:34:09 2025] INFO: Collected metrics - memory: 55.9%, cpu: 36.0%, disk: 29.1%, uptime: 15617.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:09 2025] INFO: Metrics within thresholds - memory: 55.9%, cpu: 36.0%, disk: 29.1%, uptime: 15617.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:19 2025] INFO: Collected metrics - memory: 55.9%, cpu: 30.0%, disk: 29.1%, uptime: 15627.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:19 2025] INFO: Metrics within thresholds - memory: 55.9%, cpu: 30.0%, disk: 29.1%, uptime: 15627.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:29 2025] INFO: Collected metrics - memory: 56.7%, cpu: 57.0%, disk: 29.1%, uptime: 15637.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:29 2025] INFO: Metrics within thresholds - memory: 56.7%, cpu: 57.0%, disk: 29.1%, uptime: 15637.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:39 2025] INFO: Collected metrics - memory: 56.8%, cpu: 115.0%, disk: 29.1%, uptime: 15647.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:39 2025] INFO: Metrics within thresholds - memory: 56.8%, cpu: 115.0%, disk: 29.1%, uptime: 15647.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:34:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:49 2025] INFO: Collected metrics - memory: 56.2%, cpu: 104.0%, disk: 29.1%, uptime: 15657.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:49 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 104.0%, disk: 29.1%, uptime: 15657.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:49 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:34:59 2025] INFO: Collected metrics - memory: 56.2%, cpu: 88.0%, disk: 29.1%, uptime: 15667.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:59 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 88.0%, disk: 29.1%, uptime: 15667.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:34:59 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:35:09 2025] INFO: Collected metrics - memory: 56.4%, cpu: 75.0%, disk: 29.1%, uptime: 15677.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:35:09 2025] INFO: Metrics within thresholds - memory: 56.4%, cpu: 75.0%, disk: 29.1%, uptime: 15677.4 seconds, net_interfaces: 10, processes: 264
+[Thu Jun 12 15:35:09 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:35:19 2025] INFO: Collected metrics - memory: 56.2%, cpu: 63.0%, disk: 29.1%, uptime: 15687.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:19 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 63.0%, disk: 29.1%, uptime: 15687.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:19 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:35:29 2025] INFO: Collected metrics - memory: 56.2%, cpu: 53.0%, disk: 29.1%, uptime: 15697.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:29 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 53.0%, disk: 29.1%, uptime: 15697.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:29 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:35:39 2025] INFO: Collected metrics - memory: 56.1%, cpu: 45.0%, disk: 29.1%, uptime: 15707.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:39 2025] INFO: Metrics within thresholds - memory: 56.1%, cpu: 45.0%, disk: 29.1%, uptime: 15707.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:39 2025] INFO: Metrics sent and ACK received.
+[Thu Jun 12 15:35:49 2025] INFO: Collected metrics - memory: 56.2%, cpu: 38.0%, disk: 29.1%, uptime: 15717.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:49 2025] INFO: Metrics within thresholds - memory: 56.2%, cpu: 38.0%, disk: 29.1%, uptime: 15717.4 seconds, net_interfaces: 10, processes: 263
+[Thu Jun 12 15:35:49 2025] INFO: Metrics sent and ACK received.

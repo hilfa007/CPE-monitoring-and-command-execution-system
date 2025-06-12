@@ -307,3 +307,60 @@ cm  command_manager2.c	commandmanager_server.c  servercommand
 Output:
 /home/hilfa/main project/cpe-monitoring-and-command-execution/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
 
+
+[Thu Jun 12 15:02:31 2025] Command: ls
+Output:
+c   cmdm     command_manager2.c  commandmanager_server.c  servercommand
+cm  command  command_manager.c	 commands.log
+
+
+[Thu Jun 12 15:11:45 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:27:52 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
+
+[Thu Jun 12 15:27:56 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:27:58 2025] Command: hai
+Output:
+bash: line 1: hai: command not found
+
+
+[Thu Jun 12 15:28:14 2025] Command: who
+Output:
+swathy   tty2         2025-06-12 11:14 (tty2)
+
+
+[Thu Jun 12 15:28:20 2025] Command: who -q
+Output:
+swathy
+# users=1
+
+
+[Thu Jun 12 15:32:30 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
+
+[Thu Jun 12 15:32:34 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:32:40 2025] Command: sleep 10 
+Output:
+[1] 6973 (output redirected to /tmp/bg_6973.log)
+
+
+[Thu Jun 12 15:34:13 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
