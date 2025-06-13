@@ -364,3 +364,8 @@ Output:
 Output:
 c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
 
+
+[Fri Jun 13 06:13:33 2025] Command: ls
+Output:
+command  command_manager2.c  commands.log
+
