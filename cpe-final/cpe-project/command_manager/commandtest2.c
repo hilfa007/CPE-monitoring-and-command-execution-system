@@ -75,6 +75,7 @@ void *handle_client(void *arg) {
             close(client_socket);
             return NULL;
         }
+        
         command[bytes] = '\0';
         command[strcspn(command, "\n")] = '\0';
 
