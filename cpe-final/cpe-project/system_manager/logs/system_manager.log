@@ -27018,3 +27018,23 @@
 [Mon Jun 16 09:10:00 2025] ERROR: Failed to send metrics or no ACK received.
 [Mon Jun 16 09:10:10 2025] INFO: Collected metrics - memory: 67.8%, cpu: 0.2%, disk: 29.3%, uptime: 33715.4 seconds, net_interfaces: 10, processes: 277
 [Mon Jun 16 09:10:10 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:20:23 2025] INFO: Collected metrics - memory: 68.2%, cpu: 4.2%, disk: 29.3%, uptime: 34328.5 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 09:20:23 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:20:33 2025] INFO: Collected metrics - memory: 67.7%, cpu: 1.8%, disk: 29.3%, uptime: 34338.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 09:20:33 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:20:43 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.8%, disk: 29.3%, uptime: 34348.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:20:43 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:20:53 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.5%, disk: 29.3%, uptime: 34358.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:20:53 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:03 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.8%, disk: 29.3%, uptime: 34368.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:03 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:13 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.8%, disk: 29.3%, uptime: 34378.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:13 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:23 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.5%, disk: 29.3%, uptime: 34388.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:23 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:33 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.0%, disk: 29.3%, uptime: 34398.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:33 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:43 2025] INFO: Collected metrics - memory: 67.7%, cpu: 0.0%, disk: 29.3%, uptime: 34408.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:43 2025] ERROR: Failed to send metrics or no ACK received.
+[Mon Jun 16 09:21:53 2025] INFO: Collected metrics - memory: 67.7%, cpu: 3.9%, disk: 29.3%, uptime: 34418.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 09:21:53 2025] ERROR: Failed to send metrics or no ACK received.
