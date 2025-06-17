@@ -34866,4 +34866,843 @@
 [Mon Jun 16 17:18:27 2025] ERROR: Failed to send metrics or no ACK received.
 [Mon Jun 16 17:18:29 2025] INFO: Collected metrics - memory: 69.3%, cpu: 0.3%, disk: 29.3%, uptime: 63014.2 seconds, net_interfaces: 10, processes: 281
 [Mon Jun 16 17:18:29 2025] ERROR: Failed to send metrics or no ACK received.
-                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                     [Mon Jun 16 22:33:00 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Mon Jun 16 22:33:00 2025] System Manager started.
+[Mon Jun 16 22:33:10 2025] INFO: Collected metrics - memory: 63.2%, cpu: 5.7%, disk: 29.2%, uptime: 18830.7 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:33:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:33:20 2025] INFO: Collected metrics - memory: 63.6%, cpu: 11.9%, disk: 29.2%, uptime: 18840.8 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:33:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:33:30 2025] INFO: Collected metrics - memory: 63.8%, cpu: 6.0%, disk: 29.2%, uptime: 18850.9 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:33:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:33:40 2025] INFO: Collected metrics - memory: 63.8%, cpu: 9.1%, disk: 29.2%, uptime: 18861.1 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:33:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:33:51 2025] INFO: Collected metrics - memory: 63.8%, cpu: 12.7%, disk: 29.2%, uptime: 18871.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:33:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:01 2025] INFO: Collected metrics - memory: 63.5%, cpu: 10.2%, disk: 29.2%, uptime: 18881.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:11 2025] INFO: Collected metrics - memory: 63.4%, cpu: 12.2%, disk: 29.2%, uptime: 18891.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:21 2025] INFO: Collected metrics - memory: 63.5%, cpu: 6.2%, disk: 29.2%, uptime: 18901.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:31 2025] INFO: Collected metrics - memory: 63.5%, cpu: 3.0%, disk: 29.2%, uptime: 18911.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:41 2025] INFO: Collected metrics - memory: 63.5%, cpu: 6.2%, disk: 29.2%, uptime: 18921.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:34:51 2025] INFO: Collected metrics - memory: 63.5%, cpu: 7.3%, disk: 29.2%, uptime: 18931.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:34:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:01 2025] INFO: Collected metrics - memory: 63.5%, cpu: 10.1%, disk: 29.2%, uptime: 18942.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:35:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:11 2025] INFO: Collected metrics - memory: 63.7%, cpu: 8.1%, disk: 29.2%, uptime: 18952.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:35:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:22 2025] INFO: Collected metrics - memory: 63.4%, cpu: 7.2%, disk: 29.2%, uptime: 18962.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:35:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:32 2025] INFO: Collected metrics - memory: 63.1%, cpu: 7.0%, disk: 29.2%, uptime: 18972.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:35:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:42 2025] INFO: Collected metrics - memory: 63.0%, cpu: 7.3%, disk: 29.2%, uptime: 18982.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:35:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:35:52 2025] INFO: Collected metrics - memory: 63.1%, cpu: 6.1%, disk: 29.2%, uptime: 18992.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:35:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:02 2025] INFO: Collected metrics - memory: 63.1%, cpu: 9.9%, disk: 29.2%, uptime: 19002.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:36:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:12 2025] INFO: Collected metrics - memory: 63.1%, cpu: 9.3%, disk: 29.2%, uptime: 19012.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:36:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:22 2025] INFO: Collected metrics - memory: 63.1%, cpu: 8.5%, disk: 29.2%, uptime: 19022.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:36:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:32 2025] INFO: Collected metrics - memory: 63.0%, cpu: 7.3%, disk: 29.2%, uptime: 19032.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:36:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:42 2025] INFO: Collected metrics - memory: 63.6%, cpu: 2.4%, disk: 29.2%, uptime: 19043.0 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:36:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:36:52 2025] INFO: Collected metrics - memory: 63.1%, cpu: 2.4%, disk: 29.2%, uptime: 19053.0 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:36:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:02 2025] INFO: Collected metrics - memory: 63.1%, cpu: 3.3%, disk: 29.2%, uptime: 19063.0 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:12 2025] INFO: Collected metrics - memory: 63.2%, cpu: 13.0%, disk: 29.2%, uptime: 19073.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:23 2025] INFO: Collected metrics - memory: 63.0%, cpu: 5.2%, disk: 29.2%, uptime: 19083.2 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:33 2025] INFO: Collected metrics - memory: 63.0%, cpu: 11.6%, disk: 29.2%, uptime: 19093.3 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:43 2025] INFO: Collected metrics - memory: 63.0%, cpu: 8.0%, disk: 29.2%, uptime: 19103.3 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:37:53 2025] INFO: Collected metrics - memory: 63.0%, cpu: 11.7%, disk: 29.2%, uptime: 19113.4 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:37:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:03 2025] INFO: Collected metrics - memory: 63.2%, cpu: 13.8%, disk: 29.2%, uptime: 19123.5 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:13 2025] INFO: Collected metrics - memory: 63.2%, cpu: 5.2%, disk: 29.2%, uptime: 19133.6 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:23 2025] INFO: Collected metrics - memory: 63.2%, cpu: 4.1%, disk: 29.2%, uptime: 19143.7 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:33 2025] INFO: Collected metrics - memory: 63.4%, cpu: 3.8%, disk: 29.2%, uptime: 19153.8 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:43 2025] INFO: Collected metrics - memory: 63.4%, cpu: 2.4%, disk: 29.2%, uptime: 19163.8 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:38:53 2025] INFO: Collected metrics - memory: 63.3%, cpu: 7.1%, disk: 29.2%, uptime: 19173.8 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:38:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:03 2025] INFO: Collected metrics - memory: 63.3%, cpu: 8.4%, disk: 29.2%, uptime: 19183.9 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:39:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:13 2025] INFO: Collected metrics - memory: 63.4%, cpu: 1.8%, disk: 29.2%, uptime: 19194.0 seconds, net_interfaces: 10, processes: 262
+[Mon Jun 16 22:39:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:23 2025] INFO: Collected metrics - memory: 63.4%, cpu: 1.3%, disk: 29.2%, uptime: 19204.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:39:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:33 2025] INFO: Collected metrics - memory: 63.4%, cpu: 1.8%, disk: 29.2%, uptime: 19214.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:39:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:43 2025] INFO: Collected metrics - memory: 63.5%, cpu: 4.1%, disk: 29.2%, uptime: 19224.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:39:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:39:53 2025] INFO: Collected metrics - memory: 63.5%, cpu: 3.3%, disk: 29.2%, uptime: 19234.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:39:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:03 2025] INFO: Collected metrics - memory: 62.9%, cpu: 13.7%, disk: 29.2%, uptime: 19244.2 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:40:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:14 2025] INFO: Collected metrics - memory: 62.7%, cpu: 7.2%, disk: 29.2%, uptime: 19254.4 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:40:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:24 2025] INFO: Collected metrics - memory: 62.5%, cpu: 6.7%, disk: 29.2%, uptime: 19264.4 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:40:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:34 2025] INFO: Collected metrics - memory: 62.5%, cpu: 19.3%, disk: 29.2%, uptime: 19274.5 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 22:40:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:44 2025] INFO: Collected metrics - memory: 62.5%, cpu: 6.9%, disk: 29.2%, uptime: 19284.6 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:40:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:40:54 2025] INFO: Collected metrics - memory: 62.6%, cpu: 10.5%, disk: 29.2%, uptime: 19294.7 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 22:40:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:04 2025] INFO: Collected metrics - memory: 62.6%, cpu: 12.8%, disk: 29.2%, uptime: 19304.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:41:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:14 2025] INFO: Collected metrics - memory: 62.6%, cpu: 3.1%, disk: 29.2%, uptime: 19314.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:41:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:24 2025] INFO: Collected metrics - memory: 63.4%, cpu: 3.0%, disk: 29.2%, uptime: 19324.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:41:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:34 2025] INFO: Collected metrics - memory: 63.3%, cpu: 8.4%, disk: 29.2%, uptime: 19334.9 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:41:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:44 2025] INFO: Collected metrics - memory: 63.1%, cpu: 9.2%, disk: 29.2%, uptime: 19345.0 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:41:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:41:54 2025] INFO: Collected metrics - memory: 63.1%, cpu: 7.4%, disk: 29.2%, uptime: 19355.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:41:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:04 2025] INFO: Collected metrics - memory: 63.1%, cpu: 8.9%, disk: 29.2%, uptime: 19365.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:15 2025] INFO: Collected metrics - memory: 63.1%, cpu: 7.6%, disk: 29.2%, uptime: 19375.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:25 2025] INFO: Collected metrics - memory: 63.5%, cpu: 10.3%, disk: 29.2%, uptime: 19385.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:35 2025] INFO: Collected metrics - memory: 63.4%, cpu: 12.2%, disk: 29.2%, uptime: 19395.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:45 2025] INFO: Collected metrics - memory: 63.7%, cpu: 10.6%, disk: 29.2%, uptime: 19405.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:42:55 2025] INFO: Collected metrics - memory: 64.3%, cpu: 2.1%, disk: 29.2%, uptime: 19415.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:42:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:05 2025] INFO: Collected metrics - memory: 64.5%, cpu: 31.9%, disk: 29.2%, uptime: 19425.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:15 2025] INFO: Collected metrics - memory: 63.9%, cpu: 14.1%, disk: 29.2%, uptime: 19435.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:25 2025] INFO: Collected metrics - memory: 64.3%, cpu: 7.7%, disk: 29.2%, uptime: 19445.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:35 2025] INFO: Collected metrics - memory: 64.3%, cpu: 7.7%, disk: 29.2%, uptime: 19455.9 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:45 2025] INFO: Collected metrics - memory: 64.3%, cpu: 6.6%, disk: 29.2%, uptime: 19466.0 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:43:55 2025] INFO: Collected metrics - memory: 64.7%, cpu: 9.9%, disk: 29.2%, uptime: 19476.0 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:43:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:05 2025] INFO: Collected metrics - memory: 64.4%, cpu: 9.6%, disk: 29.2%, uptime: 19486.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:44:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:15 2025] INFO: Collected metrics - memory: 64.4%, cpu: 5.3%, disk: 29.2%, uptime: 19496.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:44:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:26 2025] INFO: Collected metrics - memory: 64.3%, cpu: 7.1%, disk: 29.2%, uptime: 19506.3 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:44:26 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:36 2025] INFO: Collected metrics - memory: 63.9%, cpu: 15.4%, disk: 29.2%, uptime: 19516.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:44:36 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:46 2025] INFO: Collected metrics - memory: 63.9%, cpu: 14.1%, disk: 29.2%, uptime: 19526.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:44:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:44:56 2025] INFO: Collected metrics - memory: 63.6%, cpu: 6.9%, disk: 29.2%, uptime: 19536.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:44:56 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:06 2025] INFO: Collected metrics - memory: 63.8%, cpu: 8.1%, disk: 29.2%, uptime: 19546.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:45:06 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:16 2025] INFO: Collected metrics - memory: 63.8%, cpu: 6.9%, disk: 29.2%, uptime: 19556.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:45:16 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:26 2025] INFO: Collected metrics - memory: 63.8%, cpu: 10.4%, disk: 29.2%, uptime: 19566.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:45:26 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:36 2025] INFO: Collected metrics - memory: 63.6%, cpu: 10.7%, disk: 29.2%, uptime: 19576.9 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:45:36 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:46 2025] INFO: Collected metrics - memory: 64.1%, cpu: 10.0%, disk: 29.2%, uptime: 19587.0 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:45:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:45:56 2025] INFO: Collected metrics - memory: 63.8%, cpu: 7.2%, disk: 29.2%, uptime: 19597.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:45:56 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:06 2025] INFO: Collected metrics - memory: 64.2%, cpu: 3.3%, disk: 29.2%, uptime: 19607.1 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:46:06 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:16 2025] INFO: Collected metrics - memory: 64.0%, cpu: 3.8%, disk: 29.2%, uptime: 19617.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:46:16 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:26 2025] INFO: Collected metrics - memory: 64.7%, cpu: 2.7%, disk: 29.2%, uptime: 19627.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:46:26 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:37 2025] INFO: Collected metrics - memory: 64.7%, cpu: 3.0%, disk: 29.2%, uptime: 19637.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:46:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:47 2025] INFO: Collected metrics - memory: 64.3%, cpu: 6.7%, disk: 29.2%, uptime: 19647.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:46:47 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:46:57 2025] INFO: Collected metrics - memory: 64.3%, cpu: 5.2%, disk: 29.2%, uptime: 19657.3 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:46:57 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:07 2025] INFO: Collected metrics - memory: 64.0%, cpu: 10.0%, disk: 29.2%, uptime: 19667.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:07 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:17 2025] INFO: Collected metrics - memory: 64.0%, cpu: 8.8%, disk: 29.2%, uptime: 19677.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:17 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:27 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.4%, disk: 29.2%, uptime: 19687.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:37 2025] INFO: Collected metrics - memory: 64.0%, cpu: 1.6%, disk: 29.2%, uptime: 19697.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:47 2025] INFO: Collected metrics - memory: 63.9%, cpu: 2.7%, disk: 29.2%, uptime: 19707.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:47 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:47:57 2025] INFO: Collected metrics - memory: 63.9%, cpu: 2.4%, disk: 29.2%, uptime: 19717.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:47:57 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:07 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.4%, disk: 29.2%, uptime: 19727.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:07 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:17 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.4%, disk: 29.2%, uptime: 19737.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:17 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:27 2025] INFO: Collected metrics - memory: 63.9%, cpu: 2.7%, disk: 29.2%, uptime: 19747.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:37 2025] INFO: Collected metrics - memory: 64.0%, cpu: 3.2%, disk: 29.2%, uptime: 19757.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:47 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.2%, disk: 29.2%, uptime: 19767.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:47 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:48:57 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.1%, disk: 29.2%, uptime: 19777.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:48:57 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:07 2025] INFO: Collected metrics - memory: 64.0%, cpu: 2.4%, disk: 29.2%, uptime: 19787.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:49:07 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:17 2025] INFO: Collected metrics - memory: 64.0%, cpu: 11.7%, disk: 29.2%, uptime: 19798.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:49:17 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:27 2025] INFO: Collected metrics - memory: 64.0%, cpu: 7.9%, disk: 29.2%, uptime: 19808.1 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:49:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:38 2025] INFO: Collected metrics - memory: 64.1%, cpu: 6.9%, disk: 29.2%, uptime: 19818.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:49:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:48 2025] INFO: Collected metrics - memory: 64.1%, cpu: 9.2%, disk: 29.2%, uptime: 19828.3 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:49:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:49:58 2025] INFO: Collected metrics - memory: 63.9%, cpu: 2.1%, disk: 29.2%, uptime: 19838.4 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:49:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:08 2025] INFO: Collected metrics - memory: 64.5%, cpu: 13.4%, disk: 29.2%, uptime: 19848.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:50:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:18 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.9%, disk: 29.2%, uptime: 19858.5 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:50:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:28 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.4%, disk: 29.2%, uptime: 19868.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:50:28 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:38 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.0%, disk: 29.2%, uptime: 19878.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:50:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:48 2025] INFO: Collected metrics - memory: 64.4%, cpu: 7.0%, disk: 29.2%, uptime: 19888.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:50:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:50:58 2025] INFO: Collected metrics - memory: 64.3%, cpu: 2.1%, disk: 29.2%, uptime: 19898.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:50:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:08 2025] INFO: Collected metrics - memory: 64.3%, cpu: 3.9%, disk: 29.2%, uptime: 19908.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:51:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:18 2025] INFO: Collected metrics - memory: 64.3%, cpu: 2.8%, disk: 29.2%, uptime: 19918.8 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:51:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:28 2025] INFO: Collected metrics - memory: 64.3%, cpu: 2.4%, disk: 29.2%, uptime: 19928.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 22:51:28 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:38 2025] INFO: Collected metrics - memory: 64.1%, cpu: 15.8%, disk: 29.2%, uptime: 19938.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 22:51:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:48 2025] INFO: Collected metrics - memory: 64.1%, cpu: 1.6%, disk: 29.2%, uptime: 19949.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:51:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:51:58 2025] INFO: Collected metrics - memory: 64.1%, cpu: 3.0%, disk: 29.2%, uptime: 19959.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:51:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:08 2025] INFO: Collected metrics - memory: 64.1%, cpu: 2.2%, disk: 29.2%, uptime: 19969.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:19 2025] INFO: Collected metrics - memory: 64.1%, cpu: 2.1%, disk: 29.2%, uptime: 19979.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:29 2025] INFO: Collected metrics - memory: 64.0%, cpu: 10.4%, disk: 29.2%, uptime: 19989.3 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:39 2025] INFO: Collected metrics - memory: 64.1%, cpu: 2.9%, disk: 29.2%, uptime: 19999.4 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:49 2025] INFO: Collected metrics - memory: 64.1%, cpu: 11.7%, disk: 29.2%, uptime: 20009.4 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:52:59 2025] INFO: Collected metrics - memory: 64.1%, cpu: 3.8%, disk: 29.2%, uptime: 20019.5 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:52:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:09 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.7%, disk: 29.2%, uptime: 20029.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:19 2025] INFO: Collected metrics - memory: 64.5%, cpu: 4.1%, disk: 29.2%, uptime: 20039.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:29 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.1%, disk: 29.2%, uptime: 20049.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:39 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.7%, disk: 29.2%, uptime: 20059.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:49 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.7%, disk: 29.2%, uptime: 20069.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:53:59 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.7%, disk: 29.2%, uptime: 20079.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:53:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:09 2025] INFO: Collected metrics - memory: 64.5%, cpu: 1.9%, disk: 29.2%, uptime: 20089.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:19 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.4%, disk: 29.2%, uptime: 20099.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:29 2025] INFO: Collected metrics - memory: 64.5%, cpu: 5.5%, disk: 29.2%, uptime: 20110.0 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:39 2025] INFO: Collected metrics - memory: 64.6%, cpu: 2.4%, disk: 29.2%, uptime: 20120.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:49 2025] INFO: Collected metrics - memory: 64.5%, cpu: 1.9%, disk: 29.2%, uptime: 20130.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:54:59 2025] INFO: Collected metrics - memory: 64.5%, cpu: 1.8%, disk: 29.2%, uptime: 20140.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:54:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:55:09 2025] INFO: Collected metrics - memory: 64.8%, cpu: 2.6%, disk: 29.2%, uptime: 20150.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:55:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:55:19 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.1%, disk: 29.2%, uptime: 20160.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:55:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:55:29 2025] INFO: Collected metrics - memory: 64.9%, cpu: 1.6%, disk: 29.2%, uptime: 20170.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:55:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:55:40 2025] INFO: Collected metrics - memory: 64.7%, cpu: 4.1%, disk: 29.2%, uptime: 20180.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:55:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:55:50 2025] INFO: Collected metrics - memory: 64.9%, cpu: 4.7%, disk: 29.2%, uptime: 20190.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:55:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:00 2025] INFO: Collected metrics - memory: 64.8%, cpu: 3.9%, disk: 29.2%, uptime: 20200.3 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:56:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:10 2025] INFO: Collected metrics - memory: 64.8%, cpu: 5.0%, disk: 29.2%, uptime: 20210.3 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:56:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:20 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.7%, disk: 29.2%, uptime: 20220.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:56:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:30 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.7%, disk: 29.2%, uptime: 20230.5 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:56:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:40 2025] INFO: Collected metrics - memory: 64.4%, cpu: 1.9%, disk: 29.2%, uptime: 20240.5 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:56:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:56:50 2025] INFO: Collected metrics - memory: 64.4%, cpu: 1.3%, disk: 29.2%, uptime: 20250.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:56:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:00 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.4%, disk: 29.2%, uptime: 20260.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:57:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:10 2025] INFO: Collected metrics - memory: 64.4%, cpu: 7.1%, disk: 29.2%, uptime: 20270.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:57:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:20 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.4%, disk: 29.2%, uptime: 20280.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:57:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:30 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.1%, disk: 29.2%, uptime: 20290.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:57:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:40 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.4%, disk: 29.2%, uptime: 20300.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:57:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:57:50 2025] INFO: Collected metrics - memory: 64.5%, cpu: 40.4%, disk: 29.2%, uptime: 20310.9 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 22:57:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:00 2025] INFO: Collected metrics - memory: 64.3%, cpu: 3.6%, disk: 29.2%, uptime: 20321.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:58:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:10 2025] INFO: Collected metrics - memory: 64.5%, cpu: 3.3%, disk: 29.2%, uptime: 20331.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:58:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:20 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.4%, disk: 29.2%, uptime: 20341.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:58:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:31 2025] INFO: Collected metrics - memory: 64.4%, cpu: 6.8%, disk: 29.2%, uptime: 20351.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:58:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:41 2025] INFO: Collected metrics - memory: 64.4%, cpu: 2.4%, disk: 29.2%, uptime: 20361.3 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:58:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:58:51 2025] INFO: Collected metrics - memory: 64.5%, cpu: 2.6%, disk: 29.2%, uptime: 20371.3 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 22:58:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:01 2025] INFO: Collected metrics - memory: 64.7%, cpu: 2.7%, disk: 29.2%, uptime: 20381.3 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 22:59:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:11 2025] INFO: Collected metrics - memory: 64.7%, cpu: 1.6%, disk: 29.2%, uptime: 20391.5 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 22:59:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:21 2025] INFO: Collected metrics - memory: 65.3%, cpu: 2.1%, disk: 29.2%, uptime: 20401.5 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 22:59:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:31 2025] INFO: Collected metrics - memory: 65.3%, cpu: 3.5%, disk: 29.2%, uptime: 20411.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 22:59:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:41 2025] INFO: Collected metrics - memory: 65.2%, cpu: 1.6%, disk: 29.2%, uptime: 20421.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:59:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 22:59:51 2025] INFO: Collected metrics - memory: 65.1%, cpu: 2.7%, disk: 29.2%, uptime: 20432.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 22:59:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:01 2025] INFO: Collected metrics - memory: 65.1%, cpu: 3.8%, disk: 29.2%, uptime: 20442.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:00:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:11 2025] INFO: Collected metrics - memory: 64.9%, cpu: 3.2%, disk: 29.2%, uptime: 20452.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:00:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:21 2025] INFO: Collected metrics - memory: 65.0%, cpu: 3.9%, disk: 29.2%, uptime: 20462.1 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:00:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:31 2025] INFO: Collected metrics - memory: 65.0%, cpu: 3.3%, disk: 29.2%, uptime: 20472.1 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:00:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:41 2025] INFO: Collected metrics - memory: 64.9%, cpu: 3.2%, disk: 29.2%, uptime: 20482.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:00:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:00:52 2025] INFO: Collected metrics - memory: 64.9%, cpu: 11.5%, disk: 29.2%, uptime: 20492.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:00:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:02 2025] INFO: Collected metrics - memory: 64.9%, cpu: 4.1%, disk: 29.2%, uptime: 20502.5 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:01:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:12 2025] INFO: Collected metrics - memory: 64.9%, cpu: 2.1%, disk: 29.2%, uptime: 20512.5 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:01:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:22 2025] INFO: Collected metrics - memory: 64.9%, cpu: 2.3%, disk: 29.2%, uptime: 20522.6 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:01:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:32 2025] INFO: Collected metrics - memory: 64.9%, cpu: 5.3%, disk: 29.2%, uptime: 20532.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:01:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:42 2025] INFO: Collected metrics - memory: 65.0%, cpu: 1.9%, disk: 29.2%, uptime: 20542.7 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:01:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:01:52 2025] INFO: Collected metrics - memory: 65.1%, cpu: 18.3%, disk: 29.2%, uptime: 20552.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:01:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:01 2025] Detected config file change. Reloading...
+[Mon Jun 16 23:02:01 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Mon Jun 16 23:02:01 2025] ALARM: Memory usage (65.6%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:01 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:01 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.6%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:01 2025] ALARM: Threshold breached! Metrics - memory: 65.6%, cpu: 15.7%, disk: 29.2%, uptime: 20561.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:02 2025] ALARM: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:02 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:02 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:02 2025] ALARM: Threshold breached! Metrics - memory: 65.5%, cpu: 13.4%, disk: 29.2%, uptime: 20562.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:02 2025] INFO: Collected metrics - memory: 65.5%, cpu: 13.4%, disk: 29.2%, uptime: 20562.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:03 2025] ALARM: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:03 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:03 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:03 2025] ALARM: Threshold breached! Metrics - memory: 65.5%, cpu: 5.0%, disk: 29.2%, uptime: 20563.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:04 2025] ALARM: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:04 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:04 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:04 2025] ALARM: Threshold breached! Metrics - memory: 65.5%, cpu: 8.3%, disk: 29.2%, uptime: 20564.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:05 2025] ALARM: Memory usage (65.3%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:05 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:05 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.3%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:05 2025] ALARM: Threshold breached! Metrics - memory: 65.3%, cpu: 20.5%, disk: 29.2%, uptime: 20565.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:06 2025] ALARM: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:06 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Mon Jun 16 23:02:06 2025] INFO: Alarm sent to Cloud Manager: Memory usage (65.5%) exceeds threshold (8.5%)
+[Mon Jun 16 23:02:06 2025] ALARM: Threshold breached! Metrics - memory: 65.5%, cpu: 13.0%, disk: 29.2%, uptime: 20566.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:07 2025] Detected config file change. Reloading...
+[Mon Jun 16 23:02:07 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Mon Jun 16 23:02:12 2025] INFO: Collected metrics - memory: 65.5%, cpu: 3.7%, disk: 29.2%, uptime: 20572.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:22 2025] INFO: Collected metrics - memory: 64.9%, cpu: 2.1%, disk: 29.2%, uptime: 20582.8 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:32 2025] INFO: Collected metrics - memory: 65.3%, cpu: 4.4%, disk: 29.2%, uptime: 20592.9 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:42 2025] INFO: Collected metrics - memory: 65.2%, cpu: 3.0%, disk: 29.2%, uptime: 20603.0 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:02:52 2025] INFO: Collected metrics - memory: 65.3%, cpu: 2.2%, disk: 29.2%, uptime: 20613.0 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:02:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:02 2025] INFO: Collected metrics - memory: 65.5%, cpu: 2.9%, disk: 29.2%, uptime: 20623.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:03:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:12 2025] INFO: Collected metrics - memory: 65.5%, cpu: 1.6%, disk: 29.2%, uptime: 20633.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:03:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:22 2025] INFO: Collected metrics - memory: 65.4%, cpu: 1.8%, disk: 29.2%, uptime: 20643.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:03:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:33 2025] INFO: Collected metrics - memory: 64.9%, cpu: 1.3%, disk: 29.2%, uptime: 20653.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:03:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:43 2025] INFO: Collected metrics - memory: 65.0%, cpu: 3.2%, disk: 29.2%, uptime: 20663.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:03:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:03:53 2025] INFO: Collected metrics - memory: 65.0%, cpu: 2.7%, disk: 29.2%, uptime: 20673.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:03:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:03 2025] INFO: Collected metrics - memory: 65.0%, cpu: 4.1%, disk: 29.2%, uptime: 20683.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:13 2025] INFO: Collected metrics - memory: 65.0%, cpu: 3.2%, disk: 29.2%, uptime: 20693.5 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:23 2025] INFO: Collected metrics - memory: 65.0%, cpu: 2.7%, disk: 29.2%, uptime: 20703.5 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:33 2025] INFO: Collected metrics - memory: 65.0%, cpu: 2.2%, disk: 29.2%, uptime: 20713.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:43 2025] INFO: Collected metrics - memory: 65.0%, cpu: 2.4%, disk: 29.2%, uptime: 20723.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:04:53 2025] INFO: Collected metrics - memory: 65.0%, cpu: 1.3%, disk: 29.2%, uptime: 20733.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:04:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:03 2025] INFO: Collected metrics - memory: 65.1%, cpu: 1.3%, disk: 29.2%, uptime: 20743.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:05:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:13 2025] INFO: Collected metrics - memory: 66.2%, cpu: 26.2%, disk: 29.2%, uptime: 20753.7 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:05:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:23 2025] INFO: Collected metrics - memory: 66.2%, cpu: 5.8%, disk: 29.2%, uptime: 20763.7 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:05:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:33 2025] INFO: Collected metrics - memory: 66.6%, cpu: 21.9%, disk: 29.2%, uptime: 20773.7 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:05:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:43 2025] INFO: Collected metrics - memory: 66.1%, cpu: 5.2%, disk: 29.2%, uptime: 20783.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:05:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:05:53 2025] INFO: Collected metrics - memory: 65.9%, cpu: 1.6%, disk: 29.2%, uptime: 20793.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:05:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:03 2025] INFO: Collected metrics - memory: 66.0%, cpu: 5.4%, disk: 29.2%, uptime: 20803.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:06:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:13 2025] INFO: Collected metrics - memory: 65.9%, cpu: 1.9%, disk: 29.2%, uptime: 20813.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:06:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:23 2025] INFO: Collected metrics - memory: 65.9%, cpu: 3.5%, disk: 29.2%, uptime: 20823.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:06:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:33 2025] INFO: Collected metrics - memory: 65.9%, cpu: 2.7%, disk: 29.2%, uptime: 20833.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:06:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:43 2025] INFO: Collected metrics - memory: 65.9%, cpu: 3.5%, disk: 29.2%, uptime: 20844.0 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:06:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:06:53 2025] INFO: Collected metrics - memory: 65.6%, cpu: 1.6%, disk: 29.2%, uptime: 20854.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:06:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:04 2025] INFO: Collected metrics - memory: 65.8%, cpu: 2.6%, disk: 29.2%, uptime: 20864.4 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:07:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:14 2025] INFO: Collected metrics - memory: 65.9%, cpu: 1.8%, disk: 29.2%, uptime: 20874.4 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:07:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:24 2025] INFO: Collected metrics - memory: 65.8%, cpu: 3.8%, disk: 29.2%, uptime: 20884.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:07:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:34 2025] INFO: Collected metrics - memory: 65.9%, cpu: 2.3%, disk: 29.2%, uptime: 20894.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:07:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:44 2025] INFO: Collected metrics - memory: 65.9%, cpu: 2.9%, disk: 29.2%, uptime: 20904.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:07:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:07:54 2025] INFO: Collected metrics - memory: 65.9%, cpu: 1.6%, disk: 29.2%, uptime: 20914.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:07:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:04 2025] INFO: Collected metrics - memory: 66.1%, cpu: 1.3%, disk: 29.2%, uptime: 20924.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:08:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:14 2025] INFO: Collected metrics - memory: 67.2%, cpu: 72.0%, disk: 29.2%, uptime: 20934.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:08:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:24 2025] INFO: Collected metrics - memory: 66.8%, cpu: 4.7%, disk: 29.2%, uptime: 20944.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:08:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:34 2025] INFO: Collected metrics - memory: 66.7%, cpu: 5.8%, disk: 29.2%, uptime: 20954.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:08:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:44 2025] INFO: Collected metrics - memory: 66.7%, cpu: 6.3%, disk: 29.2%, uptime: 20964.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:08:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:08:54 2025] INFO: Collected metrics - memory: 66.7%, cpu: 7.2%, disk: 29.2%, uptime: 20974.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:08:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:04 2025] INFO: Collected metrics - memory: 66.7%, cpu: 8.0%, disk: 29.2%, uptime: 20984.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:09:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:14 2025] INFO: Collected metrics - memory: 66.5%, cpu: 3.0%, disk: 29.2%, uptime: 20995.0 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:09:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:24 2025] INFO: Collected metrics - memory: 66.8%, cpu: 38.6%, disk: 29.2%, uptime: 21005.0 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:09:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:34 2025] INFO: Collected metrics - memory: 66.8%, cpu: 35.0%, disk: 29.2%, uptime: 21015.0 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:09:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:44 2025] INFO: Collected metrics - memory: 67.6%, cpu: 9.3%, disk: 29.2%, uptime: 21025.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:09:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:09:54 2025] INFO: Collected metrics - memory: 67.3%, cpu: 12.7%, disk: 29.2%, uptime: 21035.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:09:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:04 2025] INFO: Collected metrics - memory: 67.6%, cpu: 8.5%, disk: 29.2%, uptime: 21045.1 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:10:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:14 2025] INFO: Collected metrics - memory: 67.8%, cpu: 8.4%, disk: 29.2%, uptime: 21055.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:10:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:24 2025] INFO: Collected metrics - memory: 67.6%, cpu: 23.8%, disk: 29.2%, uptime: 21065.2 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:10:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:35 2025] INFO: Collected metrics - memory: 67.6%, cpu: 1.3%, disk: 29.2%, uptime: 21075.2 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:10:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:45 2025] INFO: Collected metrics - memory: 67.2%, cpu: 1.3%, disk: 29.2%, uptime: 21085.3 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:10:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:10:55 2025] INFO: Collected metrics - memory: 67.3%, cpu: 4.0%, disk: 29.2%, uptime: 21095.3 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:10:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:05 2025] INFO: Collected metrics - memory: 67.3%, cpu: 2.6%, disk: 29.2%, uptime: 21105.4 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:11:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:15 2025] INFO: Collected metrics - memory: 67.7%, cpu: 4.3%, disk: 29.2%, uptime: 21115.4 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:11:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:25 2025] INFO: Collected metrics - memory: 67.4%, cpu: 3.5%, disk: 29.2%, uptime: 21125.5 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:11:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:35 2025] INFO: Collected metrics - memory: 67.3%, cpu: 8.4%, disk: 29.2%, uptime: 21135.6 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:11:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:45 2025] INFO: Collected metrics - memory: 66.9%, cpu: 9.4%, disk: 29.2%, uptime: 21145.7 seconds, net_interfaces: 10, processes: 262
+[Mon Jun 16 23:11:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:11:55 2025] INFO: Collected metrics - memory: 66.9%, cpu: 13.9%, disk: 29.2%, uptime: 21155.8 seconds, net_interfaces: 10, processes: 262
+[Mon Jun 16 23:11:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:05 2025] INFO: Collected metrics - memory: 67.3%, cpu: 19.5%, disk: 29.2%, uptime: 21165.8 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:12:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:15 2025] INFO: Collected metrics - memory: 67.6%, cpu: 15.9%, disk: 29.2%, uptime: 21175.9 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:12:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:25 2025] INFO: Collected metrics - memory: 67.0%, cpu: 2.9%, disk: 29.2%, uptime: 21186.0 seconds, net_interfaces: 10, processes: 261
+[Mon Jun 16 23:12:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:35 2025] INFO: Collected metrics - memory: 67.0%, cpu: 3.8%, disk: 29.2%, uptime: 21196.1 seconds, net_interfaces: 10, processes: 261
+[Mon Jun 16 23:12:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:46 2025] INFO: Collected metrics - memory: 67.1%, cpu: 6.6%, disk: 29.2%, uptime: 21206.2 seconds, net_interfaces: 10, processes: 261
+[Mon Jun 16 23:12:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:12:56 2025] INFO: Collected metrics - memory: 67.1%, cpu: 12.9%, disk: 29.2%, uptime: 21216.3 seconds, net_interfaces: 10, processes: 261
+[Mon Jun 16 23:12:56 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:06 2025] INFO: Collected metrics - memory: 67.0%, cpu: 3.2%, disk: 29.2%, uptime: 21226.3 seconds, net_interfaces: 10, processes: 262
+[Mon Jun 16 23:13:06 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:16 2025] INFO: Collected metrics - memory: 67.1%, cpu: 5.1%, disk: 29.2%, uptime: 21236.5 seconds, net_interfaces: 10, processes: 262
+[Mon Jun 16 23:13:16 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:26 2025] INFO: Collected metrics - memory: 67.0%, cpu: 15.3%, disk: 29.2%, uptime: 21246.6 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:13:26 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:36 2025] INFO: Collected metrics - memory: 67.0%, cpu: 17.3%, disk: 29.2%, uptime: 21256.8 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:13:36 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:46 2025] INFO: Collected metrics - memory: 67.0%, cpu: 12.6%, disk: 29.2%, uptime: 21267.1 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:13:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:13:57 2025] INFO: Collected metrics - memory: 67.0%, cpu: 16.0%, disk: 29.2%, uptime: 21277.2 seconds, net_interfaces: 10, processes: 263
+[Mon Jun 16 23:13:57 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:07 2025] INFO: Collected metrics - memory: 67.0%, cpu: 19.4%, disk: 29.2%, uptime: 21287.3 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:14:07 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:17 2025] INFO: Collected metrics - memory: 66.9%, cpu: 7.1%, disk: 29.2%, uptime: 21297.5 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:14:17 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:27 2025] INFO: Collected metrics - memory: 66.9%, cpu: 9.1%, disk: 29.2%, uptime: 21307.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:14:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:37 2025] INFO: Collected metrics - memory: 66.9%, cpu: 11.0%, disk: 29.2%, uptime: 21317.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:14:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:47 2025] INFO: Collected metrics - memory: 66.9%, cpu: 17.2%, disk: 29.2%, uptime: 21327.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:14:47 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:14:57 2025] INFO: Collected metrics - memory: 66.9%, cpu: 11.7%, disk: 29.2%, uptime: 21337.9 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:14:57 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:07 2025] INFO: Collected metrics - memory: 67.1%, cpu: 7.2%, disk: 29.2%, uptime: 21348.0 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:15:07 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:17 2025] INFO: Collected metrics - memory: 67.1%, cpu: 5.1%, disk: 29.2%, uptime: 21358.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:15:17 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:27 2025] INFO: Collected metrics - memory: 67.0%, cpu: 9.8%, disk: 29.2%, uptime: 21368.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:15:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:37 2025] INFO: Collected metrics - memory: 66.9%, cpu: 2.7%, disk: 29.2%, uptime: 21378.2 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:15:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:48 2025] INFO: Collected metrics - memory: 66.9%, cpu: 3.0%, disk: 29.2%, uptime: 21388.2 seconds, net_interfaces: 10, processes: 270
+[Mon Jun 16 23:15:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:15:58 2025] INFO: Collected metrics - memory: 66.9%, cpu: 1.8%, disk: 29.2%, uptime: 21398.4 seconds, net_interfaces: 10, processes: 270
+[Mon Jun 16 23:15:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:08 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.7%, disk: 29.2%, uptime: 21408.4 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:16:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:18 2025] INFO: Collected metrics - memory: 67.5%, cpu: 3.7%, disk: 29.2%, uptime: 21418.4 seconds, net_interfaces: 10, processes: 270
+[Mon Jun 16 23:16:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:28 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.3%, disk: 29.2%, uptime: 21428.6 seconds, net_interfaces: 10, processes: 271
+[Mon Jun 16 23:16:28 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:38 2025] INFO: Collected metrics - memory: 67.0%, cpu: 1.9%, disk: 29.2%, uptime: 21438.6 seconds, net_interfaces: 10, processes: 271
+[Mon Jun 16 23:16:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:48 2025] INFO: Collected metrics - memory: 67.1%, cpu: 1.6%, disk: 29.2%, uptime: 21448.6 seconds, net_interfaces: 10, processes: 271
+[Mon Jun 16 23:16:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:16:58 2025] INFO: Collected metrics - memory: 67.1%, cpu: 3.2%, disk: 29.2%, uptime: 21458.7 seconds, net_interfaces: 10, processes: 272
+[Mon Jun 16 23:16:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:08 2025] INFO: Collected metrics - memory: 67.2%, cpu: 4.7%, disk: 29.2%, uptime: 21468.8 seconds, net_interfaces: 10, processes: 271
+[Mon Jun 16 23:17:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:18 2025] INFO: Collected metrics - memory: 67.6%, cpu: 2.1%, disk: 29.2%, uptime: 21478.8 seconds, net_interfaces: 10, processes: 272
+[Mon Jun 16 23:17:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:28 2025] INFO: Collected metrics - memory: 67.5%, cpu: 4.5%, disk: 29.2%, uptime: 21488.8 seconds, net_interfaces: 10, processes: 273
+[Mon Jun 16 23:17:28 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:38 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.1%, disk: 29.2%, uptime: 21498.9 seconds, net_interfaces: 10, processes: 274
+[Mon Jun 16 23:17:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:48 2025] INFO: Collected metrics - memory: 67.6%, cpu: 4.1%, disk: 29.2%, uptime: 21508.9 seconds, net_interfaces: 10, processes: 275
+[Mon Jun 16 23:17:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:17:58 2025] INFO: Collected metrics - memory: 67.1%, cpu: 2.1%, disk: 29.2%, uptime: 21519.0 seconds, net_interfaces: 10, processes: 275
+[Mon Jun 16 23:17:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:08 2025] INFO: Collected metrics - memory: 67.3%, cpu: 18.7%, disk: 29.2%, uptime: 21529.0 seconds, net_interfaces: 10, processes: 276
+[Mon Jun 16 23:18:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:18 2025] INFO: Collected metrics - memory: 67.4%, cpu: 8.4%, disk: 29.2%, uptime: 21539.0 seconds, net_interfaces: 10, processes: 275
+[Mon Jun 16 23:18:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:28 2025] INFO: Collected metrics - memory: 67.6%, cpu: 6.5%, disk: 29.2%, uptime: 21549.0 seconds, net_interfaces: 10, processes: 276
+[Mon Jun 16 23:18:28 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:38 2025] INFO: Collected metrics - memory: 67.6%, cpu: 2.5%, disk: 29.2%, uptime: 21559.1 seconds, net_interfaces: 10, processes: 277
+[Mon Jun 16 23:18:38 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:48 2025] INFO: Collected metrics - memory: 67.7%, cpu: 1.3%, disk: 29.2%, uptime: 21569.1 seconds, net_interfaces: 10, processes: 276
+[Mon Jun 16 23:18:48 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:18:58 2025] INFO: Collected metrics - memory: 68.1%, cpu: 1.3%, disk: 29.2%, uptime: 21579.1 seconds, net_interfaces: 10, processes: 279
+[Mon Jun 16 23:18:58 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:08 2025] INFO: Collected metrics - memory: 68.1%, cpu: 1.6%, disk: 29.2%, uptime: 21589.1 seconds, net_interfaces: 10, processes: 279
+[Mon Jun 16 23:19:08 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:18 2025] INFO: Collected metrics - memory: 68.5%, cpu: 8.4%, disk: 29.2%, uptime: 21599.2 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:19:18 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:29 2025] INFO: Collected metrics - memory: 68.2%, cpu: 4.4%, disk: 29.2%, uptime: 21609.3 seconds, net_interfaces: 10, processes: 278
+[Mon Jun 16 23:19:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:39 2025] INFO: Collected metrics - memory: 68.6%, cpu: 10.4%, disk: 29.2%, uptime: 21619.3 seconds, net_interfaces: 10, processes: 280
+[Mon Jun 16 23:19:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:49 2025] INFO: Collected metrics - memory: 68.6%, cpu: 2.2%, disk: 29.2%, uptime: 21629.4 seconds, net_interfaces: 10, processes: 280
+[Mon Jun 16 23:19:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:19:59 2025] INFO: Collected metrics - memory: 68.6%, cpu: 1.1%, disk: 29.2%, uptime: 21639.4 seconds, net_interfaces: 10, processes: 280
+[Mon Jun 16 23:19:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:09 2025] INFO: Collected metrics - memory: 68.7%, cpu: 3.5%, disk: 29.2%, uptime: 21649.4 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:20:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:19 2025] INFO: Collected metrics - memory: 66.7%, cpu: 1.6%, disk: 29.2%, uptime: 21659.5 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:20:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:29 2025] INFO: Collected metrics - memory: 66.6%, cpu: 3.0%, disk: 29.2%, uptime: 21669.5 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:20:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:39 2025] INFO: Collected metrics - memory: 66.6%, cpu: 1.1%, disk: 29.2%, uptime: 21679.5 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:20:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:49 2025] INFO: Collected metrics - memory: 66.6%, cpu: 5.0%, disk: 29.2%, uptime: 21689.5 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:20:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:20:59 2025] INFO: Collected metrics - memory: 66.8%, cpu: 1.9%, disk: 29.2%, uptime: 21699.7 seconds, net_interfaces: 10, processes: 281
+[Mon Jun 16 23:20:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:09 2025] INFO: Collected metrics - memory: 66.8%, cpu: 22.3%, disk: 29.2%, uptime: 21709.8 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:21:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:19 2025] INFO: Collected metrics - memory: 66.6%, cpu: 2.2%, disk: 29.2%, uptime: 21719.8 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:21:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:29 2025] INFO: Collected metrics - memory: 66.6%, cpu: 2.2%, disk: 29.2%, uptime: 21729.9 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:21:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:39 2025] INFO: Collected metrics - memory: 66.8%, cpu: 25.1%, disk: 29.2%, uptime: 21739.9 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:21:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:49 2025] INFO: Collected metrics - memory: 66.7%, cpu: 4.1%, disk: 29.2%, uptime: 21749.9 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:21:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:21:59 2025] INFO: Collected metrics - memory: 67.4%, cpu: 4.7%, disk: 29.2%, uptime: 21760.0 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:21:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:09 2025] INFO: Collected metrics - memory: 67.3%, cpu: 1.9%, disk: 29.2%, uptime: 21770.0 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:22:09 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:19 2025] INFO: Collected metrics - memory: 67.3%, cpu: 3.9%, disk: 29.2%, uptime: 21780.0 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:22:19 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:29 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.9%, disk: 29.2%, uptime: 21790.1 seconds, net_interfaces: 10, processes: 282
+[Mon Jun 16 23:22:29 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:39 2025] INFO: Collected metrics - memory: 67.4%, cpu: 2.2%, disk: 29.2%, uptime: 21800.1 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:22:39 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:49 2025] INFO: Collected metrics - memory: 67.4%, cpu: 3.9%, disk: 29.2%, uptime: 21810.1 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:22:49 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:22:59 2025] INFO: Collected metrics - memory: 67.3%, cpu: 1.1%, disk: 29.2%, uptime: 21820.2 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:22:59 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:23:10 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.2%, disk: 29.2%, uptime: 21830.2 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:23:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:23:20 2025] INFO: Collected metrics - memory: 67.5%, cpu: 1.9%, disk: 29.2%, uptime: 21840.3 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:23:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:23:30 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.5%, disk: 29.2%, uptime: 21850.3 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:23:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:23:40 2025] INFO: Collected metrics - memory: 67.5%, cpu: 3.0%, disk: 29.2%, uptime: 21860.4 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:23:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:23:50 2025] INFO: Collected metrics - memory: 67.5%, cpu: 1.8%, disk: 29.2%, uptime: 21870.4 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:23:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:00 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.2%, disk: 29.2%, uptime: 21880.5 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:24:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:10 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.4%, disk: 29.2%, uptime: 21890.5 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:24:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:20 2025] INFO: Collected metrics - memory: 67.5%, cpu: 13.2%, disk: 29.2%, uptime: 21900.6 seconds, net_interfaces: 10, processes: 283
+[Mon Jun 16 23:24:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:30 2025] INFO: Collected metrics - memory: 67.3%, cpu: 16.3%, disk: 29.2%, uptime: 21910.6 seconds, net_interfaces: 10, processes: 279
+[Mon Jun 16 23:24:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:40 2025] INFO: Collected metrics - memory: 66.9%, cpu: 8.0%, disk: 29.2%, uptime: 21920.6 seconds, net_interfaces: 10, processes: 274
+[Mon Jun 16 23:24:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:24:50 2025] INFO: Collected metrics - memory: 66.9%, cpu: 12.6%, disk: 29.2%, uptime: 21930.7 seconds, net_interfaces: 10, processes: 271
+[Mon Jun 16 23:24:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:00 2025] INFO: Collected metrics - memory: 66.5%, cpu: 2.1%, disk: 29.2%, uptime: 21940.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:25:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:10 2025] INFO: Collected metrics - memory: 66.9%, cpu: 1.9%, disk: 29.2%, uptime: 21950.8 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:25:10 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:20 2025] INFO: Collected metrics - memory: 66.9%, cpu: 1.3%, disk: 29.2%, uptime: 21960.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:25:20 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:30 2025] INFO: Collected metrics - memory: 67.6%, cpu: 4.3%, disk: 29.2%, uptime: 21970.8 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:25:30 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:40 2025] INFO: Collected metrics - memory: 67.4%, cpu: 15.3%, disk: 29.2%, uptime: 21980.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:25:40 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:25:50 2025] INFO: Collected metrics - memory: 67.3%, cpu: 16.7%, disk: 29.2%, uptime: 21991.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:25:50 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:00 2025] INFO: Collected metrics - memory: 67.7%, cpu: 20.7%, disk: 29.2%, uptime: 22001.2 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:26:00 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:11 2025] INFO: Collected metrics - memory: 67.5%, cpu: 9.1%, disk: 29.2%, uptime: 22011.2 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:26:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:21 2025] INFO: Collected metrics - memory: 67.6%, cpu: 11.8%, disk: 29.2%, uptime: 22021.3 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:26:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:31 2025] INFO: Collected metrics - memory: 67.7%, cpu: 13.2%, disk: 29.2%, uptime: 22031.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:26:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:41 2025] INFO: Collected metrics - memory: 67.8%, cpu: 10.3%, disk: 29.2%, uptime: 22041.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:26:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:26:51 2025] INFO: Collected metrics - memory: 67.9%, cpu: 14.5%, disk: 29.2%, uptime: 22051.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:26:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:01 2025] INFO: Collected metrics - memory: 68.6%, cpu: 54.8%, disk: 29.2%, uptime: 22061.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:27:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:11 2025] INFO: Collected metrics - memory: 69.0%, cpu: 38.3%, disk: 29.2%, uptime: 22071.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:27:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:21 2025] INFO: Collected metrics - memory: 68.9%, cpu: 1.3%, disk: 29.2%, uptime: 22081.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:27:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:31 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.4%, disk: 29.2%, uptime: 22091.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:27:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:41 2025] INFO: Collected metrics - memory: 69.0%, cpu: 1.9%, disk: 29.2%, uptime: 22101.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:27:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:27:51 2025] INFO: Collected metrics - memory: 68.9%, cpu: 1.9%, disk: 29.2%, uptime: 22111.8 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:27:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:01 2025] INFO: Collected metrics - memory: 68.9%, cpu: 2.4%, disk: 29.2%, uptime: 22121.8 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:28:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:11 2025] INFO: Collected metrics - memory: 69.1%, cpu: 3.6%, disk: 29.2%, uptime: 22131.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:28:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:21 2025] INFO: Collected metrics - memory: 69.0%, cpu: 8.5%, disk: 29.2%, uptime: 22141.9 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:28:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:31 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.2%, disk: 29.2%, uptime: 22151.9 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:28:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:41 2025] INFO: Collected metrics - memory: 69.0%, cpu: 1.6%, disk: 29.2%, uptime: 22162.0 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:28:41 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:28:51 2025] INFO: Collected metrics - memory: 69.1%, cpu: 3.1%, disk: 29.2%, uptime: 22172.0 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:28:51 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:01 2025] INFO: Collected metrics - memory: 69.1%, cpu: 2.4%, disk: 29.2%, uptime: 22182.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:01 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:11 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.4%, disk: 29.2%, uptime: 22192.1 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:11 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:21 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.3%, disk: 29.2%, uptime: 22202.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:21 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:31 2025] INFO: Collected metrics - memory: 69.0%, cpu: 3.0%, disk: 29.2%, uptime: 22212.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:31 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:42 2025] INFO: Collected metrics - memory: 68.9%, cpu: 2.7%, disk: 29.2%, uptime: 22222.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:29:52 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.8%, disk: 29.2%, uptime: 22232.2 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:29:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:02 2025] INFO: Collected metrics - memory: 69.1%, cpu: 9.2%, disk: 29.2%, uptime: 22242.3 seconds, net_interfaces: 10, processes: 269
+[Mon Jun 16 23:30:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:12 2025] INFO: Collected metrics - memory: 69.0%, cpu: 4.3%, disk: 29.2%, uptime: 22252.3 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:30:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:22 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.7%, disk: 29.2%, uptime: 22262.3 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:30:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:32 2025] INFO: Collected metrics - memory: 69.0%, cpu: 2.1%, disk: 29.2%, uptime: 22272.4 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:30:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:42 2025] INFO: Collected metrics - memory: 69.0%, cpu: 3.5%, disk: 29.2%, uptime: 22282.5 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:30:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:30:52 2025] INFO: Collected metrics - memory: 68.9%, cpu: 2.7%, disk: 29.2%, uptime: 22292.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:30:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:02 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.3%, disk: 29.2%, uptime: 22302.6 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:12 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.0%, disk: 29.2%, uptime: 22312.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:22 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.2%, disk: 29.2%, uptime: 22322.7 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:32 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.0%, disk: 29.2%, uptime: 22332.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:42 2025] INFO: Collected metrics - memory: 68.9%, cpu: 13.8%, disk: 29.2%, uptime: 22342.8 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:42 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:31:52 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.0%, disk: 29.2%, uptime: 22352.9 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:31:52 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:02 2025] INFO: Collected metrics - memory: 68.9%, cpu: 3.0%, disk: 29.2%, uptime: 22363.0 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:32:02 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:12 2025] INFO: Collected metrics - memory: 68.9%, cpu: 2.7%, disk: 29.2%, uptime: 22373.0 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:32:12 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:22 2025] INFO: Collected metrics - memory: 68.6%, cpu: 3.5%, disk: 29.2%, uptime: 22383.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:32:22 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:32 2025] INFO: Collected metrics - memory: 68.6%, cpu: 2.4%, disk: 29.2%, uptime: 22393.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:32:32 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:43 2025] INFO: Collected metrics - memory: 68.6%, cpu: 6.7%, disk: 29.2%, uptime: 22403.2 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:32:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:32:53 2025] INFO: Collected metrics - memory: 68.6%, cpu: 12.3%, disk: 29.2%, uptime: 22413.3 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:32:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:03 2025] INFO: Collected metrics - memory: 68.7%, cpu: 36.8%, disk: 29.2%, uptime: 22423.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:33:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:13 2025] INFO: Collected metrics - memory: 68.2%, cpu: 26.1%, disk: 29.2%, uptime: 22433.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:33:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:23 2025] INFO: Collected metrics - memory: 67.8%, cpu: 6.7%, disk: 29.2%, uptime: 22443.7 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:33:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:33 2025] INFO: Collected metrics - memory: 67.7%, cpu: 5.9%, disk: 29.2%, uptime: 22453.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:33:33 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:43 2025] INFO: Collected metrics - memory: 67.5%, cpu: 0.8%, disk: 29.2%, uptime: 22463.9 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:33:43 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:33:53 2025] INFO: Collected metrics - memory: 67.5%, cpu: 3.0%, disk: 29.2%, uptime: 22473.9 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:33:53 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:03 2025] INFO: Collected metrics - memory: 67.9%, cpu: 7.3%, disk: 29.2%, uptime: 22484.0 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:34:03 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:13 2025] INFO: Collected metrics - memory: 67.6%, cpu: 1.6%, disk: 29.2%, uptime: 22494.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:34:13 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:23 2025] INFO: Collected metrics - memory: 67.6%, cpu: 21.4%, disk: 29.2%, uptime: 22504.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:34:23 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:34 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.4%, disk: 29.2%, uptime: 22514.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:34:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:44 2025] INFO: Collected metrics - memory: 67.5%, cpu: 1.0%, disk: 29.2%, uptime: 22524.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:34:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:34:54 2025] INFO: Collected metrics - memory: 67.5%, cpu: 2.4%, disk: 29.2%, uptime: 22534.4 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:34:54 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:04 2025] INFO: Collected metrics - memory: 67.7%, cpu: 1.9%, disk: 29.2%, uptime: 22544.5 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:35:04 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:14 2025] INFO: Collected metrics - memory: 67.6%, cpu: 1.0%, disk: 29.2%, uptime: 22554.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:35:14 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:24 2025] INFO: Collected metrics - memory: 67.6%, cpu: 0.8%, disk: 29.2%, uptime: 22564.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:35:24 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:34 2025] INFO: Collected metrics - memory: 67.6%, cpu: 0.5%, disk: 29.2%, uptime: 22574.7 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:35:34 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:44 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.0%, disk: 29.2%, uptime: 22585.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:35:44 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:35:55 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22595.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:35:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:05 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22605.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:36:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:15 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22615.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:36:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:25 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.0%, disk: 29.2%, uptime: 22625.4 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:36:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:35 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22635.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:36:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:45 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.8%, disk: 29.2%, uptime: 22645.5 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:36:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:36:55 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.0%, disk: 29.2%, uptime: 22655.5 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:36:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:05 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22665.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:37:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:15 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.8%, disk: 29.2%, uptime: 22675.6 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:37:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:25 2025] INFO: Collected metrics - memory: 67.4%, cpu: 0.5%, disk: 29.2%, uptime: 22685.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:37:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:35 2025] INFO: Collected metrics - memory: 67.4%, cpu: 1.8%, disk: 29.2%, uptime: 22695.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:37:35 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:45 2025] INFO: Collected metrics - memory: 67.4%, cpu: 2.4%, disk: 29.2%, uptime: 22705.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:37:45 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:37:55 2025] INFO: Collected metrics - memory: 67.4%, cpu: 8.5%, disk: 29.2%, uptime: 22715.9 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:37:55 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:05 2025] INFO: Collected metrics - memory: 67.2%, cpu: 1.3%, disk: 29.2%, uptime: 22726.0 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:38:05 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:15 2025] INFO: Collected metrics - memory: 67.2%, cpu: 4.2%, disk: 29.2%, uptime: 22736.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:38:15 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:25 2025] INFO: Collected metrics - memory: 67.2%, cpu: 2.1%, disk: 29.2%, uptime: 22746.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:38:25 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:36 2025] INFO: Collected metrics - memory: 67.2%, cpu: 3.9%, disk: 29.2%, uptime: 22756.2 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:38:36 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:46 2025] INFO: Collected metrics - memory: 67.2%, cpu: 3.3%, disk: 29.2%, uptime: 22766.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:38:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:38:56 2025] INFO: Collected metrics - memory: 67.2%, cpu: 3.3%, disk: 29.2%, uptime: 22776.4 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:38:56 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:06 2025] INFO: Collected metrics - memory: 67.2%, cpu: 3.0%, disk: 29.2%, uptime: 22786.5 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:39:06 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:16 2025] INFO: Collected metrics - memory: 67.2%, cpu: 2.4%, disk: 29.2%, uptime: 22796.6 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:39:16 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:26 2025] INFO: Collected metrics - memory: 67.2%, cpu: 1.6%, disk: 29.2%, uptime: 22806.7 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:39:26 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:36 2025] INFO: Collected metrics - memory: 67.2%, cpu: 2.7%, disk: 29.2%, uptime: 22816.8 seconds, net_interfaces: 10, processes: 264
+[Mon Jun 16 23:39:36 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:46 2025] INFO: Collected metrics - memory: 67.1%, cpu: 2.9%, disk: 29.2%, uptime: 22826.9 seconds, net_interfaces: 10, processes: 265
+[Mon Jun 16 23:39:46 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:39:56 2025] INFO: Collected metrics - memory: 67.1%, cpu: 3.6%, disk: 29.2%, uptime: 22836.9 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:39:56 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:06 2025] INFO: Collected metrics - memory: 67.2%, cpu: 1.3%, disk: 29.2%, uptime: 22847.1 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:40:06 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:16 2025] INFO: Collected metrics - memory: 67.2%, cpu: 2.5%, disk: 29.2%, uptime: 22857.1 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:40:16 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:27 2025] INFO: Collected metrics - memory: 67.2%, cpu: 1.9%, disk: 29.2%, uptime: 22867.2 seconds, net_interfaces: 10, processes: 266
+[Mon Jun 16 23:40:27 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:37 2025] INFO: Collected metrics - memory: 67.2%, cpu: 0.8%, disk: 29.2%, uptime: 22877.3 seconds, net_interfaces: 10, processes: 267
+[Mon Jun 16 23:40:37 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:47 2025] INFO: Collected metrics - memory: 67.5%, cpu: 5.3%, disk: 29.2%, uptime: 22887.6 seconds, net_interfaces: 10, processes: 272
+[Mon Jun 16 23:40:47 2025] INFO: Metrics sent and ACK received.
+[Mon Jun 16 23:40:57 2025] INFO: Collected metrics - memory: 66.9%, cpu: 3.5%, disk: 29.2%, uptime: 22897.6 seconds, net_interfaces: 10, processes: 268
+[Mon Jun 16 23:40:57 2025] INFO: Metrics sent and ACK received.

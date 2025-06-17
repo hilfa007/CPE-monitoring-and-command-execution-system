@@ -7545,3 +7545,368 @@ Timeout Occurred: No
 Output:
 Error: Invalid command
 
+
+[Mon Jun 16 22:33:09 2025] Command: ls -l
+
+Timeout Occurred: No
+Output:
+total 588
+-rwxrwxr-x 1 swathy swathy  21968 Jun 16 16:55 command
+-rw-rw-r-- 1 swathy swathy  13486 Jun 16 16:54 commandmanagerfinal.c
+-rw-rw-r-- 1 swathy swathy 532153 Jun 16 16:55 commands.log
+-rwxrwxr-x 1 swathy swathy  15960 Jun 16 14:44 h
+-rw-rw-r-- 1 swathy swathy     89 Jun 16 15:51 hello.c
+-rw-rw-r-- 1 swathy swathy     14 Jun 16 16:12 t1.txt
+
+
+[Mon Jun 16 22:36:37 2025] Command: ls;;
+
+Timeout Occurred: No
+Output:
+Error: Invalid command
+
+
+[Mon Jun 16 22:36:40 2025] Command: ls//
+
+Timeout Occurred: No
+Output:
+bash: line 1: ls//: No such file or directory
+
+
+[Mon Jun 16 22:38:25 2025] Command: pwd
+
+Timeout Occurred: No
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/CPE-monitoring-and-command-execution-system/cpe-final/cpe-project/command_manager
+
+
+[Mon Jun 16 22:38:29 2025] Command: date
+
+Timeout Occurred: No
+Output:
+Monday 16 June 2025 10:38:29 PM IST
+
+
+[Mon Jun 16 22:39:11 2025] Command: clear
+
+Timeout Occurred: No
+Output:
+[H[2J[3J
+
+[Mon Jun 16 22:39:29 2025] Command: ping google.com
+
+Timeout Occurred: Yes
+Output:
+PING google.com (142.250.205.46) 56(84) bytes of data.
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=1 ttl=255 time=59.6 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=2 ttl=255 time=58.1 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=3 ttl=255 time=50.8 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=4 ttl=255 time=56.5 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=5 ttl=255 time=71.9 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=6 ttl=255 time=89.1 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=7 ttl=255 time=69.0 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=8 ttl=255 time=77.8 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=9 ttl=255 time=76.7 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=10 ttl=255 time=101 ms
+64 bytes from pnmaaa-am-in-f14.1e100.net (142.250.205.46): icmp_seq=11 ttl=255 time=59.5 ms
+
+
+[Mon Jun 16 22:39:43 2025] Command: ps
+
+Timeout Occurred: No
+Output:
+    PID TTY          TIME CMD
+   4655 pts/7    00:00:00 ps
+
+
+[Mon Jun 16 22:39:47 2025] Command: who
+
+Timeout Occurred: No
+Output:
+swathy   tty2         2025-06-16 17:20 (tty2)
+
+
+[Mon Jun 16 22:46:20 2025] Command: vim hello.c
+
+Timeout Occurred: Yes
+Output:
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 7L, 89B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m#include[m[31m<stdio.h>[m
+[35m#include[m[31m<unistd.h>[m[2;19H[K[3;1H[32mint[m main(){[3;12H[K[4;9H[38;5;130mfor[m([32mint[m i=[31m0[m;i<[31m10[m;i++)[5;17Hsleep([31m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll[7;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H:[7;1H[24;54H3[7;1H[24;55H0[7;1H[24;56H3[7;1H[24;57H0[7;1H[24;58H/[7;1H[24;59H0[7;1H[24;60Ha[7;1H[24;61H0[7;1H[24;62Ha[7;1H[24;53H          [7;1H[27m[23m[29m[m[H[2J[1;1H[38;5;81m#include[m[95m<stdio.h>[m
+[38;5;81m#include[m[95m<unistd.h>[m
+[38;5;121mint[m main(){[4;9H[93mfor[m([38;5;121mint[m i=[95m0[m;i<[95m10[m;i++)[5;17Hsleep([95m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll"hello.c" 7L, 89B[7;1H[?25h
+
+[Mon Jun 16 22:46:26 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+command  commandmanagerfinal.c	commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 22:50:06 2025] Command: less etc/passwd
+
+Timeout Occurred: No
+Output:
+etc/passwd: No such file or directory
+
+
+[Mon Jun 16 22:50:20 2025] Command: less /etc/paswd
+
+Timeout Occurred: No
+Output:
+/etc/paswd: No such file or directory
+
+
+[Mon Jun 16 22:50:42 2025] Command: less hello.c
+
+Timeout Occurred: No
+Output:
+[?1049h[22;0;0t[?1h=#include<stdio.h>
+#include<unistd.h>
+int main(){
+        for(int i=0;i<10;i++)
+                sleep(100);
+}
+
+[7mhello.c (END)[27m[K[K [KESCESC[Kqq[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
+
+[Mon Jun 16 22:50:48 2025] Command: clear
+
+Timeout Occurred: No
+Output:
+[H[2J[3J
+
+[Mon Jun 16 22:53:03 2025] Command: less hello.c
+
+Timeout Occurred: No
+Output:
+[?1049h[22;0;0t[?1h=#include<stdio.h>
+#include<unistd.h>
+int main(){
+        for(int i=0;i<10;i++)
+                sleep(100);
+}
+
+[7mhello.c (END)[27m[K[K[?1l>[?1049l[23;0;0t
+
+[Mon Jun 16 22:55:07 2025] Command: [O[I:wq
+
+Timeout Occurred: No
+Output:
+bash: line 1: $'\E[O\E[I:wq': command not found
+
+
+[Mon Jun 16 22:55:14 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+command  commandmanagerfinal.c	commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 22:59:13 2025] Command: vim hello.c
+
+Timeout Occurred: No
+Output:
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".hello.c.swp"
+[10Cowned by: swathy   dated: Mon Jun 16 22:55:52 2025
+[9Cfile name: ~swathy/projectfinal/CPE-monitoring-and-command-execution-s
+[23;80Hy[24;1Hstem/CPE-monitoring-and-command-execution-system/cpe-final/cpe-project/command_
+[23;80Hm[24;1Hanager/hello.c
+[10Cmodified: no
+[9Cuser name: swathy   host name: swathy-VirtualBox
+[8Cprocess ID: 4801 (STILL RUNNING)
+While opening file "hello.c"
+[13Cdated: Mon Jun 16 15:51:37 2025
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r hello.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".hello.c.swp"
+    to avoid this message.
+
+[32mSwap file ".hello.c.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[24;1H[K[?25l[24;1H"hello.c" 7L, 89B
+Using swap file ".hello.c.swp"
+Original file "~/projectfinal/CPE-monitoring-and-command-execution-system/CPE-m
+[23;80Ho[24;1Hnitoring-and-command-execution-system/cpe-final/cpe-project/command_manager/hel
+[23;80Hl[24;1Ho.c"
+Recovery completed. Buffer contents equals file contents.
+You may want to delete the .swp file now.
+Note: process STILL RUNNING: 4801
+
+
+[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[24;1H[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m#include[m[95m<stdio.h>[m
+[38;5;81m#include[m[95m<unistd.h>[m
+[38;5;121mint[m main(){[4;9H[93mfor[m([38;5;121mint[m i=[95m0[m;i<[95m10[m;i++)[5;17Hsleep([95m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll[7;1H[?25h[?25l[24;53H^[[7;1H[24;53H  [7;1H[24;53H^[[7;1H[24;53H  [7;1H[?25h[?25l[24;53H;[7;1H[24;53H [7;1H[?25h[?25l[24;53Hw[7;1H[24;53H [7;1H[?25h[?25l[24;53Hq[7;1H[?25h[?25l[24;54H^[[7;1H[24;54H  [7;1H[24;54H^[[7;1H[24;53H   [7;1H[?25h[?25l[24;53H:[7;1H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"hello.c" 7L, 89B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+
+[Mon Jun 16 22:59:36 2025] Command: vim hello.c
+
+Timeout Occurred: No
+Output:
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 7L, 89B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m#include[m[31m<stdio.h>[m
+[35m#include[m[31m<unistd.h>[m[2;19H[K[3;1H[32mint[m main(){[3;12H[K[4;9H[38;5;130mfor[m([32mint[m i=[31m0[m;i<[31m10[m;i++)[5;17Hsleep([31m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll[7;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H0[7;1H[24;54H3[7;1H[24;55H0[7;1H[24;56H/[7;1H[24;57H0[7;1H[24;58Ha[7;1H[24;59H0[7;1H[24;60Ha[7;1H[24;61H/[7;1H[24;62H2[7;1H[24;53H          [7;1H[27m[23m[29m[m[H[2J[1;1H[38;5;81m#include[m[95m<stdio.h>[m
+[38;5;81m#include[m[95m<unistd.h>[m
+[38;5;121mint[m main(){[4;9H[93mfor[m([38;5;121mint[m i=[95m0[m;i<[95m10[m;i++)[5;17Hsleep([95m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll"hello.c" 7L, 89B[7;1H[?25h[24;63H[K[?25l[24;63H7,0-1[9CAll[7;1H[?25h[?25l[24;53H^[[7;1H[24;53H  [7;1H[24;53H^[[7;1H[24;53H  [7;1H[?25h[?25l[24;53H;[7;1H[24;53H [7;1H[?25h[?25l[24;53Hw[7;1H[24;53H [7;1H[?25h[?25l[24;53Hq[7;1H[?25h[?25l[24;54H~@k[7;1H[24;53H    [7;1H[?25h[?25l[24;53H^[[7;1H[24;53H  [7;1H[24;53H^[[7;1H[24;53H  [7;1H[?25h[?25l[24;53H:[7;1H[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"hello.c" 7L, 89B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+
+[Mon Jun 16 23:01:52 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+command  commandmanagerfinal.c	commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 23:02:11 2025] Command: pwd
+
+Timeout Occurred: No
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/CPE-monitoring-and-command-execution-system/cpe-final/cpe-project/command_manager
+
+
+[Mon Jun 16 23:02:52 2025] Command: vim hello.c
+
+Timeout Occurred: No
+Output:
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 7L, 89B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m#include[m[31m<stdio.h>[m
+[35m#include[m[31m<unistd.h>[m[2;19H[K[3;1H[32mint[m main(){[3;12H[K[4;9H[38;5;130mfor[m([32mint[m i=[31m0[m;i<[31m10[m;i++)[5;17Hsleep([31m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll[7;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H:[7;1H[24;54H3[7;1H[24;55H0[7;1H[24;56H3[7;1H[24;57H0[7;1H[24;58H/[7;1H[24;59H0[7;1H[24;60Ha[7;1H[24;61H0[7;1H[24;62Ha[7;1H[24;53H          [7;1H[27m[23m[29m[m[H[2J[1;1H[38;5;81m#include[m[95m<stdio.h>[m
+[38;5;81m#include[m[95m<unistd.h>[m
+[38;5;121mint[m main(){[4;9H[93mfor[m([38;5;121mint[m i=[95m0[m;i<[95m10[m;i++)[5;17Hsleep([95m100[m);
+}
+
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H7,0-1[9CAll"hello.c" 7L, 89B[7;1H[?25h[?25l[24;1H[K[24;1H:wq[?2004l[>4;m"hello.c" 7L, 89B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+
+[Mon Jun 16 23:07:21 2025] Command: clear
+
+Timeout Occurred: No
+Output:
+
+
+[Mon Jun 16 23:07:35 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+c  command  commandmanagerfinal.c  commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 23:15:58 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+c  command  commandmanagerfinal.c  commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 23:16:58 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+c  command  commandmanagerfinal.c  commands.log  h  hello.c  t1.txt
+
+
+[Mon Jun 16 23:17:21 2025] Command: pwd
+
+Timeout Occurred: No
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/CPE-monitoring-and-command-execution-system/cpe-final/cpe-project/command_manager
+
+
+[Mon Jun 16 23:17:42 2025] Command: date
+
+Timeout Occurred: No
+Output:
+Monday 16 June 2025 11:17:42 PM IST
+
+
+[Mon Jun 16 23:18:03 2025] Command: cal
+
+Timeout Occurred: No
+Output:
+     June 2025        
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30                 
+                      
+
+
+[Mon Jun 16 23:18:37 2025] Command: ps
+
+Timeout Occurred: No
+Output:
+    PID TTY          TIME CMD
+   5097 pts/13   00:00:00 ps
+
+
+[Mon Jun 16 23:19:10 2025] Command: who
+
+Timeout Occurred: No
+Output:
+swathy   tty2         2025-06-16 17:20 (tty2)
+
+
+[Mon Jun 16 23:19:29 2025] Command: whatis man
+
+Timeout Occurred: No
+Output:
+man (7)              - macros to format man pages
+man (1)              - an interface to the system reference manuals
+man (1posix)         - display system documentation
+
+
+[Mon Jun 16 23:20:03 2025] Command: cat hello.c
+
+Timeout Occurred: No
+Output:
+#include<stdio.h>
+#include<unistd.h>
+int main(){
+	for(int i=0;i<10;i++)
+		sleep(100);
+}
+
+
+
+[Mon Jun 16 23:20:57 2025] Command: wc -l hello.c
+
+Timeout Occurred: No
+Output:
+7 hello.c
+
+
+[Mon Jun 16 23:21:36 2025] Command: who -q
+
+Timeout Occurred: No
+Output:
+swathy
+# users=1
+
+
+[Mon Jun 16 23:28:02 2025] Command: ls
+
+Timeout Occurred: No
+Output:
+

@@ -238,6 +238,22 @@ int main() {
             // Check for inactivity timeout
             if (command_sent && difftime(now, last_activity) >= timeout_seconds) {
                 printf("\n[Cloud Manager] Command timed out after %d seconds.\n", timeout_seconds);
+                // Close the existing command socket
+                if (command_sock >= 0) {
+                    close(command_sock);
+                    fprintf(stderr, "Closed command socket due to timeout\n");
+                    command_sock = -1; // Mark as closed
+                }
+                // Attempt to reconnect to the command server
+                if (reconnect_command_server() < 0) {
+                    fprintf(stderr, "Failed to reconnect to command server after timeout, exiting\n");
+                    restore_mode(&original);
+                    if (metric_sock >= 0) {
+                        close(metric_sock);
+                        fprintf(stderr, "Closed alarm socket\n");
+                    }
+                    exit(1); // Exit if reconnection fails
+        }
                 restore_mode(&original);
                 command_sent = 0;
                 is_interactive = 0;
