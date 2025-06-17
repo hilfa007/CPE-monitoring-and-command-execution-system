@@ -5,14 +5,18 @@
 #include <stdio.h>
 #include <string.h>
 
-// Define the path for the Unix domain socket
+// the path for the Unix domain socket
 #define SOCKET_PATH "/tmp/device_agent.sock"
 
-// Function to send system metrics to a device agent via Unix domain socket
+// send system metrics to a device agent via Unix domain socket
 int send_metrics_to_agent(Metrics m) {
     // Create a Unix domain socket
     int sock = socket(AF_UNIX, SOCK_STREAM, 0);
-    if (sock < 0) return 0; // Return 0 if socket creation fails
+    if (sock < 0) {
+        printf("socket creation failed\n");
+        return 0;
+    }
+         // Return 0 if socket creation fails
 
     // Set up the socket address structure
     struct sockaddr_un addr;
@@ -21,6 +25,7 @@ int send_metrics_to_agent(Metrics m) {
 
     // Connect to the device agent socket
     if (connect(sock, (struct sockaddr*)&addr, sizeof(addr)) < 0) {
+        printf("connection to device agent failed\n");
         close(sock); // Close socket on connection failure
         return 0; // Return 0 if connection fails
     }
@@ -33,7 +38,11 @@ int send_metrics_to_agent(Metrics m) {
              m.memory, m.cpu, m.uptime, m.disk, m.net_interfaces, m.processes);
 
     // Send the formatted metrics string to the device agent
-    send(sock, buffer, strlen(buffer), 0);
+    if(send(sock, buffer, strlen(buffer), 0)) {
+        printf("Metric send to device agent.\n");
+    } else {
+        printf("ERROR: Failed to send metrics.\n");
+    }
 
     // Buffer to store acknowledgment response
     char ack[16] = {0};
@@ -47,6 +56,6 @@ int send_metrics_to_agent(Metrics m) {
 
     // Close the socket
     close(sock);
-    // Return 1 if valid ACK received, 0 otherwise
+    // return 1 if valid ACK received, 0 otherwise
     return (len > 0 && strncmp(ack, "ACK", 3) == 0);
 }
