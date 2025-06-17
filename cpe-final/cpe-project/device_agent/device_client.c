@@ -1,3 +1,6 @@
+//device agent code
+//libraries for I/O, memory management, strings, system calls, time, sockets, errors, file status and signals
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,31 +14,31 @@
 #include <sys/stat.h>
 #include <signal.h>
 
-#define UNIX_SOCK_PATH "/tmp/device_agent.sock"
-#define CLOUD_HOST "127.0.0.1"
-#define CLOUD_PORT 8080
+#define UNIX_SOCK_PATH "/tmp/device_agent.sock"    // Path for UNIX socket
+#define CLOUD_HOST "127.0.0.1"                     //server IP address
+#define CLOUD_PORT 8080                            //port for metrics
 #define MAX_METRIC_SIZE 256
 #define BUFFER_SIZE 360
 #define LOG_FILE "metrics.log"
 #define ACK_RETRIES 3
 #define RETRY_DELAY 5
-#define CONNECT_TIMEOUT 2
-#define ACCEPT_TIMEOUT 5 // New: Timeout for accepting System Manager connections
+#define CONNECT_TIMEOUT 2 //// Timeout for TCP connection 
+#define ACCEPT_TIMEOUT 5 // Timeout for accepting System Manager connections
 
-// Circular Buffer Structure
+// Circular Buffer Structure for storing the buffer metrics
 typedef struct {
     char metrics[BUFFER_SIZE][MAX_METRIC_SIZE];
-    int head;
-    int tail;
+    int head;         //oldest metric index
+    int tail;         // newsest metric index
     int count;
 } CircularBuffer;
 
 // Global Variables
-int server_fd = -1;
-int cloud_fd = -1;
+int server_fd = -1;          //for system manager connection
+int cloud_fd = -1;           //for cloud manager connection
 CircularBuffer buffer;
 
-// Function Prototypes
+// Function Prototypes for all functions
 void init_buffer(CircularBuffer *buffer);
 int buffer_metric(CircularBuffer *buffer, const char *metric);
 int flush_buffer(CircularBuffer *buffer);
@@ -43,18 +46,18 @@ int connect_to_cloud_manager();
 int forward_metric(const char *metric);
 void log_metric(const char *metric);
 int send_ack(int client_fd);
-void cleanup();
-int check_socket_state();
+void cleanup();              //cleanuo resources
+int check_socket_state();    //unix socket
 void signal_handler(int sig);
 
-// Signal handler for crash debugging
+// Signal handler for cleaning up resources and exits on critical signals
 void signal_handler(int sig) {
     fprintf(stderr, "Caught signal %d, cleaning up\n", sig);
     cleanup();
     exit(1);
 }
 
-// Initialize Circular Buffer
+// Initialize Circular Buffer - setting up empty buffer
 void init_buffer(CircularBuffer *buffer) {
     buffer->head = 0;
     buffer->tail = 0;
@@ -62,18 +65,18 @@ void init_buffer(CircularBuffer *buffer) {
     fprintf(stderr, "Circular buffer initialized, size: %d\n", BUFFER_SIZE);
 }
 
-// Buffer a metric during disconnection
+// fuction to add a metric to Buffer during disconnection
 int buffer_metric(CircularBuffer *buffer, const char *metric) {
     if (!metric) {
-        fprintf(stderr, "Error: NULL metric in buffer_metric\n");
+        fprintf(stderr, "Error: NULL metric in buffer_metric\n");  //checking if empty
         return -1;
     }
-    if (buffer->count >= BUFFER_SIZE) { // Changed: More explicit check
+    if (buffer->count >= BUFFER_SIZE) { // if buffer is full, drop the oldest metric
         fprintf(stderr, "Buffer full, dropping oldest metric\n");
-        buffer->head = (buffer->head + 1) % BUFFER_SIZE;
+        buffer->head = (buffer->head + 1) % BUFFER_SIZE; //move head forward
         buffer->count--;
     }
-    strncpy(buffer->metrics[buffer->tail], metric, MAX_METRIC_SIZE - 1);
+    strncpy(buffer->metrics[buffer->tail], metric, MAX_METRIC_SIZE - 1);  //add metric at tail
     buffer->metrics[buffer->tail][MAX_METRIC_SIZE - 1] = '\0';
     buffer->tail = (buffer->tail + 1) % BUFFER_SIZE;
     buffer->count++;
@@ -81,42 +84,43 @@ int buffer_metric(CircularBuffer *buffer, const char *metric) {
     return 0;
 }
 
-// Flush one buffered metric
+// function to Flush one buffered metric to cloud manager
 int flush_buffer(CircularBuffer *buffer) {
-    if (buffer->count == 0) {
+    if (buffer->count == 0) {                                 //check if empty
         fprintf(stderr, "Buffer empty, nothing to flush\n");
         return 0;
     }
 
-    if (cloud_fd < 0) {
+    if (cloud_fd < 0) {            //check if connected to cloud manager
         fprintf(stderr, "No Cloud Manager connection, cannot flush\n");
         return -1;
     }
 
-    fprintf(stderr, "Flushing metric: %s\n", buffer->metrics[buffer->head]);
+    fprintf(stderr, "Flushing metric: %s\n", buffer->metrics[buffer->head]);  //sendind the buffer to cloud manager
     ssize_t sent = send(cloud_fd, buffer->metrics[buffer->head], 
                         strlen(buffer->metrics[buffer->head]), 0);
-    if (sent < 0) {
+
+    if (sent < 0) {                        //if send fails
         perror("Failed to flush metric");
         close(cloud_fd);
         cloud_fd = -1;
         return -1;
     }
-    buffer->head = (buffer->head + 1) % BUFFER_SIZE;
+    buffer->head = (buffer->head + 1) % BUFFER_SIZE;   //update buffer
     buffer->count--;
     fprintf(stderr, "Flushed one metric, remaining count: %d\n", buffer->count);
     return 0;
 }
 
-// Connect to Cloud Manager (blocking with timeout)
+// function to Connect to Cloud Manager (blocking with timeout)
 int connect_to_cloud_manager() {
-    if (cloud_fd >= 0) {
+    if (cloud_fd >= 0) {              //check if already connected
         fprintf(stderr, "Cloud Manager already connected\n");
         return 0;
     }
 
     fprintf(stderr, "Attempting to connect to Cloud Manager\n");
-    cloud_fd = socket(AF_INET, SOCK_STREAM, 0);
+    cloud_fd = socket(AF_INET, SOCK_STREAM, 0);         //create socket
     if (cloud_fd < 0) {
         perror("Failed to create TCP socket");
         return -1;
@@ -131,7 +135,8 @@ int connect_to_cloud_manager() {
         return -1;
     }
 
-    struct sockaddr_in cloud_addr;
+    //setup cloud manager address
+    struct sockaddr_in cloud_addr; 
     memset(&cloud_addr, 0, sizeof(cloud_addr));
     cloud_addr.sin_family = AF_INET;
     cloud_addr.sin_port = htons(CLOUD_PORT);
@@ -158,8 +163,8 @@ int connect_to_cloud_manager() {
         return -1;
     }
 
-    // New: Set receive buffer size for Cloud Manager socket
-    int bufsize = 65536;
+    // Set receive buffer size for Cloud Manager socket
+    int bufsize = 65536;     //64 KB
     if (setsockopt(cloud_fd, SOL_SOCKET, SO_RCVBUF, &bufsize, sizeof(bufsize)) < 0) {
         perror("Failed to set Cloud Manager socket receive buffer size");
         close(cloud_fd);
@@ -171,17 +176,17 @@ int connect_to_cloud_manager() {
     return 0;
 }
 
-// Forward metric to Cloud Manager
+// function to Forward metric to Cloud Manager
 int forward_metric(const char *metric) {
-    if (!metric) {
+    if (!metric) {                           //check if null
         fprintf(stderr, "Error: NULL metric in forward_metric\n");
         return -1;
     }
-    if (cloud_fd < 0 && connect_to_cloud_manager() < 0) {
+    if (cloud_fd < 0 && connect_to_cloud_manager() < 0) {                //attempt connection. if no connection buffer the metric
         fprintf(stderr, "No connection, buffering metric: %s\n", metric);
         return buffer_metric(&buffer, metric);
     }
-    fprintf(stderr, "Forwarding metric: %s\n", metric);
+    fprintf(stderr, "Forwarding metric: %s\n", metric);      //sending  metric
     ssize_t sent = send(cloud_fd, metric, strlen(metric), 0);
     if (sent < 0) {
         perror("Failed to forward metric");
@@ -197,13 +202,13 @@ int forward_metric(const char *metric) {
     return 0;
 }
 
-// Log metric to file
+// function to Log metric to file with timestamp
 void log_metric(const char *metric) {
     if (!metric) {
         fprintf(stderr, "Error: NULL metric in log_metric\n");
         return;
     }
-    time_t now = time(NULL);
+    time_t now = time(NULL);     //get current timestamp
     char *time_str = ctime(&now);
     if (!time_str) {
         fprintf(stderr, "Failed to get timestamp\n");
@@ -211,9 +216,9 @@ void log_metric(const char *metric) {
     }
     time_str[strcspn(time_str, "\n")] = '\0';
 
-    FILE *log = fopen(LOG_FILE, "a");
+    FILE *log = fopen(LOG_FILE, "a");       //open logfile in append mode
     if (log) {
-        fprintf(log, "%s,%s\n", time_str, metric);
+        fprintf(log, "%s,%s\n", time_str, metric);      //write timestamp and metric
         fclose(log);
         fprintf(stderr, "Logged metric: %s\n", metric);
     } else {
@@ -221,10 +226,10 @@ void log_metric(const char *metric) {
     }
 }
 
-// Send ACK to System Manager
+// function to Send ACK to System Manager
 int send_ack(int client_fd) {
     const char *ack = "ACK";
-    int retries = ACK_RETRIES;
+    int retries = ACK_RETRIES;   //retry count
     while (retries > 0) {
         ssize_t sent = send(client_fd, ack, strlen(ack), 0);
         if (sent == strlen(ack)) {
@@ -239,17 +244,17 @@ int send_ack(int client_fd) {
     return -1;
 }
 
-// Check UNIX socket state
+// function to Check UNIX socket state
 int check_socket_state() {
     struct stat st;
-    if (stat(UNIX_SOCK_PATH, &st) < 0) {
+    if (stat(UNIX_SOCK_PATH, &st) < 0) {               //check if socket file exists
         fprintf(stderr, "UNIX socket file missing: %s\n", UNIX_SOCK_PATH);
         return -1;
     }
     return 0;
 }
 
-// Cleanup resources
+// function to Cleanup resources - Closes sockets and removes UNIX socket file
 void cleanup() {
     if (server_fd >= 0) {
         close(server_fd);
@@ -261,17 +266,17 @@ void cleanup() {
         cloud_fd = -1;
         fprintf(stderr, "Closed Cloud Manager socket\n");
     }
-    unlink(UNIX_SOCK_PATH);
+    unlink(UNIX_SOCK_PATH);        // // Remove UNIX socket file
     fprintf(stderr, "Removed UNIX socket file: %s\n", UNIX_SOCK_PATH);
 }
 
 int main() {
     // Install signal handler
-    signal(SIGSEGV, signal_handler);
-    signal(SIGTERM, signal_handler);
+    signal(SIGSEGV, signal_handler);   // Handle segmentation faults
+    signal(SIGTERM, signal_handler);   //// Handle termination signals
     signal(SIGPIPE, SIG_IGN); // Ignore SIGPIPE to prevent crashes on broken connections
 
-    init_buffer(&buffer);
+    init_buffer(&buffer);  //initialize circular buffer
 
     // Create UNIX domain socket
     server_fd = socket(AF_UNIX, SOCK_STREAM, 0);
@@ -280,19 +285,20 @@ int main() {
         exit(1);
     }
 
-    struct sockaddr_un addr;
+    struct sockaddr_un addr;     //setup socket address
     memset(&addr, 0, sizeof(addr));
     addr.sun_family = AF_UNIX;
     strncpy(addr.sun_path, UNIX_SOCK_PATH, sizeof(addr.sun_path) - 1);
     unlink(UNIX_SOCK_PATH); // Remove stale socket
 
+    // Bind socket
     if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
         perror("Failed to bind UNIX socket");
         cleanup();
         exit(1);
     }
 
-    // New: Set socket permissions to allow System Manager access
+    // New: Set socket permissions to allow System Manager access 
     if (chmod(UNIX_SOCK_PATH, 0666) < 0) {
         perror("Failed to set socket permissions");
         cleanup();
@@ -313,7 +319,7 @@ int main() {
         exit(1);
     }
 
-    // Increase socket buffer size for receiving
+    // set socket buffer size for receiving(unix socket)
     int bufsize = 65536;
     if (setsockopt(server_fd, SOL_SOCKET, SO_RCVBUF, &bufsize, sizeof(bufsize)) < 0) {
         perror("Failed to set socket buffer size");
@@ -324,17 +330,18 @@ int main() {
 
     printf("Device Agent running, listening on %s\n", UNIX_SOCK_PATH);
 
+     // Main loop: Accept and process System Manager connections
     while (1) {
-        // Check socket state
+        // Check  unix socket state
         if (check_socket_state() < 0) {
             fprintf(stderr, "Socket error, restarting UNIX socket\n");
             cleanup();
-            server_fd = socket(AF_UNIX, SOCK_STREAM, 0);
+            server_fd = socket(AF_UNIX, SOCK_STREAM, 0);    // Recreate UNIX socket
             if (server_fd < 0) {
                 perror("Failed to recreate UNIX socket");
                 exit(1);
             }
-            memset(&addr, 0, sizeof(addr));
+            memset(&addr, 0, sizeof(addr)); //rebind socket
             addr.sun_family = AF_UNIX;
             strncpy(addr.sun_path, UNIX_SOCK_PATH, sizeof(addr.sun_path) - 1);
             if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
@@ -364,7 +371,9 @@ int main() {
             }
             fprintf(stderr, "UNIX socket recreated\n");
         }
+        
 
+        //accept system manager connection
         int client_fd = accept(server_fd, NULL, NULL);
         if (client_fd < 0) {
             if (errno == EAGAIN || errno == EWOULDBLOCK) {
@@ -376,7 +385,7 @@ int main() {
         }
         fprintf(stderr, "Accepted new System Manager connection\n");
 
-        // New: Handle potential partial reads
+        // receive metric
         char metric[MAX_METRIC_SIZE];
         ssize_t len = recv(client_fd, metric, MAX_METRIC_SIZE - 1, 0);
         if (len <= 0) {
@@ -386,7 +395,7 @@ int main() {
                 perror("Failed to receive metric");
             }
             close(client_fd);
-            continue;
+            continue;       //accept next connection
         }
         metric[len] = '\0';
         // New: Validate metric format (basic check)
