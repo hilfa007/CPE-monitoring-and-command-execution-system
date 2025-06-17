@@ -34866,6 +34866,7 @@
 [Mon Jun 16 17:18:27 2025] ERROR: Failed to send metrics or no ACK received.
 [Mon Jun 16 17:18:29 2025] INFO: Collected metrics - memory: 69.3%, cpu: 0.3%, disk: 29.3%, uptime: 63014.2 seconds, net_interfaces: 10, processes: 281
 [Mon Jun 16 17:18:29 2025] ERROR: Failed to send metrics or no ACK received.
+<<<<<<< HEAD
                                                                                                                                                                                                                                      [Mon Jun 16 22:33:00 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
 [Mon Jun 16 22:33:00 2025] System Manager started.
 [Mon Jun 16 22:33:10 2025] INFO: Collected metrics - memory: 63.2%, cpu: 5.7%, disk: 29.2%, uptime: 18830.7 seconds, net_interfaces: 10, processes: 268
@@ -35706,3 +35707,455 @@
 [Mon Jun 16 23:40:47 2025] INFO: Metrics sent and ACK received.
 [Mon Jun 16 23:40:57 2025] INFO: Collected metrics - memory: 66.9%, cpu: 3.5%, disk: 29.2%, uptime: 22897.6 seconds, net_interfaces: 10, processes: 268
 [Mon Jun 16 23:40:57 2025] INFO: Metrics sent and ACK received.
+=======
+                                                                                                                                                                                                                                     [Tue Jun 17 06:38:00 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:38:00 2025] System Manager started.
+[Tue Jun 17 06:38:10 2025] INFO: Collected metrics - memory: 69.7%, cpu: 3.1%, disk: 35.6%, uptime: 42814.0 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:38:10 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:38:20 2025] INFO: Collected metrics - memory: 70.6%, cpu: 14.0%, disk: 35.6%, uptime: 42824.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:38:20 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:38:30 2025] INFO: Collected metrics - memory: 70.2%, cpu: 8.3%, disk: 35.6%, uptime: 42834.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:38:30 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:38:40 2025] INFO: Collected metrics - memory: 69.8%, cpu: 1.5%, disk: 35.6%, uptime: 42844.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:38:40 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:38:50 2025] INFO: Collected metrics - memory: 69.9%, cpu: 7.8%, disk: 35.6%, uptime: 42854.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:38:50 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:00 2025] INFO: Collected metrics - memory: 69.8%, cpu: 6.1%, disk: 35.6%, uptime: 42864.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:39:00 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:01 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:01 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:39:01 2025] ALARM: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:01 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:01 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:01 2025] ALARM: Threshold breached! Metrics - memory: 70.0%, cpu: 17.8%, disk: 35.6%, uptime: 42865.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:39:02 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:02 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:02 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:02 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 7.0%, disk: 35.6%, uptime: 42866.1 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:03 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:03 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:39:03 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:03 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:03 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:03 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 3.9%, disk: 35.6%, uptime: 42867.1 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:04 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:04 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:04 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:04 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 38.8%, disk: 35.6%, uptime: 42868.1 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:05 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:05 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:05 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:05 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 34.3%, disk: 35.6%, uptime: 42869.1 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:06 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:06 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:06 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:06 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 17.3%, disk: 35.6%, uptime: 42870.1 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:07 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:07 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:07 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:07 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 1.5%, disk: 35.6%, uptime: 42871.1 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:08 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:08 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:08 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:08 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 1.8%, disk: 35.6%, uptime: 42872.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:09 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:09 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:09 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:09 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 4.7%, disk: 35.6%, uptime: 42873.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:10 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:10 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:10 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:10 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 26.4%, disk: 35.6%, uptime: 42874.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:10 2025] INFO: Collected metrics - memory: 69.7%, cpu: 26.4%, disk: 35.6%, uptime: 42874.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:10 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:11 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:11 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:11 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:11 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 28.3%, disk: 35.6%, uptime: 42875.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:12 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:12 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:12 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:12 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 23.4%, disk: 35.6%, uptime: 42876.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:13 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:13 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:13 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:13 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 3.6%, disk: 35.6%, uptime: 42877.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:14 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:14 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 2, processes: 500
+[Tue Jun 17 06:39:14 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:14 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:14 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:14 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:14 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:14 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:14 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 6.8%, disk: 35.6%, uptime: 42878.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:15 2025] ALARM: Memory usage (70.1%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:15 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:15 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.1%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:15 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:15 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:15 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:15 2025] ALARM: Threshold breached! Metrics - memory: 70.1%, cpu: 17.4%, disk: 35.6%, uptime: 42879.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:16 2025] ALARM: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:16 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:16 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:16 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:16 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:16 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:16 2025] ALARM: Threshold breached! Metrics - memory: 70.0%, cpu: 2.8%, disk: 35.6%, uptime: 42880.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:17 2025] ALARM: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:17 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:17 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:17 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:17 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:17 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:17 2025] ALARM: Threshold breached! Metrics - memory: 70.0%, cpu: 3.7%, disk: 35.6%, uptime: 42881.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:18 2025] ALARM: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:18 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:18 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:18 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:18 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:18 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:18 2025] ALARM: Threshold breached! Metrics - memory: 70.0%, cpu: 1.5%, disk: 35.6%, uptime: 42882.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:19 2025] ALARM: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:19 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:19 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.0%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:19 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:19 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:19 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:19 2025] ALARM: Threshold breached! Metrics - memory: 70.0%, cpu: 2.6%, disk: 35.6%, uptime: 42883.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:20 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:20 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:20 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:20 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:20 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:20 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:20 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 1.8%, disk: 35.6%, uptime: 42884.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:20 2025] INFO: Collected metrics - memory: 69.8%, cpu: 1.8%, disk: 35.6%, uptime: 42884.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:20 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:21 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:21 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:21 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:21 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:21 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:21 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:21 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 13.8%, disk: 35.6%, uptime: 42885.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:22 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:22 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:22 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:22 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:22 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:22 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:22 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 7.0%, disk: 35.6%, uptime: 42886.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:23 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:23 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:23 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:23 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:23 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:23 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:23 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 2.6%, disk: 35.6%, uptime: 42887.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:24 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:24 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:24 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:24 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:24 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:24 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:24 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 7.5%, disk: 35.6%, uptime: 42888.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:25 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:25 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:25 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:25 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:25 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:25 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:25 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 23.2%, disk: 35.6%, uptime: 42889.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:26 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:26 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:26 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:26 2025] ALARM: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:26 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:26 2025] INFO: Alarm sent to Cloud Manager: Network interfaces (10) exceeds threshold (2)
+[Tue Jun 17 06:39:26 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 5.0%, disk: 35.6%, uptime: 42890.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:27 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:27 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:39:27 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:27 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:27 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:27 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 6.9%, disk: 35.6%, uptime: 42891.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:28 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:28 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:28 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:28 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 23.4%, disk: 35.6%, uptime: 42892.2 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:29 2025] ALARM: Memory usage (70.1%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:29 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:29 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.1%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:29 2025] ALARM: Threshold breached! Metrics - memory: 70.1%, cpu: 18.4%, disk: 35.6%, uptime: 42893.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:30 2025] ALARM: Memory usage (70.2%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:30 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:30 2025] INFO: Alarm sent to Cloud Manager: Memory usage (70.2%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:30 2025] ALARM: Threshold breached! Metrics - memory: 70.2%, cpu: 22.4%, disk: 35.6%, uptime: 42894.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:30 2025] INFO: Collected metrics - memory: 70.2%, cpu: 22.4%, disk: 35.6%, uptime: 42894.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:30 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:31 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:31 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:31 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:31 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 23.9%, disk: 35.6%, uptime: 42895.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:32 2025] ALARM: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:32 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:32 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.9%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:32 2025] ALARM: Threshold breached! Metrics - memory: 69.9%, cpu: 8.8%, disk: 35.6%, uptime: 42896.3 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:33 2025] ALARM: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:33 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:33 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.8%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:33 2025] ALARM: Threshold breached! Metrics - memory: 69.8%, cpu: 2.9%, disk: 35.6%, uptime: 42897.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:34 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:34 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:34 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:34 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 3.9%, disk: 35.6%, uptime: 42898.3 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 06:39:35 2025] ALARM: Memory usage (69.6%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:35 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:35 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.6%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:35 2025] ALARM: Threshold breached! Metrics - memory: 69.6%, cpu: 4.5%, disk: 35.6%, uptime: 42899.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:36 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:36 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:36 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:36 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 16.0%, disk: 35.6%, uptime: 42900.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:37 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:37 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:37 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:37 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 15.5%, disk: 35.6%, uptime: 42901.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:38 2025] ALARM: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:38 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 06:39:38 2025] INFO: Alarm sent to Cloud Manager: Memory usage (69.7%) exceeds threshold (8.5%)
+[Tue Jun 17 06:39:38 2025] ALARM: Threshold breached! Metrics - memory: 69.7%, cpu: 3.7%, disk: 35.6%, uptime: 42902.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:39 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:39 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:39:40 2025] Detected config file change. Reloading...
+[Tue Jun 17 06:39:40 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:39:40 2025] INFO: Collected metrics - memory: 69.6%, cpu: 4.5%, disk: 35.6%, uptime: 42904.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:40 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:39:50 2025] INFO: Collected metrics - memory: 69.6%, cpu: 2.6%, disk: 35.6%, uptime: 42914.3 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:39:50 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:40:00 2025] INFO: Collected metrics - memory: 69.9%, cpu: 2.5%, disk: 35.6%, uptime: 42924.4 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:40:00 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 06:42:39 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:42:39 2025] System Manager started.
+[Tue Jun 17 06:42:49 2025] INFO: Collected metrics - memory: 72.9%, cpu: 1.8%, disk: 35.6%, uptime: 43092.9 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:42:49 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:42:59 2025] INFO: Collected metrics - memory: 74.8%, cpu: 8.2%, disk: 35.6%, uptime: 43102.9 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:42:59 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:09 2025] INFO: Collected metrics - memory: 74.8%, cpu: 8.0%, disk: 35.6%, uptime: 43112.9 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:43:09 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:19 2025] INFO: Collected metrics - memory: 74.1%, cpu: 9.5%, disk: 35.6%, uptime: 43123.0 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:43:19 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:29 2025] INFO: Collected metrics - memory: 73.7%, cpu: 2.8%, disk: 35.6%, uptime: 43133.0 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:43:29 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:39 2025] INFO: Collected metrics - memory: 74.0%, cpu: 4.0%, disk: 35.6%, uptime: 43143.0 seconds, net_interfaces: 10, processes: 274
+[Tue Jun 17 06:43:39 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:49 2025] INFO: Collected metrics - memory: 74.0%, cpu: 9.5%, disk: 35.6%, uptime: 43153.0 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:43:49 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:43:59 2025] INFO: Collected metrics - memory: 74.5%, cpu: 30.6%, disk: 35.6%, uptime: 43163.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:43:59 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:44:09 2025] INFO: Collected metrics - memory: 74.6%, cpu: 9.4%, disk: 35.6%, uptime: 43173.1 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:44:09 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:44:19 2025] INFO: Collected metrics - memory: 74.6%, cpu: 2.3%, disk: 35.6%, uptime: 43183.2 seconds, net_interfaces: 10, processes: 275
+[Tue Jun 17 06:44:19 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:45:55 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:45:55 2025] System Manager started.
+[Tue Jun 17 06:46:05 2025] INFO: Collected metrics - memory: 76.7%, cpu: 43.4%, disk: 35.6%, uptime: 43285.8 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 06:46:05 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:46:15 2025] INFO: Collected metrics - memory: 76.8%, cpu: 2.3%, disk: 35.6%, uptime: 43295.8 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 06:46:15 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:46:25 2025] INFO: Collected metrics - memory: 76.6%, cpu: 3.9%, disk: 35.6%, uptime: 43305.8 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 06:46:25 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:46:35 2025] INFO: Collected metrics - memory: 76.5%, cpu: 1.8%, disk: 35.6%, uptime: 43315.8 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 06:46:35 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:46:45 2025] INFO: Collected metrics - memory: 77.4%, cpu: 1.5%, disk: 35.6%, uptime: 43325.9 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 06:46:45 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:55:27 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 06:55:27 2025] System Manager started.
+[Tue Jun 17 06:55:37 2025] INFO: Collected metrics - memory: 77.2%, cpu: 34.7%, disk: 35.6%, uptime: 43857.7 seconds, net_interfaces: 10, processes: 271
+[Tue Jun 17 06:55:37 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:55:47 2025] INFO: Collected metrics - memory: 77.3%, cpu: 4.7%, disk: 35.6%, uptime: 43867.7 seconds, net_interfaces: 10, processes: 271
+[Tue Jun 17 06:55:47 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 06:55:57 2025] INFO: Collected metrics - memory: 78.3%, cpu: 35.5%, disk: 35.6%, uptime: 43877.7 seconds, net_interfaces: 10, processes: 271
+[Tue Jun 17 06:55:57 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:00:14 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:00:14 2025] System Manager started.
+[Tue Jun 17 07:00:24 2025] INFO: Collected metrics - memory: 76.3%, cpu: 1.5%, disk: 35.6%, uptime: 44144.5 seconds, net_interfaces: 10, processes: 270
+[Tue Jun 17 07:00:24 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:00:34 2025] INFO: Collected metrics - memory: 78.6%, cpu: 33.8%, disk: 35.6%, uptime: 44154.6 seconds, net_interfaces: 10, processes: 270
+[Tue Jun 17 07:00:34 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:00:44 2025] INFO: Collected metrics - memory: 79.1%, cpu: 25.2%, disk: 35.6%, uptime: 44164.7 seconds, net_interfaces: 10, processes: 273
+[Tue Jun 17 07:00:44 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:07:43 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:07:43 2025] System Manager started.
+[Tue Jun 17 07:07:53 2025] INFO: Collected metrics - memory: 79.7%, cpu: 50.0%, disk: 35.6%, uptime: 44594.2 seconds, net_interfaces: 10, processes: 287
+[Tue Jun 17 07:07:53 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:08:03 2025] INFO: Collected metrics - memory: 78.9%, cpu: 26.6%, disk: 35.6%, uptime: 44604.2 seconds, net_interfaces: 10, processes: 285
+[Tue Jun 17 07:08:03 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:08:13 2025] INFO: Collected metrics - memory: 78.3%, cpu: 1.8%, disk: 35.6%, uptime: 44614.3 seconds, net_interfaces: 10, processes: 282
+[Tue Jun 17 07:08:13 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:08:23 2025] INFO: Collected metrics - memory: 77.7%, cpu: 2.6%, disk: 35.6%, uptime: 44624.3 seconds, net_interfaces: 10, processes: 282
+[Tue Jun 17 07:08:23 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:08:33 2025] INFO: Collected metrics - memory: 77.9%, cpu: 8.6%, disk: 35.6%, uptime: 44634.3 seconds, net_interfaces: 10, processes: 282
+[Tue Jun 17 07:08:33 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:10:23 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:10:23 2025] System Manager started.
+[Tue Jun 17 07:10:33 2025] INFO: Collected metrics - memory: 78.4%, cpu: 4.4%, disk: 35.6%, uptime: 44753.9 seconds, net_interfaces: 10, processes: 278
+[Tue Jun 17 07:10:33 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:10:43 2025] INFO: Collected metrics - memory: 77.7%, cpu: 9.8%, disk: 35.6%, uptime: 44764.0 seconds, net_interfaces: 10, processes: 278
+[Tue Jun 17 07:10:43 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:10:53 2025] INFO: Collected metrics - memory: 78.3%, cpu: 8.6%, disk: 35.6%, uptime: 44774.0 seconds, net_interfaces: 10, processes: 278
+[Tue Jun 17 07:10:53 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:11:03 2025] INFO: Collected metrics - memory: 78.3%, cpu: 2.8%, disk: 35.6%, uptime: 44784.0 seconds, net_interfaces: 10, processes: 278
+[Tue Jun 17 07:11:03 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:17:40 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:17:40 2025] System Manager started.
+[Tue Jun 17 07:17:50 2025] INFO: Collected metrics - memory: 78.4%, cpu: 1.3%, disk: 35.6%, uptime: 45191.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 07:17:50 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:18:00 2025] INFO: Collected metrics - memory: 77.9%, cpu: 1.8%, disk: 35.6%, uptime: 45201.2 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 07:18:00 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:21:45 2025] INFO: Loaded thresholds - memory: 80.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:21:45 2025] System Manager started.
+[Tue Jun 17 07:21:55 2025] INFO: Collected metrics - memory: 78.9%, cpu: 8.3%, disk: 35.6%, uptime: 45435.5 seconds, net_interfaces: 10, processes: 276
+[Tue Jun 17 07:21:55 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:22:05 2025] INFO: Collected metrics - memory: 79.0%, cpu: 2.4%, disk: 35.6%, uptime: 45445.6 seconds, net_interfaces: 10, processes: 276
+[Tue Jun 17 07:22:05 2025] ERROR: Failed to send metrics or no ACK received.
+[Tue Jun 17 07:22:15 2025] INFO: Collected metrics - memory: 79.3%, cpu: 6.3%, disk: 35.6%, uptime: 45455.6 seconds, net_interfaces: 10, processes: 277
+[Tue Jun 17 07:22:15 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:22:25 2025] INFO: Collected metrics - memory: 78.6%, cpu: 4.3%, disk: 35.6%, uptime: 45465.6 seconds, net_interfaces: 10, processes: 279
+[Tue Jun 17 07:22:25 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:22:35 2025] INFO: Collected metrics - memory: 78.6%, cpu: 3.6%, disk: 35.6%, uptime: 45475.6 seconds, net_interfaces: 10, processes: 279
+[Tue Jun 17 07:22:35 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:22:45 2025] INFO: Collected metrics - memory: 78.5%, cpu: 8.9%, disk: 35.6%, uptime: 45486.0 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:22:45 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:22:55 2025] INFO: Collected metrics - memory: 78.8%, cpu: 2.6%, disk: 35.6%, uptime: 45496.1 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:22:55 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:05 2025] INFO: Collected metrics - memory: 78.6%, cpu: 1.8%, disk: 35.6%, uptime: 45506.1 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:23:05 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:16 2025] INFO: Collected metrics - memory: 78.4%, cpu: 2.9%, disk: 35.6%, uptime: 45516.8 seconds, net_interfaces: 10, processes: 282
+[Tue Jun 17 07:23:16 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:26 2025] INFO: Collected metrics - memory: 78.3%, cpu: 25.8%, disk: 35.6%, uptime: 45526.8 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:23:26 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:36 2025] INFO: Collected metrics - memory: 78.9%, cpu: 13.9%, disk: 35.6%, uptime: 45536.8 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:23:36 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:46 2025] INFO: Collected metrics - memory: 78.8%, cpu: 1.3%, disk: 35.6%, uptime: 45546.9 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:23:46 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:23:56 2025] INFO: Collected metrics - memory: 78.7%, cpu: 3.6%, disk: 35.6%, uptime: 45556.9 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:23:56 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:06 2025] INFO: Collected metrics - memory: 78.8%, cpu: 14.5%, disk: 35.6%, uptime: 45566.9 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:24:06 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:16 2025] INFO: Collected metrics - memory: 79.6%, cpu: 7.5%, disk: 35.6%, uptime: 45576.9 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:24:16 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:26 2025] INFO: Collected metrics - memory: 79.5%, cpu: 15.1%, disk: 35.6%, uptime: 45587.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:26 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:28 2025] Detected config file change. Reloading...
+[Tue Jun 17 07:24:28 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 99.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:24:28 2025] ALARM: Memory usage (79.8%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:28 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:28 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.8%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:28 2025] ALARM: Threshold breached! Metrics - memory: 79.8%, cpu: 11.2%, disk: 35.6%, uptime: 45589.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:29 2025] ALARM: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:29 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:29 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:29 2025] ALARM: Threshold breached! Metrics - memory: 80.0%, cpu: 18.7%, disk: 35.6%, uptime: 45590.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:30 2025] ALARM: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:30 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:30 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:30 2025] ALARM: Threshold breached! Metrics - memory: 80.2%, cpu: 11.6%, disk: 35.6%, uptime: 45591.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:31 2025] ALARM: Memory usage (80.4%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:31 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:31 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.4%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:31 2025] ALARM: Threshold breached! Metrics - memory: 80.4%, cpu: 51.2%, disk: 35.6%, uptime: 45592.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:32 2025] ALARM: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:32 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:32 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:32 2025] ALARM: Threshold breached! Metrics - memory: 80.2%, cpu: 22.6%, disk: 35.6%, uptime: 45593.0 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:24:33 2025] ALARM: Memory usage (80.4%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:33 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:33 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.4%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:33 2025] ALARM: Threshold breached! Metrics - memory: 80.4%, cpu: 14.1%, disk: 35.6%, uptime: 45594.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:34 2025] ALARM: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:34 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:34 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:34 2025] ALARM: Threshold breached! Metrics - memory: 80.1%, cpu: 16.6%, disk: 35.6%, uptime: 45595.0 seconds, net_interfaces: 10, processes: 282
+[Tue Jun 17 07:24:35 2025] ALARM: Memory usage (80.3%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:35 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:35 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.3%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:35 2025] ALARM: Threshold breached! Metrics - memory: 80.3%, cpu: 9.0%, disk: 35.6%, uptime: 45596.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:36 2025] ALARM: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:36 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:36 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:36 2025] ALARM: Threshold breached! Metrics - memory: 80.2%, cpu: 8.2%, disk: 35.6%, uptime: 45597.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:36 2025] INFO: Collected metrics - memory: 80.2%, cpu: 8.2%, disk: 35.6%, uptime: 45597.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:36 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:37 2025] ALARM: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:37 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:37 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:37 2025] ALARM: Threshold breached! Metrics - memory: 80.0%, cpu: 22.1%, disk: 35.6%, uptime: 45598.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:38 2025] ALARM: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:38 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:38 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:38 2025] ALARM: Threshold breached! Metrics - memory: 79.7%, cpu: 23.1%, disk: 35.6%, uptime: 45599.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:39 2025] ALARM: Memory usage (79.8%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:39 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:39 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.8%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:39 2025] ALARM: Threshold breached! Metrics - memory: 79.8%, cpu: 8.7%, disk: 35.6%, uptime: 45600.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:40 2025] ALARM: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:40 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:40 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.0%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:40 2025] ALARM: Threshold breached! Metrics - memory: 80.0%, cpu: 4.7%, disk: 35.6%, uptime: 45601.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:41 2025] ALARM: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:41 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:41 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:41 2025] ALARM: Threshold breached! Metrics - memory: 79.7%, cpu: 4.1%, disk: 35.6%, uptime: 45602.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:42 2025] ALARM: Memory usage (79.9%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:42 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:42 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.9%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:42 2025] ALARM: Threshold breached! Metrics - memory: 79.9%, cpu: 4.2%, disk: 35.6%, uptime: 45603.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:43 2025] ALARM: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:43 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:43 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:43 2025] ALARM: Threshold breached! Metrics - memory: 80.1%, cpu: 33.5%, disk: 35.6%, uptime: 45604.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:44 2025] ALARM: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:44 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:44 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.1%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:44 2025] ALARM: Threshold breached! Metrics - memory: 80.1%, cpu: 14.6%, disk: 35.6%, uptime: 45605.0 seconds, net_interfaces: 10, processes: 281
+[Tue Jun 17 07:24:45 2025] ALARM: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:45 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:45 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.2%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:45 2025] ALARM: Threshold breached! Metrics - memory: 80.2%, cpu: 10.4%, disk: 35.6%, uptime: 45606.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:46 2025] ALARM: Memory usage (80.3%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:46 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:46 2025] INFO: Alarm sent to Cloud Manager: Memory usage (80.3%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:46 2025] ALARM: Threshold breached! Metrics - memory: 80.3%, cpu: 5.2%, disk: 35.6%, uptime: 45607.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:46 2025] INFO: Collected metrics - memory: 80.3%, cpu: 5.2%, disk: 35.6%, uptime: 45607.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:46 2025] INFO: Metrics sent and ACK received.
+[Tue Jun 17 07:24:47 2025] ALARM: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:47 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:47 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.7%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:47 2025] ALARM: Threshold breached! Metrics - memory: 79.7%, cpu: 25.9%, disk: 35.6%, uptime: 45608.0 seconds, net_interfaces: 10, processes: 280
+[Tue Jun 17 07:24:48 2025] Detected config file change. Reloading...
+[Tue Jun 17 07:24:48 2025] INFO: Loaded thresholds - memory: 8.5, cpu: 300.0, disk: 9.0, uptime: 863000.0, net_interfaces: 20, processes: 500
+[Tue Jun 17 07:24:48 2025] ALARM: Memory usage (79.9%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:48 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:48 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.9%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:48 2025] ALARM: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:48 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:48 2025] INFO: Alarm sent to Cloud Manager: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:48 2025] ALARM: Threshold breached! Metrics - memory: 79.9%, cpu: 20.7%, disk: 35.6%, uptime: 45609.0 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:49 2025] ALARM: Memory usage (79.5%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:49 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:49 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.5%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:49 2025] ALARM: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:49 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:49 2025] INFO: Alarm sent to Cloud Manager: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:49 2025] ALARM: Threshold breached! Metrics - memory: 79.5%, cpu: 30.9%, disk: 35.6%, uptime: 45610.1 seconds, net_interfaces: 10, processes: 283
+[Tue Jun 17 07:24:50 2025] ALARM: Memory usage (79.5%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:50 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:50 2025] INFO: Alarm sent to Cloud Manager: Memory usage (79.5%) exceeds threshold (8.5%)
+[Tue Jun 17 07:24:50 2025] ALARM: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:50 2025] INFO: HTTP request succeeded with status 200 for URL: http://127.0.0.1:8082/alarm
+[Tue Jun 17 07:24:50 2025] INFO: Alarm sent to Cloud Manager: Disk usage (35.6%) exceeds threshold (9.0%)
+[Tue Jun 17 07:24:50 2025] ALARM: Threshold breached! Metrics - memory: 79.5%, cpu: 6.7%, disk: 35.6%, uptime: 45611.1 seconds, net_interfaces: 10, processes: 280
+>>>>>>> 2e2352a5a92556ee412811d9b054c70d110b6d1f

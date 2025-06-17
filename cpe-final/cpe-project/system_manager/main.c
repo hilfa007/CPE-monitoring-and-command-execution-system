@@ -1,88 +1,112 @@
-#include "metrics.h"
-#include "config.h"
-#include "alarm.h"
-#include "socket_client.h"
-#include "http_client.h"
-#include "logger.h"
-#include <unistd.h>
-#include <signal.h>
-#include <stdbool.h>
-#include <sys/stat.h>
-#include <time.h>
+#include "metrics.h"        // For collect_metrics() and Metrics struct
+#include "config.h"         // For load_thresholds() and Thresholds struct
+#include "alarm.h"          // For check_alarms()
+#include "socket_client.h"  // For send_metrics_to_agent()
+#include "http_client.h"    // For send_http() (used in alarm.c)
+#include "logger.h"         // For log_message()
+#include <unistd.h>         // For sleep()
+#include <sys/stat.h>       // For stat() to check file changes
+#include <time.h>           // For time_t in stat
+#include <stdio.h>
 
+// Global variable to hold threshold values (memory, cpu, etc.) loaded from config file.
+// This gets updated when thresholds.conf changes.
 static Thresholds thresholds;
-static volatile sig_atomic_t reload_config_flag = 0;
-
-void handle_sighup(int sig) {
-    reload_config_flag = 1;
-}
 
 int main() {
-    // Load initial thresholds
+    // Load the initial thresholds from thresholds.conf at startup.
+    // This sets up our limits for memory, cpu, disk, etc., which we’ll compare against metrics.
     thresholds = load_thresholds("config/thresholds.conf");
 
-    // Setup signal handler for dynamic config reload
-    signal(SIGHUP, handle_sighup);
-
-    // Initialize logger
+    // Log that the program has started. This goes to whatever logging system logger.h defines
+    // (probably a file or console). It’s just a way to confirm the program is running.
     log_message("System Manager started.");
+    printf("System Manager started.\n");
 
+    // Set up variables to track changes to thresholds.conf.
+    // config_stat will hold file metadata (like modification time), and last_modified
+    // keeps the timestamp of the last time we checked the file.
     struct stat config_stat;
     time_t last_modified = 0;
 
+    // Check the initial state of thresholds.conf to get its modification time.
+    // If the file exists, store its mtime in last_modified so we can detect future changes.
+    // If stat fails (e.g., file doesn’t exist), we just keep last_modified as 0 and move on.
     if (stat("config/thresholds.conf", &config_stat) == 0) {
         last_modified = config_stat.st_mtime;
     }
 
-    int interval = 10; // Log and send metrics every 10 seconds
-    int elapsed = 0; // Track elapsed seconds
+    // Define how often we send metrics to the Device Agent and log them (every 10 seconds).
+    // interval controls the frequency, and elapsed tracks how many seconds have passed.
+    int interval = 10; // Send and log metrics every 10 seconds
+    int elapsed = 0;   // Counter for elapsed seconds
 
+    // Main loop runs forever, monitoring the system in real-time.
+    // Each iteration takes about 1 second (due to sleep at the end).
     while (1) {
-        // Check for config file changes
+        // Check if thresholds.conf has changed by getting its current metadata.
+        // If stat fails (e.g., file deleted), log an error but keep running.
         if (stat("config/thresholds.conf", &config_stat) != 0) {
             log_message("ERROR: Failed to stat thresholds.conf");
-        } else if (config_stat.st_mtime != last_modified) {
+            printf("ERROR: Failed to stat thresholds.conf");
+        }
+        // If the file’s modification time (st_mtime) is different from last_modified,
+        // it means the file was edited or replaced. Reload thresholds and update last_modified.
+        else if (config_stat.st_mtime != last_modified) {
             log_message("Detected config file change. Reloading...");
             thresholds = load_thresholds("config/thresholds.conf");
             last_modified = config_stat.st_mtime;
         }       
 
-        // Collect system metrics
+        // Collect system metrics (memory, cpu, disk, etc.) using collect_metrics().
+        // This reads from /proc, statvfs, etc., and returns a Metrics struct.
         Metrics m = collect_metrics();
 
-        // Validate metrics to catch potential issues
+        // Validate the metrics to make sure they’re reasonable.
+        // If any metric is negative (indicating an error in collection), log the issue
+        // and skip this iteration. This prevents bad data from triggering alarms or being sent.
         if (m.memory < 0 || m.cpu < 0 || m.disk < 0 || m.uptime < 0 || m.net_interfaces < 0 || m.processes < 0) {
             log_message("ERROR: Invalid metrics collected - memory: %.1f, cpu: %.1f, disk: %.1f, uptime: %.1f, net_interfaces: %d, processes: %d",
                         m.memory, m.cpu, m.disk, m.uptime, m.net_interfaces, m.processes);
-            sleep(1); // Sleep 1 second for real-time monitoring
-            continue;
+            sleep(1); // Wait 1 second before trying again
+            continue; // Skip the rest of the loop
         }
 
-        // Check alarms in real-time (every 1 second)
+        // Check if any metrics exceed thresholds (e.g., memory > 80%).
+        // check_alarms() compares Metrics to Thresholds and, if breached, sends an HTTP POST
+        // to the Cloud CLI (handled inside alarm.c). It returns 1 if an alarm was triggered.
         if (check_alarms(m, thresholds)) {
+            // Log the alarm with full metrics for debugging.
             log_message("ALARM: Threshold breached! Metrics - memory: %.1f%%, cpu: %.1f%%, disk: %.1f%%, uptime: %.1f seconds, net_interfaces: %d, processes: %d",
                         m.memory, m.cpu, m.disk, m.uptime, m.net_interfaces, m.processes);
-            // HTTP POST to cloud handled in alarm.c
         }
 
-        // Log metrics and send to agent every 10 seconds
+        // Every 10 seconds, log metrics and send them to the Device Agent.
+        // elapsed counts seconds, and when it hits interval (10), we perform these actions.
         if (elapsed >= interval) {
-            // Log collected metrics
+            // Log the current metrics to keep a record of system state.
             log_message("INFO: Collected metrics - memory: %.1f%%, cpu: %.1f%%, disk: %.1f%%, uptime: %.1f seconds, net_interfaces: %d, processes: %d",
                         m.memory, m.cpu, m.disk, m.uptime, m.net_interfaces, m.processes);
 
-            // Send metrics to agent
+            // Send metrics to the Device Agent via UNIX socket.
+            // send_metrics_to_agent() formats metrics as a string, sends it, and waits for an ACK.
+            // If it fails (no ACK or connection error), log an error. If it succeeds, log success.
             if (!send_metrics_to_agent(m)) {
                 log_message("ERROR: Failed to send metrics or no ACK received.");
+                printf("ERROR: Failed to send metrics \n");
             } else {
                 log_message("INFO: Metrics sent and ACK received.");
             }
-            elapsed = 0; // Reset counter
+            elapsed = 0; // Reset the counter to start counting to 10 again
         }
 
-        elapsed++; // Increment elapsed time
-        sleep(1); // Sleep 1 second for real-time monitoring
+        // Increment elapsed to track time since last metric send/log.
+        elapsed++;
+        // Sleep for 1 second to keep the loop running at ~1-second intervals.
+        // This ensures real-time monitoring without overloading the CPU.
+        sleep(1);
     }
 
+    // Unreachable (loop runs forever), but included for completeness.
     return 0;
 }
