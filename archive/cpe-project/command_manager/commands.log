@@ -1,0 +1,371 @@
+
+[Tue Jun 10 16:49:13 2025] Command: ls
+Output:
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  device		    servercommand
+combinedcloud.c    device_client.c	    system_manager
+
+
+[Tue Jun 10 16:49:22 2025] Command: pwd
+Output:
+/home/apps/Documents/pro
+
+
+[Tue Jun 10 16:49:51 2025] Command: vim test.c
+Output:
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test.c" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;53H0[1;1H[24;54H3[1;1H[24;55H0[1;1H[24;56H/[1;1H[24;57H0[1;1H[24;58Ha[1;1H[24;59H0[1;1H[24;60Ha[1;1H[24;61H/[1;1H[24;62H2[1;1H[24;53H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"test.c" [New][1;1H[?25h[?25l[24;53Hh[1;1H[24;53H [1;1H[?25h[?25l[24;53Ha[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25li[24;63H1,2[1;2H[?25h[?25l`[24;65H3[1;3H[?25h[?25l[1;2H[K[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lh[24;65H2[1;2H[?25h[?25la[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25l`[24;65H5[1;5H[?25h[?25l[1;4H[K[24;65H4[1;4H[?25h[24;1H[K[1;3H[?25l[24;53H^[[1;3H[24;53H  [1;4H[24;63H1,3[11CAll[1;3H[?25h[?25l[24;53H:[1;3H[24;53H[K[24;1H:[?25hwq[?25l[?2004l[>4;m"test.c" [New] 1L, 4B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m
+
+[Tue Jun 10 16:50:17 2025] Command: man man
+Output:
+man: can't resolve man7/groff_man.7
+[?1049h[22;0;0t[?1h=[4mMAN[24m(1)                        Manual pager utils                        [4mMAN[24m(1)[m
+[m
+[1mNAME[0m[m
+       man - an interface to the system reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman [22m[[4mman[24m [4moptions[24m] [[[4msection[24m] [4mpage[24m ...] ...[m
+       [1mman -k [22m[[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman -K [22m[[4mman[24m [4moptions[24m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman -f [22m[[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman -l [22m[[4mman[24m [4moptions[24m] [4mfile[24m ...[m
+       [1mman -w[22m|[1m-W [22m[[4mman[24m [4moptions[24m] [4mpage[24m ...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mman  [22mis  the system's manual pager.  Each [4mpage[24m argument given to [1mman [22mis[m
+       normally the name of a program, utility or function.  The  [4mmanual[24m  [4mpage[0m[m
+       associated with each of these arguments is then found and displayed.  A[m
+       [4msection[24m,  if  provided, will direct [1mman [22mto look only in that [4msection[24m of[m
+       the manual.  The default action is to search in all  of  the  available[m
+       [4msections[24m following a pre-defined order (see [1mDEFAULTS[22m), and to show only[m
+       the first [4mpage[24m found, even if [4mpage[24m exists in several [4msections[24m.[m
+[m
+       The table below shows the [4msection[24m numbers of the manual followed by the[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t
+
+[Tue Jun 10 16:50:39 2025] Command: sleep 10 &
+Output:
+
+
+[Tue Jun 10 17:09:24 2025] Command: ls
+Output:
+cloud		   commandmanager_server.c  device_client.c  system_manager
+cloud_metrics.log  commands.log		    metrics.log      test.c
+combinedcloud.c    device		    servercommand
+
+
+[Tue Jun 10 17:10:00 2025] Command: cd ..
+Output:
+
+
+[Wed Jun 11 14:43:01 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:44:38 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:53:22 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:53:36 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 14:54:04 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:54:17 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 14:56:33 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:56:40 2025] Command: hI
+Output:
+bash: line 1: hI: command not found
+
+
+[Wed Jun 11 14:56:54 2025] Command: FDF
+Output:
+bash: line 1: FDF: command not found
+
+
+[Wed Jun 11 14:57:02 2025] Command: df
+Output:
+Filesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs             400976     1624    399352   1% /run
+/dev/sda3      102106072 31025736  65847492  33% /
+tmpfs            2004872    30588   1974284   2% /dev/shm
+tmpfs               5120        4      5116   1% /run/lock
+tmpfs            2004872        0   2004872   0% /run/qemu
+/dev/sda2         524252     6228    518024   2% /boot/efi
+tmpfs             400972      120    400852   1% /run/user/1000
+/dev/sr0           58814    58814         0 100% /media/hilfa/VBox_GAs_7.1.6
+
+
+[Wed Jun 11 14:57:29 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 14:57:55 2025] Command: ghgd
+Output:
+bash: line 1: ghgd: command not found
+
+
+[Wed Jun 11 15:54:31 2025] Command: lsls
+Output:
+bash: line 1: lsls: command not found
+
+
+[Wed Jun 11 15:55:13 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 15:55:51 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 15:55:59 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 16:00:01 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 16:00:12 2025] Command: pwsd
+Output:
+bash: line 1: pwsd: command not found
+
+
+[Wed Jun 11 16:05:31 2025] Command: ls
+Output:
+c		   combinedcloud.c	    device	    test.c
+cloud		   commandmanager_server.c  metrics.log
+cloud_metrics.log  commands.log		    servercommand
+cmdm		   dev			    system_manager
+
+
+[Wed Jun 11 16:05:35 2025] Command: pwd
+Output:
+/home/hilfa/shared/cpe-monitoring-project/CPE-monitoring-and-command-execution-system/cpe-project
+
+
+[Wed Jun 11 16:23:14 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:25:08 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:27:56 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:28:13 2025] Command: lsls
+Output:
+bash: line 1: lsls: command not found
+
+
+[Wed Jun 11 16:31:37 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:33:11 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Wed Jun 11 16:34:00 2025] Command: s
+Output:
+bash: line 1: s: command not found
+
+
+[Wed Jun 11 16:34:45 2025] Command: l
+Output:
+bash: line 1: l: command not found
+
+
+[Wed Jun 11 16:35:23 2025] Command: ls
+Output:
+c		   combinedcloud2.c	    dev		   system_manager
+cloud		   combinedcloud.c	    device	   test.c
+cloud_metrics.log  commandmanager_server.c  metrics.log
+cmdm		   commands.log		    servercommand
+
+
+[Thu Jun 12 11:39:27 2025] Command: ls
+Output:
+c  cm  cmdm  commandmanager_server.c  commands.log  servercommand
+
+
+[Thu Jun 12 11:40:11 2025] Command: ls
+Output:
+c  cm  cmdm  commandmanager_server.c  commands.log  servercommand
+
+
+[Thu Jun 12 11:40:18 2025] Command: ls
+Output:
+c  cm  cmdm  commandmanager_server.c  commands.log  servercommand
+
+
+[Thu Jun 12 11:42:04 2025] Command: ls
+Output:
+c   cmdm		commandmanager_server.c  servercommand
+cm  command_manager2.c	commands.log
+
+
+[Thu Jun 12 14:34:08 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:34:17 2025] Command: clear
+Output:
+[H[2J[3J
+
+[Thu Jun 12 14:34:29 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:36:17 2025] Command: ls
+Output:
+c   cmdm		command_manager.c	 commands.log
+cm  command_manager2.c	commandmanager_server.c  servercommand
+
+
+[Thu Jun 12 14:36:20 2025] Command: pwd
+Output:
+/home/hilfa/main project/cpe-monitoring-and-command-execution/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:02:31 2025] Command: ls
+Output:
+c   cmdm     command_manager2.c  commandmanager_server.c  servercommand
+cm  command  command_manager.c	 commands.log
+
+
+[Thu Jun 12 15:11:45 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:27:52 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
+
+[Thu Jun 12 15:27:56 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:27:58 2025] Command: hai
+Output:
+bash: line 1: hai: command not found
+
+
+[Thu Jun 12 15:28:14 2025] Command: who
+Output:
+swathy   tty2         2025-06-12 11:14 (tty2)
+
+
+[Thu Jun 12 15:28:20 2025] Command: who -q
+Output:
+swathy
+# users=1
+
+
+[Thu Jun 12 15:32:30 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
+
+[Thu Jun 12 15:32:34 2025] Command: pwd
+Output:
+/home/swathy/projectfinal/CPE-monitoring-and-command-execution-system/cpe-project/command_manager
+
+
+[Thu Jun 12 15:32:40 2025] Command: sleep 10 
+Output:
+[1] 6973 (output redirected to /tmp/bg_6973.log)
+
+
+[Thu Jun 12 15:34:13 2025] Command: ls
+Output:
+c  cm  cmdm  command  command_manager2.c  commands.log	servercommand
+
+
+[Fri Jun 13 06:13:33 2025] Command: ls
+Output:
+command  command_manager2.c  commands.log
+
